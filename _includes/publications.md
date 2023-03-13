@@ -98,7 +98,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://proceedings.mlr.press/v162/kong22a/kong22a.pdf">SmartBrush: Text and Shape Guided Object Inpainting with Diffusion Model</a></div>
+    <div class="title"><a href="https://proceedings.mlr.press/v162/kong22a/kong22a.pdf">Partial Disentanglement for Domain Adaptation</a></div>
     <div class="author">Lingjing Kong ,  <strong>Shaoan Xie</strong> ,  Weiran Yao , and Yujia Zheng, Guangyi Chen, Petar Stojanov, Victor Akinwande, Kun Zhang</div>
     <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2022.</em></div>
     <div class="links">
@@ -160,7 +160,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Xie_Unaligned_Image-to-Image_Translation_by_Learning_to_Reweight_ICCV_2021_paper.pdf">Unaligned image-to-image translation by learning to reweight</a></div>
+    <div class="title"><a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Xie_Unaligned_Image-to-Image_Translation_by_Learning_to_Reweight_ICCV_2021_paper.pdf">Unaligned Image-to-Image Translation by Learning to Reweight</a></div>
     <div class="author"><strong>Shaoan Xie</strong>, Mingming Gong, Yanwu Xu and Kun Zhang</div>
     <div class="periodical"><em>IEEE/CVF International Conference on Computer Vision <strong>(ICCV)</strong>, 2021.</em></div>
     <div class="links">
@@ -181,7 +181,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="http://proceedings.mlr.press/v80/xie18c/xie18c.pdf">Learning semantic representations for unsupervised domain adaptation</a></div>
+    <div class="title"><a href="http://proceedings.mlr.press/v80/xie18c/xie18c.pdf">Learning Semantic Representations for Unsupervised Domain Adaptation</a></div>
     <div class="author"><strong>Shaoan Xie</strong>, Zibin Zheng ,  Liang Chen , and Chuan Chen</div>
     <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2018.</em></div>
     <div class="links">
