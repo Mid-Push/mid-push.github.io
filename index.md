@@ -4,7 +4,9 @@ layout: homepage
 
 ## About Me
 
-I’m a fourth year Phd student at [Carnegie Mellon University](https://www.cmu.edu/), advised by [Prof. Kun Zhang](https://www.andrew.cmu.edu/user/kunz1/)
+I’m a fourth year Phd student at [Carnegie Mellon University](https://www.cmu.edu/), advised by [Prof. Kun Zhang](https://www.andrew.cmu.edu/user/kunz1/). 
+
+I recieved my bachelor and master degree from [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen), mentored by [Prof. Zibin Zheng](https://www.zibinzheng.com/). I interned at Adobe Research with [Zhifei Zhang](https://zzutk.github.io/), [Zhe Lin](https://sites.google.com/site/zhelin625/) and [Tobias Hinz](http://www.tobiashinz.com/) during summer and fall 2022. I was a visiting student at The Chinese University of Hong Kong with [Prof. Michael R. Lyu](http://www.cse.cuhk.edu.hk/lyu/). I also work closely with [Prof. Mingming Gong](https://mingming-gong.github.io/). 
 
 ## Research Interests
 
