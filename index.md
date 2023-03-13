@@ -8,6 +8,8 @@ I’m a fourth year Phd student at [Carnegie Mellon University](https://www.cmu.
 
 I recieved my bachelor and master degree from [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen), mentored by [Prof. Zibin Zheng](https://www.zibinzheng.com/). I interned at [Adobe Research](https://research.adobe.com/) with [Zhifei Zhang](https://zzutk.github.io/), [Zhe Lin](https://sites.google.com/site/zhelin625/) and [Tobias Hinz](http://www.tobiashinz.com/) during summer and fall 2022. I was a visiting student at [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/english/index.html) with [Prof. Michael R. Lyu](http://www.cse.cuhk.edu.hk/lyu/). I also work closely with [Prof. Mingming Gong](https://mingming-gong.github.io/). 
 
+Feel free to contact me if you find any research interests that we might share. I am always open to potential collaborations.
+
 ## Research Interests
 
 - **Causal Representation Learning with Multidomain Images:** Image Translation, Image Generation, Domain Adaptation
