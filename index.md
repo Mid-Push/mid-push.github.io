@@ -4,19 +4,18 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I’m a fourth year Phd student at Carnegie Mellon University , advised by [Prof. Kun Zhang](https://www.andrew.cmu.edu/user/kunz1/)
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Representation Learning with Multidomain Images** image-to-image translation, image generation, domain adaptation
+- **Generative Models:** GAN, Normalizing Flow, Diffusion Model
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Feb. 2023]** Two paper are accepted into CVPR2023! The diffusion-based inpainting method-[SmartBrush](https://arxiv.org/pdf/2212.05034.pdf) and a new method for image-to-image translation!
+- **[Jan. 2023]** One paper [i-stylegan](https://openreview.net/pdf?id=U2g8OGONA_V) is accepted as ICLR2023 Spotlight! One of the first works to connect identifiability with multidomain image generation.
+- **[Dec. 2022]** Check our new [SmartBrush](https://arxiv.org/pdf/2212.05034.pdf) Paper! A diffusion-based object inpainting model that beats Stable Diffusion and DALLE-2!
 
 {% include_relative _includes/publications.md %}
 
