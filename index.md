@@ -11,7 +11,7 @@ I recieved my bachelor and master degree from [Sun Yat-sen University](https://w
 Feel free to contact me if you find any research interests that we might share. I am always open to potential collaborations.
 
 ## Research Interests
-
+### I aim to achieve visual intelligence from causal perspective.
 - **Causal Representation Learning with Multidomain Images:** Image Translation, Image Generation, Domain Adaptation
 - **Generative Models:** GAN, Normalizing Flow, Diffusion Model
 - **Causality:** Causal discovery, Counterfactual Inference
