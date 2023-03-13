@@ -4,7 +4,7 @@ layout: homepage
 
 
 
-Hi! I’m a fourth year Phd student at [Carnegie Mellon University](https://www.cmu.edu/), advised by [Prof. Kun Zhang](https://www.andrew.cmu.edu/user/kunz1/). I aim to achieve visual intelligence from causal perspectives. Specifically, I focus on **causal representation learning** with multi-domain images, with applications to image-to-image translation, conditional image generation and domain adaptation. I also have a strong passion for **generative models**, e.g., GAN, normalizing flow and diffusion models. 
+Hi! I’m a fourth year Phd student at <a href="https://www.cmu.edu/" style="color:#71b07b;">Carnegie Mellon University</a>, advised by [Prof. Kun Zhang](https://www.andrew.cmu.edu/user/kunz1/). I aim to achieve visual intelligence from causal perspectives. Specifically, I focus on **causal representation learning** with multi-domain images, with applications to image-to-image translation, conditional image generation and domain adaptation. I also have a strong passion for **generative models**, e.g., GAN, normalizing flow and diffusion models. 
 
 
 
