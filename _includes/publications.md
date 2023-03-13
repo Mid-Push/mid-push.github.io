@@ -18,19 +18,10 @@
     <div class="links">
       <a href="https://arxiv.org/pdf/2212.05034.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
     </div>
-  </div>
-  
-   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/teaser_example.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">CVPR</abbr>
-  </div>
-
- 
-  
+  </div> 
 </div>
 </li>
   
-<br>
 
 </ol>
 </div>
