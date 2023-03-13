@@ -8,8 +8,9 @@ I’m a fourth year Phd student at Carnegie Mellon University , advised by [Prof
 
 ## Research Interests
 
-- **Representation Learning with Multidomain Images** image-to-image translation, image generation, domain adaptation
+- **Causal Representation Learning with Multidomain Images:** Image Translation, Image Generation, Domain Adaptation
 - **Generative Models:** GAN, Normalizing Flow, Diffusion Model
+- **Causality:** Causal discovery, Counterfactual Inference
 
 ## News
 
