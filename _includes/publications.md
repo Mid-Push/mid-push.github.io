@@ -121,7 +121,7 @@
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Maximum_Spatial_Perturbation_Consistency_for_Unpaired_Image-to-Image_Translation_CVPR_2022_paper.pdf">Maximum Spatial Perturbation Consistency for Unpaired Image-to-Image Translation</a></div>
     <div class="author">Yanwu Xu ,  <strong>Shaoan Xie</strong> ,  Wenhao Wu , and Kun Zhang, Mingming Gong, Kayhan Batmanghelich</div>
-    <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2023.</em></div>
+    <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2022.</em></div>
     <div class="links">
       <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Maximum_Spatial_Perturbation_Consistency_for_Unpaired_Image-to-Image_Translation_CVPR_2022_paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
       <a href="https://github.com/batmanlab/MSPC" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
@@ -183,7 +183,7 @@
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="http://proceedings.mlr.press/v80/xie18c/xie18c.pdf">Learning semantic representations for unsupervised domain adaptation</a></div>
     <div class="author"><strong>Shaoan Xie</strong>, Zibin Zheng ,  Liang Chen , and Chuan Chen</div>
-    <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2023.</em></div>
+    <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2018.</em></div>
     <div class="links">
       <a href="http://proceedings.mlr.press/v80/xie18c/xie18c.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a> 
       <a href="https://github.com/Mid-Push/Moving-Semantic-Transfer-Network" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
