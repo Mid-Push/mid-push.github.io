@@ -12,7 +12,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2212.05034.pdf">SmartBrush: Text and Shape Guided Object Inpainting with Diffusion Model</a></div>
+    <div class="title"><a href="https://arxiv.org/pdf/2212.05034.pdf" style="color:#71b07b;">SmartBrush: Text and Shape Guided Object Inpainting with Diffusion Model</a></div>
     <div class="author"><strong>Shaoan Xie</strong>, Zhifei Zhang, Zhe Lin, Tobias Hinz and Kun Zhang</div>
     <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2023.</em></div>
     <div class="links">
@@ -32,7 +32,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2212.05034.pdf">Unpaired Image-to-Image Translation with Shortest Path Regularization</a></div>
+    <div class="title"><a href="https://arxiv.org/pdf/2212.05034.pdf" style="color:#71b07b;">Unpaired Image-to-Image Translation with Shortest Path Regularization</a></div>
     <div class="author"><strong>Shaoan Xie</strong>, Yanwu Xu, Mingming Gong and Kun Zhang</div>
     <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2023.</em></div>
     <div class="links">
@@ -53,7 +53,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://openreview.net/pdf?id=U2g8OGONA_V">Multi-domain Image Generation and Translation with Identifiability Guarantees</a></div>
+    <div class="title"><a href="https://openreview.net/pdf?id=U2g8OGONA_V" style="color:#71b07b;">Multi-domain Image Generation and Translation with Identifiability Guarantees</a></div>
     <div class="author"><strong>Shaoan Xie</strong>, Lingjing Kong, Mingming Gong and Kun Zhang</div>
     <div class="periodical"><em>International Conference on Learning Representations <strong>(ICLR)</strong>, 2023.</em></div>
     <div class="links">
@@ -76,7 +76,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://openreview.net/pdf?id=RNZ8JOmNaV4">Unsupervised Image-to-Image Translation with Density Changing Regularization</a></div>
+    <div class="title"><a href="https://openreview.net/pdf?id=RNZ8JOmNaV4" style="color:#71b07b;">Unsupervised Image-to-Image Translation with Density Changing Regularization</a></div>
     <div class="author"><strong>Shaoan Xie</strong>, Qirong Ho and Kun Zhang</div>
     <div class="periodical"><em>Advances in Neural Information Processing Systems <strong>(Neurips)</strong>, 2022.</em></div>
     <div class="links">
@@ -98,7 +98,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://proceedings.mlr.press/v162/kong22a/kong22a.pdf">Partial Disentanglement for Domain Adaptation</a></div>
+    <div class="title"><a href="https://proceedings.mlr.press/v162/kong22a/kong22a.pdf" style="color:#71b07b;">Partial Disentanglement for Domain Adaptation</a></div>
     <div class="author">Lingjing Kong ,  <strong>Shaoan Xie</strong> ,  Weiran Yao , and Yujia Zheng, Guangyi Chen, Petar Stojanov, Victor Akinwande, Kun Zhang</div>
     <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2022.</em></div>
     <div class="links">
@@ -119,7 +119,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Maximum_Spatial_Perturbation_Consistency_for_Unpaired_Image-to-Image_Translation_CVPR_2022_paper.pdf">Maximum Spatial Perturbation Consistency for Unpaired Image-to-Image Translation</a></div>
+    <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Maximum_Spatial_Perturbation_Consistency_for_Unpaired_Image-to-Image_Translation_CVPR_2022_paper.pdf" style="color:#71b07b;">Maximum Spatial Perturbation Consistency for Unpaired Image-to-Image Translation</a></div>
     <div class="author">Yanwu Xu ,  <strong>Shaoan Xie</strong> ,  Wenhao Wu , and Kun Zhang, Mingming Gong, Kayhan Batmanghelich</div>
     <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2022.</em></div>
     <div class="links">
@@ -140,7 +140,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2206.13737.pdf">Adversarial Consistency for Single Domain Generalization in Medical Image Segmentation</a></div>
+    <div class="title"><a href="https://arxiv.org/pdf/2206.13737.pdf" style="color:#71b07b;">Adversarial Consistency for Single Domain Generalization in Medical Image Segmentation</a></div>
     <div class="author">Yanwu Xu ,  <strong>Shaoan Xie</strong> ,  Maxwell Reynolds , and Matthew Ragoza, Mingming Gong, Kayhan Batmanghelich</div>
     <div class="periodical"><em>International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2022.</em></div>
     <div class="links">
@@ -160,7 +160,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Xie_Unaligned_Image-to-Image_Translation_by_Learning_to_Reweight_ICCV_2021_paper.pdf">Unaligned Image-to-Image Translation by Learning to Reweight</a></div>
+    <div class="title"><a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Xie_Unaligned_Image-to-Image_Translation_by_Learning_to_Reweight_ICCV_2021_paper.pdf" style="color:#71b07b;">Unaligned Image-to-Image Translation by Learning to Reweight</a></div>
     <div class="author"><strong>Shaoan Xie</strong>, Mingming Gong, Yanwu Xu and Kun Zhang</div>
     <div class="periodical"><em>IEEE/CVF International Conference on Computer Vision <strong>(ICCV)</strong>, 2021.</em></div>
     <div class="links">
@@ -181,7 +181,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="http://proceedings.mlr.press/v80/xie18c/xie18c.pdf">Learning Semantic Representations for Unsupervised Domain Adaptation</a></div>
+    <div class="title"><a href="http://proceedings.mlr.press/v80/xie18c/xie18c.pdf" style="color:#71b07b;">Learning Semantic Representations for Unsupervised Domain Adaptation</a></div>
     <div class="author"><strong>Shaoan Xie</strong>, Zibin Zheng ,  Liang Chen , and Chuan Chen</div>
     <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2018.</em></div>
     <div class="links">
