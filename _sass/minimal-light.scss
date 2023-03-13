@@ -5,7 +5,7 @@ body {
   background-color: #fff;
   padding:0px;
   font: 16.0px/1.5 Crimson Pro, serif; 
-  color:#595959;
+  color:#71b07b;
   font-weight:400;
   margin:0
 }
@@ -30,7 +30,7 @@ body {
 
 .social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:white;
     color:black;
-    transform: scale(1.5)}
+    transform: scale(1.2)}
     /*
     .social-icons a:after {
         content: '';
@@ -49,7 +49,7 @@ body {
 
 @media (prefers-color-scheme: dark) {.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#20212b;
     color:black;
-    transform: scale(1.5)} 
+    transform: scale(1.2)} 
     /*
     .social-icons a:after {
         content: '';
