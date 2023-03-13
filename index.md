@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I’m a fourth year Phd student at Carnegie Mellon University , advised by [Prof. Kun Zhang](https://www.andrew.cmu.edu/user/kunz1/)
+I’m a fourth year Phd student at [Carnegie Mellon University](https://www.cmu.edu/), advised by [Prof. Kun Zhang](https://www.andrew.cmu.edu/user/kunz1/)
 
 ## Research Interests
 
