@@ -79,7 +79,6 @@
     <div class="title"><a href="https://openreview.net/pdf?id=RNZ8JOmNaV4">Unsupervised Image-to-Image Translation with Density Changing Regularization</a></div>
     <div class="author"><strong>Shaoan Xie</strong>, Qirong Ho and Kun Zhang</div>
     <div class="periodical"><em>Advances in Neural Information Processing Systems <strong>(Neurips)</strong>, 2022.</em></div>
-    
     <div class="links">
       <a href="https://openreview.net/pdf?id=RNZ8JOmNaV4" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>   
       <a href="https://github.com/Mid-Push/Decent" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
