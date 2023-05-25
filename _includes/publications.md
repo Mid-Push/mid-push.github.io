@@ -38,7 +38,8 @@
     <div class="author"><strong>Shaoan Xie</strong>, Yanwu Xu, Mingming Gong and Kun Zhang</div>
     <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2023.</em></div>
     <div class="links">
-      <a href="https://arxiv.org/pdf/2212.05034.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
+      <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_Unpaired_Image-to-Image_Translation_With_Shortest_Path_Regularization_CVPR_2023_paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>  
+        <a href="https://github.com/Mid-Push/santa" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
     </div>
   </div> 
 </div>
