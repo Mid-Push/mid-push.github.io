@@ -18,7 +18,7 @@
     <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2023. <strong><i style="color:#e74d3c">Highlight</i></strong></em></div>
     <div class="links">
       <a href="https://arxiv.org/pdf/2212.05034.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
-        <a href="https://www.adobe.com/products/photoshop/generative-fill.html?sdid=G4FRYPQC&mv=search%2Csearch&mv2=paidsearch&ef_id=CjwKCAjw67ajBhAVEiwA2g_jEPPTmpltXFA3YzZdxylZYn1SMlNg2BEZIb6dCQfEVtWYjc3eBUdEQxoCtqUQAvD_BwE%3AG%3As&s_kwcid=AL%213085%213%21522507805122%21e%21%21g%21%21adobe+photoshop%218021501881%2179642044381&gbraid=0AAAAADraYsIWtl1hYdDJvAWgxzgO2pHJE&gclid=CjwKCAjw67ajBhAVEiwA2g_jEPPTmpltXFA3YzZdxylZYn1SMlNg2BEZIb6dCQfEVtWYjc3eBUdEQxoCtqUQAvD_BwE" style="color:#e74d3c"> <strong>Alive in Adobe Photoshop</a></strong></i>
+        <a href="https://www.adobe.com/products/photoshop/generative-fill.html?sdid=G4FRYPQC&mv=search%2Csearch&mv2=paidsearch&ef_id=CjwKCAjw67ajBhAVEiwA2g_jEPPTmpltXFA3YzZdxylZYn1SMlNg2BEZIb6dCQfEVtWYjc3eBUdEQxoCtqUQAvD_BwE%3AG%3As&s_kwcid=AL%213085%213%21522507805122%21e%21%21g%21%21adobe+photoshop%218021501881%2179642044381&gbraid=0AAAAADraYsIWtl1hYdDJvAWgxzgO2pHJE&gclid=CjwKCAjw67ajBhAVEiwA2g_jEPPTmpltXFA3YzZdxylZYn1SMlNg2BEZIb6dCQfEVtWYjc3eBUdEQxoCtqUQAvD_BwE" style="color:#e74d3c"> <strong>Alive in Adobe Photoshop</strong></a>
     </div>
   </div> 
 </div>
