@@ -64,7 +64,7 @@
       <a href="https://openreview.net/pdf?id=U2g8OGONA_V" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
       <a href="https://github.com/Mid-Push/i-stylegan" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       
-    </div>
+   
   </div> 
 </div>
 </li>
