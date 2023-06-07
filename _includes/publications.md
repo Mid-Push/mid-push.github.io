@@ -18,7 +18,7 @@
     <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2023.</em></div>
     <div class="links">
       <a href="https://arxiv.org/pdf/2212.05034.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
-       <strong><i style="color:#e74d3c">Highlight</i></strong> <i style="color:#e74d3c">Alive in <strong><a href="" style="color:#71b07b;"> Adobe Photoshop</a></strong></i>
+       <strong><i style="color:#e74d3c">Highlight</i></strong> <i> Alive in <strong><a href="" style="color:#e74d3c"> Adobe Photoshop</a></strong></i>
     </div>
   </div> 
 </div>
