@@ -4,6 +4,27 @@
 <div class="publications">
 <ol class="bibliography">
 
+  
+  <li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/siddm.PNG" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">NeurIPS</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/pdf/2306.12511.pdf" style="color:#71b07b;">Semi-Implicit Denoising Diffusion Models (SIDDMs)</a></div>
+    <div class="author">Yanwu Xu, Mingming Gong, <strong>Shaoan Xie</strong>, Wei Wei, Matthias Grundmann, Kayhan Batmanghelich, Tingbo Hou</div>
+    <div class="periodical"><em>Advances in Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2023.</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/pdf/2306.12511.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>   
+    </div>
+  </div> 
+</div>
+</li>
+
+
 <li>
 <div class="pub-row">
 
@@ -105,7 +126,7 @@
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://proceedings.mlr.press/v162/kong22a/kong22a.pdf" style="color:#71b07b;">Partial Disentanglement for Domain Adaptation</a></div>
     <div class="author">Lingjing Kong ,  <strong>Shaoan Xie</strong> ,  Weiran Yao , and Yujia Zheng, Guangyi Chen, Petar Stojanov, Victor Akinwande, Kun Zhang</div>
-    <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2022.</em></div>
+    <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2022. <strong><i style="color:#e74d3c">Spotlight</i></strong> </em></div>
     <div class="links">
       <a href="https://proceedings.mlr.press/v162/kong22a/kong22a.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
     </div>
