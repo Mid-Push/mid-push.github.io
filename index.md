@@ -4,7 +4,7 @@ layout: homepage
 
 
 
-Hi! I’m a fourth year Phd student at <a href="https://www.cmu.edu/" style="color:#71b07b;">Carnegie Mellon University</a>, advised by <a href="https://www.andrew.cmu.edu/user/kunz1/" style="color:#71b07b;">Prof. Kun Zhang</a>. I'm interested in machine learning and computer vision from a causal perspective. Specifically, I focus on **causal representation learning**, with applications to image-to-image translation, conditional image generation and domain adaptation. I also have a strong passion for **generative models**, e.g., GAN, normalizing flow and diffusion models. 
+Hi! I’m a Phd student at <a href="https://www.cmu.edu/" style="color:#71b07b;">Carnegie Mellon University</a>, advised by <a href="https://www.andrew.cmu.edu/user/kunz1/" style="color:#71b07b;">Prof. Kun Zhang</a>. I'm interested in machine learning and computer vision from a causal perspective. Specifically, I focus on **causal representation learning**, with applications to image-to-image translation, conditional image generation and domain adaptation. I also have a strong passion for **generative models**, e.g., GAN, normalizing flow and diffusion models. 
 
 
 
