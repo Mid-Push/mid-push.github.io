@@ -3,8 +3,77 @@
 
 <div class="publications">
 <ol class="bibliography">
+  <li>
+<div class="pub-row">
 
-  
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/cvpr_clip.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">CVPR</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/pdf/2306.12511.pdf" style="color:#71b07b;">SmartCLIP: Modular Vision-language Alignment with Identification Guarantees </a></div>
+    <div class="author"><strong>Shaoan Xie*</strong> Lingjing Kong*, Yujia Zheng, Yu Yao, Zeyu Tang, Eric P.Xing, Guangyi Chen, Kun Zhang</div>
+    <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2025. <strong><i style="color:#e74d3c">Highlight</i></strong></em></div>
+  </div> 
+</div>
+</li>
+
+  <li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/aistats_crl.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">AISTATS</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/pdf/2306.12511.pdf" style="color:#71b07b;">Causal Representation Learning from General Environments under Nonparametric Mixing</a></div>
+    <div class="author">Ignavier Ng, <strong>Shaoan Xie</strong>, Xingshuai Dong, Peter Spirtes, Kun Zhang</div>
+    <div class="periodical"><em>International Conference on Artificial Intelligence and Statistics</strong>, 2025.</em></div>
+    <div class="links">
+      <a href="https://openreview.net/attachment?id=S8lfepB2fz&name=pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>   
+    </div>
+  </div> 
+</div>
+</li>
+
+  <li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/iclr_crl.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">ICLR</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/pdf/2306.12511.pdf" style="color:#71b07b;">Synergy Between Sufficient Changes and Sparse Mixing Procedure for Disentangled Representation Learning</a></div>
+    <div class="author">Zijian Li, Shunxing Fan, Yujia Zheng, Ignavier Ng, <strong>Shaoan Xie</strong>, Guangyi Chen, Xinshuai Dong, Ruichu Cai, Kun Zhang</div>
+   <div class="periodical"><em>International Conference on Learning Representations <strong>(ICLR)</strong>, 2025. </em></div>
+    <div class="links">
+      <a href="https://arxiv.org/pdf/2503.00639?" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>   
+    </div>
+  </div> 
+</div>
+</li>
+    <li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/icml_crl.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">ICML</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/pdf/2306.12511.pdf" style="color:#71b07b;">Causal Representation Learning from Multiple Distributions: A General Setting</a></div>
+    <div class="author">Kun Zhang*, <strong>Shaoan Xie*</strong>, Ignavier Ng*, Kun Zhang</div>
+   <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2024. </em></div>
+    <div class="links">
+      <a href="https://arxiv.org/pdf/2402.05052" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>   
+    </div>
+  </div> 
+</div>
+</li>
   <li>
 <div class="pub-row">
 
