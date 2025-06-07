@@ -28,7 +28,8 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2306.12511.pdf" style="color:#71b07b;">SmartCLIP: Modular Vision-language Alignment with Identification Guarantees </a></div>
+    <div class="title"><a href="https://arxiv.org/pdf/2306.12511.pdf" style="color:#71b07b;">	
+Nonparametric Identification of Latent Concepts </a></div>
     <div class="author">Yujia Zheng*, <strong>Shaoan Xie*</strong>, Kun Zhang</div>
     <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2025.</em></div>
   </div> 
