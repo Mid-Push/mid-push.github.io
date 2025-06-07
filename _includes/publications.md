@@ -56,7 +56,7 @@ Nonparametric Identification of Latent Concepts </a></div>
   </div> 
 </div>
 </li>
-
+<!--
   <li> 
 <div class="pub-row">
 
@@ -94,6 +94,7 @@ Nonparametric Identification of Latent Concepts </a></div>
   </div> 
 </div>
 </li>
+-->
     <li>
 <div class="pub-row">
 
@@ -112,6 +113,7 @@ Nonparametric Identification of Latent Concepts </a></div>
   </div> 
 </div>
 </li>
+<!--
   <li>
 <div class="pub-row">
 
@@ -130,7 +132,7 @@ Nonparametric Identification of Latent Concepts </a></div>
   </div> 
 </div>
 </li>
-
+-->
 
 <li>
 <div class="pub-row">
@@ -221,7 +223,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </li>
   <br>
   
-  
+  <!--
   <li>
 <div class="pub-row">
 
@@ -241,7 +243,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </div>
 </li>
   <br>
-  
+
   
   <li>
 <div class="pub-row">
@@ -283,6 +285,8 @@ Nonparametric Identification of Latent Concepts </a></div>
 </div>
 </li>
   <br>
+-->
+
   
   <li>
 <div class="pub-row">
