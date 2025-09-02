@@ -1,3 +1,35 @@
+.publication-toggle {
+    margin: 10px 0 20px 0;
+    text-align: right;
+}
+
+.toggle-btn {
+    background: none;
+    border: 1px solid #71b07b;
+    color: #71b07b;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.toggle-btn.active {
+    background-color: #71b07b;
+    color: white;
+}
+
+.toggle-btn:hover {
+    background-color: #71b07b;
+    color: white;
+}
+
+.publication-item.hidden-pub {
+    display: none;
+}
+
+
 .badge {
     display: inline-block;
     padding: 0.25em 0.4em;
