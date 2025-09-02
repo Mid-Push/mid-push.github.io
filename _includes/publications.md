@@ -20,8 +20,9 @@
     <div class="title"><a href="https://openreview.net/pdf?id=hUHRTaTfvZ" style="color:#71b07b;">Learning Vision and Language Concepts for Controllable Image Generation </a></div>
     <div class="author"><strong>Shaoan Xie*</strong> Lingjing Kong*, Yujia Zheng, Zeyu Tang, Eric P.Xing, Guangyi Chen, Kun Zhang</div>
     <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2025. </em></div>
-        <div class="links">
-      <a href=https://openreview.net/pdf?id=hUHRTaTfvZ" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
+       <div class="links">
+      <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Xie_SmartCLIP_Modular_Vision-language_Alignment_with_Identification_Guarantees_CVPR_2025_paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
+      <a href="https://github.com/Mid-Push/SmartCLIP" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
    </div> 
   </div> 
 </div>
@@ -40,8 +41,9 @@
 Nonparametric Identification of Latent Concepts </a></div>
     <div class="author">Yujia Zheng*, <strong>Shaoan Xie*</strong>, Kun Zhang</div>
     <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2025.</em></div>
-        <div class="links">
-      <a href=https://openreview.net/pdf?id=cW9Ttnm1aC" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
+       <div class="links">
+      <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Xie_SmartCLIP_Modular_Vision-language_Alignment_with_Identification_Guarantees_CVPR_2025_paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
+      <a href="https://github.com/Mid-Push/SmartCLIP" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
    </div> 
   </div> 
 </div>
