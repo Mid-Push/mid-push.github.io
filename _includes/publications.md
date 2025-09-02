@@ -20,6 +20,9 @@
     <div class="title"><a href="https://openreview.net/pdf?id=hUHRTaTfvZ" style="color:#71b07b;">Learning Vision and Language Concepts for Controllable Image Generation </a></div>
     <div class="author"><strong>Shaoan Xie*</strong> Lingjing Kong*, Yujia Zheng, Zeyu Tang, Eric P.Xing, Guangyi Chen, Kun Zhang</div>
     <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2025. </em></div>
+        <div class="links">
+      <a href=https://openreview.net/pdf?id=hUHRTaTfvZ" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
+   </div> 
   </div> 
 </div>
 </li>
@@ -37,6 +40,9 @@
 Nonparametric Identification of Latent Concepts </a></div>
     <div class="author">Yujia Zheng*, <strong>Shaoan Xie*</strong>, Kun Zhang</div>
     <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2025.</em></div>
+        <div class="links">
+      <a href=https://openreview.net/pdf?id=cW9Ttnm1aC" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
+   </div> 
   </div> 
 </div>
 </li>
@@ -100,7 +106,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </div>
 </li>
 
-    <li class="publication-item selected-pub">
+   <li class="publication-item selected-pub">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -109,7 +115,7 @@ Nonparametric Identification of Latent Concepts </a></div>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2306.12511.pdf" style="color:#71b07b;">Causal Representation Learning from Multiple Distributions: A General Setting</a></div>
+    <div class="title"><a href="https://arxiv.org/pdf/2402.05052" style="color:#71b07b;">Causal Representation Learning from Multiple Distributions: A General Setting</a></div>
     <div class="author">Kun Zhang*, <strong>Shaoan Xie*</strong>, Ignavier Ng*, Yujia Zheng</div>
    <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2024. </em></div>
     <div class="links">
@@ -118,6 +124,29 @@ Nonparametric Identification of Latent Concepts </a></div>
   </div> 
 </div>
 </li>
+
+
+
+   <li class="publication-item selected-pub">
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/arxiv_cfr.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">Arxiv</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/pdf/2306.05751" style="color:#71b07b;">Advancing Counterfactual Inference through Nonlinear Quantile Regression</a></div>
+    <div class="author"><strong>Shaoan Xie*</strong>, Biwei Huang*, Bin Gu, Tongliang Liu, Kun Zhang</div>
+   <div class="periodical"><em> <strong>(Arxiv)</strong>, 2024. </em></div>
+    <div class="links">
+      <a href="https://arxiv.org/pdf/2306.05751" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>   
+    </div>
+  </div> 
+</div>
+</li>
+
+
 
   <li class="publication-item full-pub">
 <div class="pub-row">
