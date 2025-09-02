@@ -7,14 +7,14 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/cvpr_clip.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">CVPR</abbr>
+    <img src="assets/img/icml_concept.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">ICML</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2306.12511.pdf" style="color:#71b07b;">SmartCLIP: Modular Vision-language Alignment with Identification Guarantees </a></div>
-    <div class="author"><strong>Shaoan Xie*</strong> Lingjing Kong*, Yujia Zheng, Yu Yao, Zeyu Tang, Eric P.Xing, Guangyi Chen, Kun Zhang</div>
-    <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2025. <strong><i style="color:#e74d3c">Highlight</i></strong></em></div>
+    <div class="title"><a href="https://arxiv.org/pdf/2306.12511.pdf" style="color:#71b07b;">Learning Vision and Language Concepts for Controllable Image Generation </a></div>
+    <div class="author"><strong>Shaoan Xie*</strong> Lingjing Kong*, Yujia Zheng, Zeyu Tang, Eric P.Xing, Guangyi Chen, Kun Zhang</div>
+    <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2025. </em></div>
   </div> 
 </div>
 </li>
@@ -23,12 +23,50 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/icml_nonparam.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">ICML</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/pdf/2306.12511.pdf" style="color:#71b07b;">	
+Nonparametric Identification of Latent Concepts </a></div>
+    <div class="author">Yujia Zheng*, <strong>Shaoan Xie*</strong>, Kun Zhang</div>
+    <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2025.</em></div>
+  </div> 
+</div>
+</li>
+
+   
+  <li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/cvpr_clip.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">CVPR</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Xie_SmartCLIP_Modular_Vision-language_Alignment_with_Identification_Guarantees_CVPR_2025_paper.pdf" style="color:#71b07b;">SmartCLIP: Modular Vision-language Alignment with Identification Guarantees </a></div>
+    <div class="author"><strong>Shaoan Xie*</strong> Lingjing Kong*, Yujia Zheng, Yu Yao, Zeyu Tang, Eric P.Xing, Guangyi Chen, Kun Zhang</div>
+    <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2025. <strong><i style="color:#e74d3c">Highlight</i></strong></em></div>
+       <div class="links">
+      <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Xie_SmartCLIP_Modular_Vision-language_Alignment_with_Identification_Guarantees_CVPR_2025_paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
+      <a href="https://github.com/Mid-Push/SmartCLIP" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+   </div> 
+  </div> 
+</div>
+</li>
+<!--
+  <li> 
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/aistats_crl.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">AISTATS</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2306.12511.pdf" style="color:#71b07b;">Causal Representation Learning from General Environments under Nonparametric Mixing</a></div>
+    <div class="title"><a href="https://openreview.net/attachment?id=S8lfepB2fz&name=pdf" style="color:#71b07b;">Causal Representation Learning from General Environments under Nonparametric Mixing</a></div>
     <div class="author">Ignavier Ng, <strong>Shaoan Xie</strong>, Xingshuai Dong, Peter Spirtes, Kun Zhang</div>
     <div class="periodical"><em>International Conference on Artificial Intelligence and Statistics<strong>(AISTATS)</strong>, 2025.</em></div>
     <div class="links">
@@ -56,6 +94,7 @@
   </div> 
 </div>
 </li>
+-->
     <li>
 <div class="pub-row">
 
@@ -74,6 +113,7 @@
   </div> 
 </div>
 </li>
+<!--
   <li>
 <div class="pub-row">
 
@@ -92,7 +132,7 @@
   </div> 
 </div>
 </li>
-
+-->
 
 <li>
 <div class="pub-row">
@@ -183,7 +223,7 @@
 </li>
   <br>
   
-  
+  <!--
   <li>
 <div class="pub-row">
 
@@ -203,7 +243,7 @@
 </div>
 </li>
   <br>
-  
+
   
   <li>
 <div class="pub-row">
@@ -245,6 +285,8 @@
 </div>
 </li>
   <br>
+-->
+
   
   <li>
 <div class="pub-row">
