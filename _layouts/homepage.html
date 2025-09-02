@@ -80,8 +80,6 @@
         </a>
         {% endif %}
           
-          
-          
         </div>
         <br>
 
@@ -92,13 +90,42 @@
 
       <br>
 
-     
-
       </section>
       <footer>
         
       </footer>
     </div>
+    
+    <!-- Add the toggle JavaScript -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const toggle = document.getElementById('publicationsToggle');
+        const title = document.getElementById('publicationsTitle');
+        
+        if (toggle && title) {
+          toggle.addEventListener('click', function() {
+            const isShowingAll = toggle.classList.contains('active');
+            
+            if (isShowingAll) {
+              // Switch to selected
+              toggle.classList.remove('active');
+              title.textContent = 'Selected Publications';
+              document.querySelectorAll('.publication-item.additional').forEach(item => {
+                item.style.display = 'none';
+              });
+            } else {
+              // Switch to all
+              toggle.classList.add('active');
+              title.textContent = 'All Publications';
+              document.querySelectorAll('.publication-item.additional').forEach(item => {
+                item.style.display = 'list-item';
+              });
+            }
+          });
+        }
+      });
+    </script>
+    
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
