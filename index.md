@@ -9,6 +9,7 @@ Hi! I’m a Phd student at <a href="https://www.cmu.edu/" style="color:#71b07b;"
 
 
 ## News
+- **[Aug. 2025]** I will be serving as Area Chair for ICLR2026 thanks for the invitation!
 - **[June. 2025]** I'm attending CVPR2025, see you in Nashville!
 - **[May. 2025]** Two papers are accepted into ICML2025!
 - **[April. 2025]** One paper is accepted as CVPR2025 Highlight!
