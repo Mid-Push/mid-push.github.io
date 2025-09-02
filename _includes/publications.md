@@ -17,14 +17,14 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2306.12511.pdf" style="color:#71b07b;">Learning Vision and Language Concepts for Controllable Image Generation </a></div>
+    <div class="title"><a href="https://openreview.net/pdf?id=hUHRTaTfvZ" style="color:#71b07b;">Learning Vision and Language Concepts for Controllable Image Generation </a></div>
     <div class="author"><strong>Shaoan Xie*</strong> Lingjing Kong*, Yujia Zheng, Zeyu Tang, Eric P.Xing, Guangyi Chen, Kun Zhang</div>
     <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2025. </em></div>
   </div> 
 </div>
 </li>
 
-  <li class="publication-item full-pub">
+  <li class="publication-item selected-pub">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -33,7 +33,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2306.12511.pdf" style="color:#71b07b;">	
+    <div class="title"><a href="https://openreview.net/pdf?id=cW9Ttnm1aC" style="color:#71b07b;">	
 Nonparametric Identification of Latent Concepts </a></div>
     <div class="author">Yujia Zheng*, <strong>Shaoan Xie*</strong>, Kun Zhang</div>
     <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2025.</em></div>
@@ -42,7 +42,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </li>
 
    
-  <li class="publication-item full-pub">
+  <li class="publication-item selected-pub">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -61,7 +61,7 @@ Nonparametric Identification of Latent Concepts </a></div>
   </div> 
 </div>
 </li>
-<!--
+
   <li class="publication-item full-pub"> 
 <div class="pub-row">
 
@@ -99,8 +99,8 @@ Nonparametric Identification of Latent Concepts </a></div>
   </div> 
 </div>
 </li>
--->
-    <li class="publication-item full-pub">
+
+    <li class="publication-item selected-pub">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -118,7 +118,7 @@ Nonparametric Identification of Latent Concepts </a></div>
   </div> 
 </div>
 </li>
-<!--
+
   <li class="publication-item full-pub">
 <div class="pub-row">
 
@@ -137,9 +137,9 @@ Nonparametric Identification of Latent Concepts </a></div>
   </div> 
 </div>
 </li>
--->
 
-<li class="publication-item full-pub">
+
+<li class="publication-item select-pub">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -161,7 +161,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </li>
   <br>
   
-  <li class="publication-item full-pub">
+  <li class="publication-item select-pub">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -184,7 +184,7 @@ Nonparametric Identification of Latent Concepts </a></div>
   <br>
   
   
-  <li class="publication-item full-pub">
+  <li class="publication-item select-pub">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -207,7 +207,7 @@ Nonparametric Identification of Latent Concepts </a></div>
   <br>
   
   
-  <li class="publication-item full-pub">
+  <li class="publication-item select-pub">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -228,7 +228,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </li>
   <br>
   
-  <!--
+
   <li class="publication-item full-pub">
 <div class="pub-row">
 
@@ -290,10 +290,10 @@ Nonparametric Identification of Latent Concepts </a></div>
 </div>
 </li>
   <br>
--->
+
 
   
-  <li class="publication-item full-pub">
+  <li class="publication-item select-pub">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -314,7 +314,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </li>
   <br>
   
-  <li class="publication-item full-pub">
+  <li class="publication-item select-pub">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
