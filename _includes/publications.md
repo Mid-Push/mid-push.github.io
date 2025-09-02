@@ -291,8 +291,6 @@ Nonparametric Identification of Latent Concepts </a></div>
 </li>
   <br>
 
-
-  
   <li class="publication-item select-pub">
 <div class="pub-row">
 
