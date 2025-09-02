@@ -139,7 +139,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </li>
 
 
-<li class="publication-item select-pub">
+<li class="publication-item selected-pub">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -161,7 +161,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </li>
   <br>
   
-  <li class="publication-item select-pub">
+  <li class="publication-item selected-pub">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -184,7 +184,7 @@ Nonparametric Identification of Latent Concepts </a></div>
   <br>
   
   
-  <li class="publication-item select-pub">
+  <li class="publication-item selected-pub">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -207,7 +207,7 @@ Nonparametric Identification of Latent Concepts </a></div>
   <br>
   
   
-  <li class="publication-item select-pub">
+  <li class="publication-item selected-pub">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -291,7 +291,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </li>
   <br>
 
-  <li class="publication-item select-pub">
+  <li class="publication-item selected-pub">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -312,7 +312,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </li>
   <br>
   
-  <li class="publication-item select-pub">
+  <li class="publication-item selected-pub">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
