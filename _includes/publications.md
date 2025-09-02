@@ -42,7 +42,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </li>
 
    
-  <li>
+  <li publication-item full-pub>
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -62,7 +62,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </div>
 </li>
 <!--
-  <li> 
+  <li publication-item full-pub> 
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -81,7 +81,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </div>
 </li>
 
-  <li>
+  <li publication-item full-pub>
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -100,7 +100,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </div>
 </li>
 -->
-    <li>
+    <li publication-item full-pub>
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -119,7 +119,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </div>
 </li>
 <!--
-  <li>
+  <li publication-item full-pub>
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -139,7 +139,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </li>
 -->
 
-<li>
+<li publication-item full-pub>
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -161,7 +161,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </li>
   <br>
   
-  <li>
+  <li publication-item full-pub>
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -184,7 +184,7 @@ Nonparametric Identification of Latent Concepts </a></div>
   <br>
   
   
-  <li>
+  <li publication-item full-pub>
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -207,7 +207,7 @@ Nonparametric Identification of Latent Concepts </a></div>
   <br>
   
   
-  <li>
+  <li publication-item full-pub>
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -229,7 +229,7 @@ Nonparametric Identification of Latent Concepts </a></div>
   <br>
   
   <!--
-  <li>
+  <li publication-item full-pub>
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -250,7 +250,7 @@ Nonparametric Identification of Latent Concepts </a></div>
   <br>
 
   
-  <li>
+  <li publication-item full-pub>
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -271,7 +271,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </li>
   <br>
   
-  <li>
+  <li publication-item full-pub>
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -293,7 +293,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 -->
 
   
-  <li>
+  <li publication-item full-pub>
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -314,7 +314,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </li>
   <br>
   
-  <li>
+  <li publication-item full-pub>
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
