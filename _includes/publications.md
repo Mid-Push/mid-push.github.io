@@ -43,7 +43,6 @@ Nonparametric Identification of Latent Concepts </a></div>
     <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2025.</em></div>
        <div class="links">
       <a href="https://openreview.net/pdf?id=cW9Ttnm1aC" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
-      <a href="https://github.com/Mid-Push/SmartCLIP" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
    </div> 
   </div> 
 </div>
