@@ -229,7 +229,50 @@ Nonparametric Identification of Latent Concepts </a></div>
   <br>
   
 
-  <li class="publication-item full-pub">
+
+  <li class="publication-item selected-pub">
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/irwgan.PNG" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">ICCV</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Xie_Unaligned_Image-to-Image_Translation_by_Learning_to_Reweight_ICCV_2021_paper.pdf" style="color:#71b07b;">Unaligned Image-to-Image Translation by Learning to Reweight</a></div>
+    <div class="author"><strong>Shaoan Xie</strong>, Mingming Gong, Yanwu Xu and Kun Zhang</div>
+    <div class="periodical"><em>IEEE/CVF International Conference on Computer Vision <strong>(ICCV)</strong>, 2021.</em></div>
+    <div class="links">
+      <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Xie_Unaligned_Image-to-Image_Translation_by_Learning_to_Reweight_ICCV_2021_paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
+      <a href="https://github.com/Mid-Push/IrwGAN" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+    </div>
+  </div> 
+</div>
+</li>
+  <br>
+  
+  <li class="publication-item selected-pub">
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/mstn.PNG" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">ICML</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="http://proceedings.mlr.press/v80/xie18c/xie18c.pdf" style="color:#71b07b;">Learning Semantic Representations for Unsupervised Domain Adaptation</a></div>
+    <div class="author"><strong>Shaoan Xie</strong>, Zibin Zheng ,  Liang Chen , and Chuan Chen</div>
+    <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2018.</em></div>
+    <div class="links">
+      <a href="http://proceedings.mlr.press/v80/xie18c/xie18c.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a> 
+      <a href="https://github.com/Mid-Push/Moving-Semantic-Transfer-Network" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+    </div>
+  </div> 
+</div>
+</li>
+  <br>
+  
+ <li class="publication-item full-pub">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -290,50 +333,6 @@ Nonparametric Identification of Latent Concepts </a></div>
 </div>
 </li>
   <br>
-
-  <li class="publication-item selected-pub">
-<div class="pub-row">
-
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/irwgan.PNG" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">ICCV</abbr>
-  </div>
-
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Xie_Unaligned_Image-to-Image_Translation_by_Learning_to_Reweight_ICCV_2021_paper.pdf" style="color:#71b07b;">Unaligned Image-to-Image Translation by Learning to Reweight</a></div>
-    <div class="author"><strong>Shaoan Xie</strong>, Mingming Gong, Yanwu Xu and Kun Zhang</div>
-    <div class="periodical"><em>IEEE/CVF International Conference on Computer Vision <strong>(ICCV)</strong>, 2021.</em></div>
-    <div class="links">
-      <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Xie_Unaligned_Image-to-Image_Translation_by_Learning_to_Reweight_ICCV_2021_paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
-      <a href="https://github.com/Mid-Push/IrwGAN" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-    </div>
-  </div> 
-</div>
-</li>
-  <br>
-  
-  <li class="publication-item selected-pub">
-<div class="pub-row">
-
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/mstn.PNG" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">ICML</abbr>
-  </div>
-
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="http://proceedings.mlr.press/v80/xie18c/xie18c.pdf" style="color:#71b07b;">Learning Semantic Representations for Unsupervised Domain Adaptation</a></div>
-    <div class="author"><strong>Shaoan Xie</strong>, Zibin Zheng ,  Liang Chen , and Chuan Chen</div>
-    <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2018.</em></div>
-    <div class="links">
-      <a href="http://proceedings.mlr.press/v80/xie18c/xie18c.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a> 
-      <a href="https://github.com/Mid-Push/Moving-Semantic-Transfer-Network" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-    </div>
-  </div> 
-</div>
-</li>
-  <br>
-  
-
 
 </ol>
 </div>
