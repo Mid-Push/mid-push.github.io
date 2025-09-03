@@ -7,6 +7,27 @@
 
 <div class="publications">
 <ol class="bibliography">
+
+  <li class="publication-item full-pub">
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/arxiv_video.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">arXiv</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/pdf/2502.02690" style="color:#71b07b;">Learning Vision and Language Concepts for Controllable Image Generation </a></div>
+    <div class="author">Yifan Shen*, Peiyuan Zhu*, Zijian Li,<strong>Shaoan Xie*</strong>, Zeyu Tang, Namrata Deka,Zongfang Liu ,Guangyi Chen, Kun Zhang</div>
+    <div class="periodical"><em><strong>(arXiv)</strong>, 2025. </em></div>
+       <div class="links">
+      <a href="https://arxiv.org/pdf/2502.02690" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
+   </div> 
+  </div> 
+</div>
+</li>
+
+    
    <li class="publication-item selected-pub">
 <div class="pub-row">
 
@@ -131,7 +152,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/arxiv_dream.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Arxiv</abbr>
+    <abbr class="badge">arXiv</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
@@ -139,7 +160,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 Diffusion Models</a></div>
     <div class="author"><strong>Shaoan Xie</strong>, Yang Zhao, Zhisheng Xiao, Kelvin C.K. Chan, Yandong Li, Yanwu Xu, Kun Zhang
 ,Tingbo Hou</div>
-   <div class="periodical"><em> <strong>(Arxiv)</strong>, 2024. </em></div>
+   <div class="periodical"><em> <strong>(arXiv)</strong>, 2024. </em></div>
     <div class="links">
       <a href="https://arxiv.org/pdf/2312.03771" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>   
     </div>
@@ -153,13 +174,13 @@ Diffusion Models</a></div>
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/arxiv_cfr.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Arxiv</abbr>
+    <abbr class="badge">arXiv</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://arxiv.org/pdf/2306.05751" style="color:#71b07b;">Advancing Counterfactual Inference through Nonlinear Quantile Regression</a></div>
     <div class="author"><strong>Shaoan Xie*</strong>, Biwei Huang*, Bin Gu, Tongliang Liu, Kun Zhang</div>
-   <div class="periodical"><em> <strong>(Arxiv)</strong>, 2024. </em></div>
+   <div class="periodical"><em> <strong>(arXiv)</strong>, 2024. </em></div>
     <div class="links">
       <a href="https://arxiv.org/pdf/2306.05751" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>   
     </div>
