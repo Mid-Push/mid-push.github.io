@@ -4,7 +4,25 @@ layout: homepage
 
 
 
-Hi! I’m a Phd student at <a href="https://www.cmu.edu/" style="color:#71b07b;">Carnegie Mellon University</a>, advised by <a href="https://www.andrew.cmu.edu/user/kunz1/" style="color:#71b07b;">Prof. Kun Zhang</a>. I'm interested in machine learning and computer vision from a causal perspective. Specifically, I focus on learning causal representations for controllable generative models.
+Hi! I’m a PhD student at [Carnegie Mellon University](https://www.cmu.edu/), advised by [Prof. Kun Zhang](https://www.andrew.cmu.edu/user/kunz1/).  
+
+
+## Research Highlights
+
+My long-term research goal is to develop generative AI systems that go beyond producing realistic multi-modal data to capturing the underlying structure of the world. By embedding causal principles into machine learning and computer vision, I aim to make generative models not only powerful, but also controllable, interpretable, trustworthy, and capable of systematic generalization.
+
+In my recent work, I have explored this vision through several directions:
+
+- **Video generation**: developing models that synthesize realistic and temporally consistent videos [<a href="https://arxiv.org/pdf/2502.02690">arXiv ’25</a>].  
+- **Text-to-image generation**: advancing controllable and scalable text-driven image synthesis [<a href="https://openreview.net/pdf?id=hUHRTaTfvZ">ICML ’25</a>, <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Xie_SmartCLIP_Modular_Vision-language_Alignment_with_Identification_Guarantees_CVPR_2025_paper.pdf">CVPR ’25</a>, <a href="https://arxiv.org/pdf/2312.03771">arXiv '23</a>, <a href="https://arxiv.org/pdf/2212.05034.pdf">CVPR ’23</a>].  
+- **Conditional image generation**: designing methods that flexibly adapt to conditioning signals [<a href="https://arxiv.org/pdf/2212.05034.pdf">CVPR ’23</a>, <a href="https://openreview.net/pdf?id=U2g8OGONA_V">ICLR ’23</a>, <a href="https://openreview.net/pdf?id=RNZ8JOmNaV4">NeurIPS ’22</a>, <a href="https://arxiv.org/pdf/2306.12511.pdf">NeuIPS’23</a>, <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Maximum_Spatial_Perturbation_Consistency_for_Unpaired_Image-to-Image_Translation_CVPR_2022_paper.pdf">CVPR ’22</a>, <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Xie_Unaligned_Image-to-Image_Translation_by_Learning_to_Reweight_ICCV_2021_paper.pdf">ICCV ’21</a>].  
+- **Causal representation learning**: extracting disentangled and structured latent factors from different modalities to enable systematic generalization [<a href="https://openreview.net/pdf?id=cW9Ttnm1aC">ICML ’25</a>, <a href="https://arxiv.org/pdf/2306.12511.pdf">ICLR ’25</a>, <a href="https://openreview.net/attachment?id=S8lfepB2fz&name=pdf">AISTATS ’25</a>, <a href="https://arxiv.org/pdf/2402.05052">ICML ’24</a>, <a href="https://proceedings.mlr.press/v162/kong22a/kong22a.pdf">ICML ’22</a>].  
+- **Counterfactual inference**: building frameworks that empower models to answer “what if” questions and reason about interventions [<a href="https://arxiv.org/pdf/2306.05751">arXiv ’24</a>].
+
+
+
+
+
 
 
 
