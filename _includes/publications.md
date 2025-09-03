@@ -1,5 +1,4 @@
-<h2 id="publications" style="margin: 2px 0px -15px;"> Selected Publications <temp style="font-size:15px;">[</temp><a href="https://scholar.google.com/citations?user=mChB-hQAAAAJ&hl=en&oi=ao" target="_blank" style="font-size:15px;color:#71b07b;">Google Scholar</a><temp style="font-size:15px;">]</temp></h2>
-   
+
 <!-- ADD THIS TOGGLE SECTION -->
 <div class="publication-toggle">
     <button class="toggle-btn active" onclick="showSelected()">Selected</button>
