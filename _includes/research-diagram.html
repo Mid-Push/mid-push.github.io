@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Publications Hierarchy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.5;
+            color: #333;
+            background: #f9f9f9;
+            padding: 40px 20px;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        /* Top Level Box */
+        .top-concept {
+            background: #ffffff;
+            border: 4px solid #6b7c8e;
+            padding: 35px;
+            margin-bottom: 30px;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .top-concept h1 {
+            font-size: 30px;
+            color: #2c3e50;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .top-concept .subtitle {
+            font-size: 17px;
+            color: #444;
+            margin: 8px 0;
+        }
+
+        .top-concept .theory-question {
+            font-size: 16px;
+            color: #555;
+            font-style: italic;
+            margin: 8px 0;
+        }
+
+        .top-concept .research-flow {
+            font-size: 15px;
+            color: #5a7a5a;
+            margin-top: 15px;
+            font-weight: 500;
+        }
+
+        /* Arrows Container */
+        .arrows-down {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px 0 40px 0;
+            height: 60px;
+        }
+
+        .arrow-down {
+            width: 2px;
+            height: 50px;
+            background: #6b7c8e;
+            position: relative;
+        }
+
+        .arrow-down::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-top: 10px solid #6b7c8e;
+        }
+
+        /* Main Categories - SIDE BY SIDE */
+        .categories-grid {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 20px;
+            margin-bottom: 40px;
+            width: 100%;
+            position: relative;
+        }
+
+        .category-box {
+            background: white;
+            border: 3px solid #6b7c8e;
+            border-radius: 4px;
+            padding: 20px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .category-header {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #6b7c8e;
+        }
+
+        .category-tagline {
+            font-size: 13px;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+
+        /* Subcategories */
+        .subcategory {
+            margin-bottom: 18px;
+        }
+
+        .subcategory:last-child {
+            margin-bottom: 0;
+        }
+
+        .subcategory-title {
+            font-size: 15px;
+            font-style: italic;
+            color: #2c3e50;
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+
+        .paper-refs {
+            font-size: 13px;
+            color: #2c3e50;
+            line-height: 1.8;
+        }
+
+        .paper-ref {
+            color: #5a7a5a;
+            text-decoration: none;
+            font-weight: 500;
+            display: block;
+            margin: 4px 0;
+        }
+
+        .paper-ref:hover {
+            text-decoration: underline;
+            color: #3d5c3d;
+        }
+
+        .venue {
+            color: #71b07b;
+            font-weight: 600;
+            font-size: 12px;
+        }
+
+        .plus-sign {
+            color: #2c3e50;
+            margin-right: 3px;
+        }
+
+        /* Responsive - only for very small screens */
+        @media (max-width: 768px) {
+            .categories-grid {
+                flex-direction: column;
+            }
+
+            .category-box {
+                min-width: auto;
+                width: 100%;
+            }
+
+            .arrows-down {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Top Level Concept -->
+        <div class="top-concept">
+            <h1>Causal & Compositional Representations</h1>
+            <p class="subtitle">How should we represent various types of concepts?</p>
+            <p class="theory-question">How to capture the compositional and causal structures underlying these concepts?</p>
+            <p class="research-flow">These research areas share a unified goal: building interpretable, identifiable representations</p>
+        </div>
+
+        <!-- Down Arrows -->
+        <div class="arrows-down">
+            <div class="arrow-down"></div>
+            <div class="arrow-down"></div>
+            <div class="arrow-down"></div>
+        </div>
+
+        <!-- Three Main Categories SIDE BY SIDE -->
+        <div class="categories-grid">
+            <!-- Left Column: Causal Representation Theory -->
+            <div class="category-box">
+                <h2 class="category-header">Causal Representation Theory</h2>
+                <p class="category-tagline">Theoretical foundations and identifiability guarantees</p>
+                
+                <div class="subcategory">
+                    <p class="subcategory-title">Identifiable Latent Concepts:</p>
+                    <div class="paper-refs">
+                        <a href="https://openreview.net/pdf?id=cW9Ttnm1aC" class="paper-ref">Nonparametric Identification of Latent Concepts <span class="venue">(ICML 2025)</span></a>
+                        <a href="https://arxiv.org/pdf/2402.05052" class="paper-ref">Causal Representation Learning from Multiple Distributions <span class="venue">(ICML 2024)</span></a>
+                    </div>
+                </div>
+
+                <div class="subcategory">
+                    <p class="subcategory-title">General Environments:</p>
+                    <div class="paper-refs">
+                        <a href="https://openreview.net/attachment?id=S8lfepB2fz&name=pdf" class="paper-ref">Causal Representation Learning from General Environments under Nonparametric Mixing <span class="venue">(AISTATS 2025)</span></a>
+                    </div>
+                </div>
+
+                <div class="subcategory">
+                    <p class="subcategory-title"><span class="plus-sign">+</span> Disentangled Representations:</p>
+                    <div class="paper-refs">
+                        <a href="https://arxiv.org/pdf/2503.00639" class="paper-ref">Synergy Between Sufficient Changes and Sparse Mixing for Disentangled Representation Learning <span class="venue">(ICLR 2025)</span></a>
+                    </div>
+                </div>
+
+                <div class="subcategory">
+                    <p class="subcategory-title">Counterfactual Reasoning:</p>
+                    <div class="paper-refs">
+                        <a href="https://arxiv.org/pdf/2306.05751" class="paper-ref">Advancing Counterfactual Inference through Nonlinear Quantile Regression <span class="venue">(arXiv 2024)</span></a>
+                    </div>
+                </div>
+
+                <div class="subcategory">
+                    <p class="subcategory-title">Domain Adaptation:</p>
+                    <div class="paper-refs">
+                        <a href="https://proceedings.mlr.press/v162/kong22a/kong22a.pdf" class="paper-ref">Partial Disentanglement for Domain Adaptation <span class="venue">(ICML 2022)</span></a>
+                        <a href="http://proceedings.mlr.press/v80/xie18c/xie18c.pdf" class="paper-ref">Learning Semantic Representations for Unsupervised Domain Adaptation <span class="venue">(ICML 2018)</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Center Column: Identifiable Image Translation -->
+            <div class="category-box">
+                <h2 class="category-header">Identifiable Image Translation</h2>
+                <p class="category-tagline">Applying identifiability to generative models</p>
+                
+                <div class="subcategory">
+                    <p class="subcategory-title">Multi-Domain with Guarantees:</p>
+                    <div class="paper-refs">
+                        <a href="https://openreview.net/pdf?id=U2g8OGONA_V" class="paper-ref">Multi-domain Image Generation and Translation with Identifiability Guarantees <span class="venue">(ICLR 2023 Spotlight)</span></a>
+                    </div>
+                </div>
+
+                <div class="subcategory">
+                    <p class="subcategory-title"><span class="plus-sign">+</span> Unpaired Translation:</p>
+                    <div class="paper-refs">
+                        <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_Unpaired_Image-to-Image_Translation_With_Shortest_Path_Regularization_CVPR_2023_paper.pdf" class="paper-ref">Unpaired Image-to-Image Translation with Shortest Path Regularization <span class="venue">(CVPR 2023)</span></a>
+                    </div>
+                </div>
+
+                <div class="subcategory">
+                    <p class="subcategory-title"><span class="plus-sign">+</span> Density-Based Methods:</p>
+                    <div class="paper-refs">
+                        <a href="https://openreview.net/pdf?id=RNZ8JOmNaV4" class="paper-ref">Unsupervised Image-to-Image Translation with Density Changing Regularization <span class="venue">(NeurIPS 2022)</span></a>
+                    </div>
+                </div>
+
+                <div class="subcategory">
+                    <p class="subcategory-title"><span class="plus-sign">+</span> Spatial Consistency:</p>
+                    <div class="paper-refs">
+                        <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Maximum_Spatial_Perturbation_Consistency_for_Unpaired_Image-to-Image_Translation_CVPR_2022_paper.pdf" class="paper-ref">Maximum Spatial Perturbation Consistency for Unpaired Image-to-Image Translation <span class="venue">(CVPR 2022)</span></a>
+                    </div>
+                </div>
+
+                <div class="subcategory">
+                    <p class="subcategory-title"><span class="plus-sign">+</span> Learning to Reweight:</p>
+                    <div class="paper-refs">
+                        <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Xie_Unaligned_Image-to-Image_Translation_by_Learning_to_Reweight_ICCV_2021_paper.pdf" class="paper-ref">Unaligned Image-to-Image Translation by Learning to Reweight <span class="venue">(ICCV 2021)</span></a>
+                    </div>
+                </div>
+
+                <div class="subcategory">
+                    <p class="subcategory-title">Medical Image Generalization:</p>
+                    <div class="paper-refs">
+                        <a href="https://arxiv.org/pdf/2206.13737.pdf" class="paper-ref">Adversarial Consistency for Single Domain Generalization in Medical Image Segmentation <span class="venue">(MICCAI 2022)</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Vision-Language Concepts -->
+            <div class="category-box">
+                <h2 class="category-header">Vision-Language Concepts</h2>
+                <p class="category-tagline">Extending identifiability to multimodal representations</p>
+                
+                <div class="subcategory">
+                    <p class="subcategory-title">Modular Vision-Language Alignment:</p>
+                    <div class="paper-refs">
+                        <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Xie_SmartCLIP_Modular_Vision-language_Alignment_with_Identification_Guarantees_CVPR_2025_paper.pdf" class="paper-ref">SmartCLIP: Modular Vision-Language Alignment with Identification Guarantees <span class="venue">(CVPR 2025 Highlight)</span></a>
+                    </div>
+                </div>
+
+                <div class="subcategory">
+                    <p class="subcategory-title">Controllable Generation with Concepts:</p>
+                    <div class="paper-refs">
+                        <a href="https://openreview.net/pdf?id=hUHRTaTfvZ" class="paper-ref">Learning Vision and Language Concepts for Controllable Image Generation <span class="venue">(ICML 2025)</span></a>
+                        <a href="https://arxiv.org/pdf/2502.02690" class="paper-ref">Learning Vision and Language Concepts for Controllable Image Generation <span class="venue">(arXiv 2025)</span></a>
+                    </div>
+                </div>
+
+                <div class="subcategory">
+                    <p class="subcategory-title">Text-Guided Image Manipulation:</p>
+                    <div class="paper-refs">
+                        <a href="https://arxiv.org/pdf/2212.05034.pdf" class="paper-ref">SmartBrush: Text and Shape Guided Object Inpainting with Diffusion Model <span class="venue">(CVPR 2023 Highlight)</span></a>
+                        <a href="https://arxiv.org/pdf/2312.03771" class="paper-ref">DreamInpainter: Text-Guided Subject-Driven Image Inpainting with Diffusion Models <span class="venue">(arXiv 2024)</span></a>
+                    </div>
+                </div>
+
+                <div class="subcategory">
+                    <p class="subcategory-title"><span class="plus-sign">+</span> Diffusion Models:</p>
+                    <div class="paper-refs">
+                        <a href="https://arxiv.org/pdf/2306.12511.pdf" class="paper-ref">Semi-Implicit Denoising Diffusion Models (SIDDMs) <span class="venue">(NeurIPS 2023)</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
