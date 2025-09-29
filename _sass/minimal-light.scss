@@ -232,11 +232,10 @@ papertitle {
         padding: 20px;
       }
 
-#header .image.avatar {
-  margin: 0 0 0.5em 0;
-  width: 8.00em;
-}
-
+    #header .image.avatar {
+      margin: 0 0 1em 0;
+      width: 8.00em;
+    }
 
 h3, h4, h5, h6 {
   font-weight: 600;
@@ -305,10 +304,8 @@ a:hover small {
 }
 
 .wrapper {
-  width: 1200px;
-  margin: 0 auto;
-  position: relative;
-  padding-top: 20px;
+  width:1200px;
+  margin:0 auto;
 }
 
 blockquote {
@@ -367,15 +364,14 @@ img {
 }
 
 header {
-  width: 232px;
-  position: fixed;
-  left: calc(50% - 600px); /* Centers within 1200px wrapper */
-  top: 50%;
-  margin-top: -200px; /* Adjust this value to center properly (half of header height) */
-  padding-top: 0;
-  -webkit-font-smoothing: subpixel-antialiased;
-  text-align: center;
+  width:232px;
+  float:left;
+  position:fixed;
+  -webkit-font-smoothing:subpixel-antialiased;
+  padding-top:4.0em;
+  text-align:center
 }
+
 
 
 header ul {
@@ -444,14 +440,11 @@ header ul a strong {
 }
 
 section {
-  width: 900px;
-  float: right;
-  padding-top: 20px;
-  padding-bottom: 50px;
-  margin-left: auto;
-  margin-right: 0;
+  width:1050px;
+  float:right;
+  padding-top:4.0em;
+  padding-bottom:50px;
 }
-
 
 small {
   font-size:11px;
@@ -513,19 +506,11 @@ footer {
   }
 
 
-.image.avatar {
-  border-radius: 100%;
-  display: block;
-}
-
-.image.avatar img {
-  border-radius: 100%;
-  width: 117px;
-  padding: 20px;
-  display: block;
-  margin: 0 auto;
-}
-
+   .image.avatar img {
+        border-radius: 100%;
+        width: 117px;
+        padding:20px;
+      }
   #head1o2 {
     visibility: hidden;
   }
