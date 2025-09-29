@@ -304,8 +304,8 @@ a:hover small {
 }
 
 .wrapper {
-  width:1200px;
-  margin:0 auto;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 blockquote {
@@ -367,12 +367,12 @@ header {
   width: 232px;
   float: left;
   position: fixed;
-  -webkit-font-smoothing: subpixel-antialiased;
-  padding-top: 20px;
+  left: 0;
   top: 0;
+  padding-top: 20px;
+  -webkit-font-smoothing: subpixel-antialiased;
   text-align: center;
 }
-
 
 
 header ul {
@@ -441,12 +441,13 @@ header ul a strong {
 }
 
 section {
-  width: 1050px;
+  width: 900px;
   float: right;
-  padding-top: 20px; /* Match the header padding */
+  padding-top: 20px;
   padding-bottom: 50px;
-  margin-left: 250px; /* Add margin to prevent overlap (232px header + ~18px gap) */
+  margin-left: 280px; /* Creates space for the 232px header + gap */
 }
+
 
 small {
   font-size:11px;
