@@ -367,13 +367,14 @@ img {
 }
 
 header {
-  width: 300px; /* Slightly wider for centered layout */
+  width: 300px;
   float: left;
-  position: relative; /* Not fixed */
-  left: 0;
-  margin-left: 0;
-  top: 0;
-  padding-top: 20px;
+  position: fixed; /* Fixed so it stays when scrolling */
+  left: 50%;
+  margin-left: -600px; /* Centers within 1200px wrapper */
+  top: 50%; /* Vertically center */
+  transform: translateY(-50%); /* Perfect vertical centering */
+  padding-top: 0;
   -webkit-font-smoothing: subpixel-antialiased;
   text-align: center;
 }
