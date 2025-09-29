@@ -368,12 +368,11 @@ img {
 
 header {
   width: 300px;
-  float: left;
   position: fixed; /* Fixed so it stays when scrolling */
   left: 50%;
   margin-left: -600px; /* Centers within 1200px wrapper */
-  top: 50%; /* Vertically center */
-  transform: translateY(-50%); /* Perfect vertical centering */
+  top: 50vh; /* 50% of viewport height */
+  transform: translateY(-50%); /* Centers the header itself */
   padding-top: 0;
   -webkit-font-smoothing: subpixel-antialiased;
   text-align: center;
@@ -515,11 +514,21 @@ footer {
   }
 
 
+.image.avatar {
+  border-radius: 100%;
+  border: 0;
+  display: inline-block;
+  position: relative;
+}
+
 .image.avatar img {
   border-radius: 100%;
-  width: 60%;
+  width: 117px; /* Fixed width so transform doesn't break it */
   padding: 10px;
+  display: block;
+  margin: 0 auto;
 }
+
   #head1o2 {
     visibility: hidden;
   }
