@@ -304,8 +304,10 @@ a:hover small {
 }
 
 .wrapper {
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
+  position: relative;
 }
 
 blockquote {
@@ -364,16 +366,17 @@ img {
 }
 
 header {
-  width: 232px;
-  float: left;
-  position: fixed;
-  left: 0;
+  width: 100%;
+  float: none;
+  position: relative; /* Changed from fixed */
+  left: auto;
+  margin-left: auto;
   top: 0;
   padding-top: 20px;
+  padding-bottom: 20px;
   -webkit-font-smoothing: subpixel-antialiased;
   text-align: center;
 }
-
 
 header ul {
   list-style:none;
@@ -441,11 +444,12 @@ header ul a strong {
 }
 
 section {
-  width: 900px;
-  float: right;
+  width: 100%;
+  max-width: 900px;
+  float: none;
+  margin: 0 auto;
   padding-top: 20px;
   padding-bottom: 50px;
-  margin-left: 280px; /* Creates space for the 232px header + gap */
 }
 
 
