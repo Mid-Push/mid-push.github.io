@@ -368,8 +368,8 @@ header {
   float: left;
   position: fixed;
   -webkit-font-smoothing: subpixel-antialiased;
-  padding-top: 20px; /* Changed from 4.0em to 20px */
-  top: 0; /* Add this line */
+  padding-top: 20px;
+  top: 0;
   text-align: center;
 }
 
@@ -443,8 +443,9 @@ header ul a strong {
 section {
   width: 1050px;
   float: right;
-  padding-top: 20px; /* Changed from 4.0em to match header */
+  padding-top: 20px; /* Match the header padding */
   padding-bottom: 50px;
+  margin-left: 250px; /* Add margin to prevent overlap (232px header + ~18px gap) */
 }
 
 small {
