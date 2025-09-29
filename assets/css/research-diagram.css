@@ -74,8 +74,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 20px;
+    gap: 15px;  /* Reduced from 20px */
     margin-bottom: 40px;
+    max-width: 100%;  /* Add this */
     width: 100%;
     position: relative;
 }
@@ -84,10 +85,11 @@
     background: white;
     border: 3px solid #6b7c8e;
     border-radius: 4px;
-    padding: 20px;
+    padding: 15px;  /* Reduced from 20px */
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
     flex: 1;
-    min-width: 300px;
+    min-width: 0;  /* Changed from 300px to allow shrinking */
+    max-width: 33%;  /* Add this to limit each column */
 }
 
 .category-header {
