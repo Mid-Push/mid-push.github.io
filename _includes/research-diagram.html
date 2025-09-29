@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -53,6 +54,33 @@
             margin-top: 6px;
             font-weight: 500;
         }
+
+        .toggle-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 16px;
+            background: #6b7c8e;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: background 0.3s;
+        }
+
+        .toggle-btn:hover {
+            background: #5a6b7c;
+        }
+
+        .subcategory-details {
+            display: none;
+        }
+
+        .expanded .subcategory-details {
+            display: block;
+        }
+
         .arrows-down {
             display: flex;
             justify-content: space-around;
@@ -188,14 +216,13 @@
 </head>
 <body>
     <div class="container">
-<div class="top-concept">
-  <h2>Causal Representation Learning for Controllable Generative Models</h2>
-  <p class="subtitle">How can causal principles guide the learning of controllable and expressive generative models?</p>
-  <p class="theory-question">How to uncover structured representations that bridge multiple modalities?</p>
-  <p class="research-flow">Bridging theory and practice for powerful and interpretable multimodal generation</p>
-</div>
-
-
+        <div class="top-concept">
+            <h2>Causal Representation Learning for Controllable Generative Models</h2>
+            <p class="subtitle">How can causal principles guide the learning of controllable and expressive generative models?</p>
+            <p class="theory-question">How to uncover structured representations that bridge multiple modalities?</p>
+            <p class="research-flow">Bridging theory and practice for powerful and interpretable multimodal generation</p>
+            <button class="toggle-btn" onclick="toggleDetails()">Show Details</button>
+        </div>
 
         <div class="arrows-down">
             <div class="arrow-down"></div>
@@ -211,7 +238,7 @@
                 
                 <div class="subcategory">
                     <p class="subcategory-title">Causal Representation Learning:</p>
-                    <div class="paper-refs">
+                    <div class="paper-refs subcategory-details">
                         <a href="https://openreview.net/pdf?id=cW9Ttnm1aC" class="paper-ref">Nonparametric Identification <span class="venue">(ICML 2025)</span></a>
                         <a href="https://arxiv.org/pdf/2402.05052" class="paper-ref">Learning from Multiple Distributions <span class="venue">(ICML 2024)</span></a>
                         <a href="https://openreview.net/attachment?id=S8lfepB2fz&name=pdf" class="paper-ref">Nonparametric Mixing <span class="venue">(AISTATS 2025)</span></a>
@@ -221,7 +248,7 @@
 
                 <div class="subcategory">
                     <p class="subcategory-title">Counterfactual Reasoning:</p>
-                    <div class="paper-refs">
+                    <div class="paper-refs subcategory-details">
                         <a href="https://arxiv.org/pdf/2306.05751" class="paper-ref">Nonlinear Quantile Regression <span class="venue">(arXiv 2024)</span></a>
                     </div>
                 </div>
@@ -233,14 +260,14 @@
                 
                 <div class="subcategory">
                     <p class="subcategory-title">Multi-Domain Image Generation:</p>
-                    <div class="paper-refs">
+                    <div class="paper-refs subcategory-details">
                         <a href="https://openreview.net/pdf?id=U2g8OGONA_V" class="paper-ref">Identifiability Guarantees <span class="venue">(ICLR 2023 Spotlight)</span></a>
                     </div>
                 </div>
 
                 <div class="subcategory">
                     <p class="subcategory-title">Unpaired Image Translation:</p>
-                    <div class="paper-refs">
+                    <div class="paper-refs subcategory-details">
                         <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_Unpaired_Image-to-Image_Translation_With_Shortest_Path_Regularization_CVPR_2023_paper.pdf" class="paper-ref">Shortest Path Regularization <span class="venue">(CVPR 2023)</span></a>
                         <a href="https://openreview.net/pdf?id=RNZ8JOmNaV4" class="paper-ref">Density Changing Regularization <span class="venue">(NeurIPS 2022)</span></a>
                         <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Maximum_Spatial_Perturbation_Consistency_for_Unpaired_Image-to-Image_Translation_CVPR_2022_paper.pdf" class="paper-ref">Maximum Spatial Perturbation <span class="venue">(CVPR 2022)</span></a>
@@ -250,7 +277,7 @@
 
                 <div class="subcategory">
                     <p class="subcategory-title">Efficient Generation:</p>
-                    <div class="paper-refs">
+                    <div class="paper-refs subcategory-details">
                         <a href="https://arxiv.org/pdf/2306.12511.pdf" class="paper-ref">Semi-Implicit Denoising (SIDDMs) <span class="venue">(NeurIPS 2023)</span></a>
                     </div>
                 </div>
@@ -262,21 +289,21 @@
                 
                 <div class="subcategory">
                     <p class="subcategory-title">Modular Concept Alignment:</p>
-                    <div class="paper-refs">
+                    <div class="paper-refs subcategory-details">
                         <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Xie_SmartCLIP_Modular_Vision-language_Alignment_with_Identification_Guarantees_CVPR_2025_paper.pdf" class="paper-ref">SmartCLIP <span class="venue">(CVPR 2025 Highlight)</span></a>
                     </div>
                 </div>
 
                 <div class="subcategory">
                     <p class="subcategory-title">Atomic Visual and Textual Concept for Control:</p>
-                    <div class="paper-refs">
+                    <div class="paper-refs subcategory-details">
                         <a href="https://openreview.net/pdf?id=hUHRTaTfvZ" class="paper-ref">Vision & Language Concepts <span class="venue">(ICML 2025)</span></a>
                     </div>
                 </div>
 
                 <div class="subcategory">
                     <p class="subcategory-title">Text-Guided Image Manipulation:</p>
-                    <div class="paper-refs">
+                    <div class="paper-refs subcategory-details">
                         <a href="https://arxiv.org/pdf/2212.05034.pdf" class="paper-ref">SmartBrush <span class="venue">(CVPR 2023 Highlight)</span></a>
                         <a href="https://arxiv.org/pdf/2312.03771" class="paper-ref">DreamInpainter <span class="venue">(arXiv 2024)</span></a>
                     </div>
@@ -289,23 +316,35 @@
                 
                 <div class="subcategory">
                     <p class="subcategory-title">Interpretability of Generative Models:</p>
-                    <div class="paper-refs">
+                    <div class="paper-refs subcategory-details">
                         <a href="#" class="paper-ref">Understanding Diffusion Models and LLMs through Hierachical Modeling</a>
                     </div>
                 </div>
 
                 <div class="subcategory">
                     <p class="subcategory-title">Policy Optimization for Generative Models:</p>
-                    <div class="paper-refs">
+                    <div class="paper-refs subcategory-details">
                         <a href="#" class="paper-ref">Diffusion Language Models with Improved Reasoning</a>
-                         <a href="#" class="paper-ref">Visual Generation Enhancement</a>
+                        <a href="#" class="paper-ref">Visual Generation Enhancement</a>
                     </div>
                 </div>
-
-
-   
             </div>
         </div>
     </div>
+
+    <script>
+        function toggleDetails() {
+            const grid = document.querySelector('.categories-grid');
+            const btn = document.querySelector('.toggle-btn');
+            
+            if (grid.classList.contains('expanded')) {
+                grid.classList.remove('expanded');
+                btn.textContent = 'Show Details';
+            } else {
+                grid.classList.add('expanded');
+                btn.textContent = 'Hide Details';
+            }
+        }
+    </script>
 </body>
 </html>
