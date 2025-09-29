@@ -8,8 +8,8 @@
 .top-concept {
     background: #ffffff;
     border: 4px solid #6b7c8e;
-    padding: 35px;
-    margin-bottom: 30px;
+    padding: 25px;
+    margin-bottom: 20px;
     border-radius: 4px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     text-align: center;
@@ -46,13 +46,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 20px 0 40px 0;
-    height: 60px;
+    margin: 15px 0 15px 0;
+    height: 40px;
 }
 
 .arrow-down {
     width: 2px;
-    height: 50px;
+    height: 35px;
     background: #6b7c8e;
     position: relative;
 }
@@ -74,9 +74,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 15px;  /* Reduced from 20px */
+    gap: 15px;
     margin-bottom: 40px;
-    max-width: 100%;  /* Add this */
+    max-width: 100%;
     width: 100%;
     position: relative;
 }
@@ -85,11 +85,11 @@
     background: white;
     border: 3px solid #6b7c8e;
     border-radius: 4px;
-    padding: 15px;  /* Reduced from 20px */
+    padding: 12px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
     flex: 1;
-    min-width: 0;  /* Changed from 300px to allow shrinking */
-    max-width: 33%;  /* Add this to limit each column */
+    min-width: 0;
+    max-width: 33%;
 }
 
 .category-header {
@@ -109,7 +109,7 @@
 }
 
 .subcategory {
-    margin-bottom: 18px;
+    margin-bottom: 12px;
 }
 
 .subcategory:last-child {
@@ -162,6 +162,7 @@
     .category-box {
         min-width: auto;
         width: 100%;
+        max-width: 100%;
     }
 
     .arrows-down {
