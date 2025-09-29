@@ -367,12 +367,11 @@ img {
 }
 
 header {
-  width: 300px;
-  position: fixed; /* Fixed so it stays when scrolling */
-  left: 50%;
-  margin-left: -600px; /* Centers within 1200px wrapper */
-  top: 50vh; /* 50% of viewport height */
-  transform: translateY(-50%); /* Centers the header itself */
+  width: 232px;
+  position: fixed;
+  left: calc(50% - 600px); /* Centers within 1200px wrapper */
+  top: 50%;
+  margin-top: -200px; /* Adjust this value to center properly (half of header height) */
   padding-top: 0;
   -webkit-font-smoothing: subpixel-antialiased;
   text-align: center;
@@ -445,7 +444,7 @@ header ul a strong {
 }
 
 section {
-  width: 850px;
+  width: 900px;
   float: right;
   padding-top: 20px;
   padding-bottom: 50px;
@@ -516,15 +515,13 @@ footer {
 
 .image.avatar {
   border-radius: 100%;
-  border: 0;
-  display: inline-block;
-  position: relative;
+  display: block;
 }
 
 .image.avatar img {
   border-radius: 100%;
-  width: 117px; /* Fixed width so transform doesn't break it */
-  padding: 10px;
+  width: 117px;
+  padding: 20px;
   display: block;
   margin: 0 auto;
 }
