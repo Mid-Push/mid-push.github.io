@@ -232,10 +232,11 @@ papertitle {
         padding: 20px;
       }
 
-    #header .image.avatar {
-      margin: 0 0 1em 0;
-      width: 8.00em;
-    }
+#header .image.avatar {
+  margin: 0 0 0.5em 0;
+  width: 8.00em;
+}
+
 
 h3, h4, h5, h6 {
   font-weight: 600;
@@ -304,10 +305,10 @@ a:hover small {
 }
 
 .wrapper {
-  width: 100%;
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
   position: relative;
+  padding-top: 20px; /* Add padding to wrapper instead */
 }
 
 blockquote {
@@ -366,17 +367,17 @@ img {
 }
 
 header {
-  width: 100%;
-  float: none;
-  position: relative; /* Changed from fixed */
-  left: auto;
-  margin-left: auto;
-  top: 0;
+  width: 232px;
+  float: left;
+  position: fixed;
+  left: 50%;
+  margin-left: -600px;
+  top: 0; /* At the very top */
   padding-top: 20px;
-  padding-bottom: 20px;
   -webkit-font-smoothing: subpixel-antialiased;
   text-align: center;
 }
+
 
 header ul {
   list-style:none;
@@ -444,12 +445,12 @@ header ul a strong {
 }
 
 section {
-  width: 100%;
-  max-width: 900px;
-  float: none;
-  margin: 0 auto;
-  padding-top: 20px;
+  width: 900px;
+  float: right;
+  padding-top: 0; /* Changed to 0 to align at top */
   padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 
@@ -513,11 +514,11 @@ footer {
   }
 
 
-   .image.avatar img {
-        border-radius: 100%;
-        width: 117px;
-        padding:20px;
-      }
+.image.avatar img {
+  border-radius: 100%;
+  width: 60%;
+  padding: 10px;
+}
   #head1o2 {
     visibility: hidden;
   }
