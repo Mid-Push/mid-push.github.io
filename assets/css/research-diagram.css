@@ -110,10 +110,14 @@
 
 .subcategory {
     margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .subcategory:last-child {
     margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
 }
 
 .subcategory-title {
