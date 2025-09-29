@@ -308,7 +308,7 @@ a:hover small {
   width: 1200px;
   margin: 0 auto;
   position: relative;
-  padding-top: 20px; /* Add padding to wrapper instead */
+  padding-top: 20px;
 }
 
 blockquote {
@@ -367,12 +367,12 @@ img {
 }
 
 header {
-  width: 232px;
+  width: 300px; /* Slightly wider for centered layout */
   float: left;
-  position: fixed;
-  left: 50%;
-  margin-left: -600px;
-  top: 0; /* At the very top */
+  position: relative; /* Not fixed */
+  left: 0;
+  margin-left: 0;
+  top: 0;
   padding-top: 20px;
   -webkit-font-smoothing: subpixel-antialiased;
   text-align: center;
@@ -445,11 +445,12 @@ header ul a strong {
 }
 
 section {
-  width: 900px;
-  float: right;
-  padding-top: 0; /* Changed to 0 to align at top */
+  width: 850px;
+  float: left;
+  padding-top: 20px;
+  padding-left: 50px; /* Gap between header and content */
   padding-bottom: 50px;
-  margin-left: auto;
+  margin-left: 0;
   margin-right: 0;
 }
 
