@@ -263,14 +263,17 @@ blockquote {
    Teaser Thumbnails (Uniform sizing)
    ================================ */
 /* Override Bootstrap's .img-fluid (width:100%; height:auto) */
-.publications ol.bibliography li .abbr .teaser {
-  display: block;
-  border-radius: 8px;
-  box-shadow: 3px 3px 6px #888;
-  width: 270px !important;    /* uniform width */
-  height: 123px !important;   /* uniform height */
-  margin: 5px;
-  object-fit: cover;          /* tidy crop for all ratios */
+.publications ol.bibliography li .teaser { 
+    border-radius: 8px; 
+    box-shadow: 3px 3px 6px #888; 
+    height: 123px; 
+    width: 270px; 
+    margin-top: 5px; 
+    margin-left: 5px; 
+    margin-bottom: 5px; 
+    object-fit: cover; /* Crops to fill the space */
+    object-position: center; /* Centers the crop */
+    display: block; /* Removes any inline spacing issues */
 }
 
 /* Optional class for items you don't want cropped */
