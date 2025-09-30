@@ -266,14 +266,16 @@ blockquote {
 .publications ol.bibliography li .teaser { 
     border-radius: 8px; 
     box-shadow: 3px 3px 6px #888; 
-    height: 123px; 
-    width: 270px; 
+    height: 123px !important; 
+    width: 270px !important; 
+    max-width: 270px !important;
+    max-height: 123px !important;
     margin-top: 5px; 
     margin-left: 5px; 
     margin-bottom: 5px; 
-    object-fit: cover; /* Crops to fill the space */
-    object-position: center; /* Centers the crop */
-    display: block; /* Removes any inline spacing issues */
+    object-fit: cover; 
+    object-position: center;
+    display: block;
 }
 
 /* Optional class for items you don't want cropped */
