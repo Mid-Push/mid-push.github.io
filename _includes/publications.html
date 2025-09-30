@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,6 +13,7 @@
             color: #000000;
         }
 
+        /* Filter Section Styles */
         .filter-section {
             margin: 20px 0;
             padding: 20px;
@@ -59,6 +61,7 @@
             display: none;
         }
 
+        /* Publications Section */
         .publications { 
             margin-top: 2rem; 
         }
@@ -74,12 +77,14 @@
             margin-bottom: 1.5rem; 
         }
 
+        /* Publication Row */
         .pub-row {
             display: flex;
             gap: 20px;
             align-items: flex-start;
         }
 
+        /* Image container with fixed dimensions */
         .col-sm-3.abbr {
             position: relative;
             flex-shrink: 0;
@@ -87,6 +92,7 @@
             min-width: 270px;
         }
 
+        /* Image wrapper to enforce size */
         .teaser-wrapper {
             width: 270px;
             height: 123px;
@@ -97,6 +103,7 @@
             background-color: #f5f5f5;
         }
 
+        /* Force ALL teaser images to same size */
         .teaser-wrapper img,
         .teaser-wrapper img.teaser,
         .teaser-wrapper img.img-fluid,
@@ -115,6 +122,7 @@
             border-radius: 8px;
         }
 
+        /* Badge styles */
         .badge, .badge-abbr {
             display: inline-block;
             padding: 0.25em 0.6em;
@@ -133,6 +141,7 @@
             z-index: 10;
         }
 
+        /* Content area */
         .col-sm-9 {
             flex: 1;
             min-width: 0;
@@ -192,6 +201,7 @@
             color: white;
         }
 
+        /* Responsive Design */
         @media (max-width: 768px) {
             .pub-row {
                 flex-direction: column;
@@ -217,6 +227,7 @@
     </style>
 </head>
 <body>
+    <!-- Filter Section -->
     <div class="filter-section">
         <span class="filter-label">Filter Publications:</span>
         <div class="filter-buttons">
@@ -265,103 +276,7 @@
                         <div class="author"><strong>Shaoan Xie*</strong>, Lingjing Kong*, Yujia Zheng, Zeyu Tang, Eric P.Xing, Guangyi Chen, Kun Zhang</div>
                         <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2025.</em></div>
                         <div class="links">
-                            <a href="https://openreview.net/pdf?id=RNZ8JOmNaV4" class="btn" role="button" target="_blank">PDF</a>   
-                            <a href="https://github.com/Mid-Push/Decent" class="btn" role="button" target="_blank">Code</a>
-                        </div>
-                    </div> 
-                </div>
-            </li>
-
-            <li class="publication-item" data-filter="selected controllable-generation">
-                <div class="pub-row">
-                    <div class="col-sm-3 abbr">
-                        <div class="teaser-wrapper">
-                            <img src="assets/img/irwgan.PNG" class="teaser img-fluid z-depth-1" alt="Publication thumbnail">
-                        </div>
-                        <abbr class="badge">ICCV</abbr>
-                    </div>
-                    <div class="col-sm-9">
-                        <div class="title"><a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Xie_Unaligned_Image-to-Image_Translation_by_Learning_to_Reweight_ICCV_2021_paper.pdf">Unaligned Image-to-Image Translation by Learning to Reweight</a></div>
-                        <div class="author"><strong>Shaoan Xie</strong>, Mingming Gong, Yanwu Xu and Kun Zhang</div>
-                        <div class="periodical"><em>IEEE/CVF International Conference on Computer Vision <strong>(ICCV)</strong>, 2021.</em></div>
-                        <div class="links">
-                            <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Xie_Unaligned_Image-to-Image_Translation_by_Learning_to_Reweight_ICCV_2021_paper.pdf" class="btn" role="button" target="_blank">PDF</a>    
-                            <a href="https://github.com/Mid-Push/IrwGAN" class="btn" role="button" target="_blank">Code</a>
-                        </div>
-                    </div> 
-                </div>
-            </li>
-
-            <li class="publication-item" data-filter="selected domain-adaptation">
-                <div class="pub-row">
-                    <div class="col-sm-3 abbr">
-                        <div class="teaser-wrapper">
-                            <img src="assets/img/mstn.PNG" class="teaser img-fluid z-depth-1" alt="Publication thumbnail">
-                        </div>
-                        <abbr class="badge">ICML</abbr>
-                    </div>
-                    <div class="col-sm-9">
-                        <div class="title"><a href="http://proceedings.mlr.press/v80/xie18c/xie18c.pdf">Learning Semantic Representations for Unsupervised Domain Adaptation</a></div>
-                        <div class="author"><strong>Shaoan Xie</strong>, Zibin Zheng, Liang Chen, and Chuan Chen</div>
-                        <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2018.</em></div>
-                        <div class="links">
-                            <a href="http://proceedings.mlr.press/v80/xie18c/xie18c.pdf" class="btn" role="button" target="_blank">PDF</a> 
-                            <a href="https://github.com/Mid-Push/Moving-Semantic-Transfer-Network" class="btn" role="button" target="_blank">Code</a>
-                        </div>
-                    </div> 
-                </div>
-            </li>
-
-            <li class="publication-item" data-filter="domain-adaptation">
-                <div class="pub-row">
-                    <div class="col-sm-3 abbr">
-                        <div class="teaser-wrapper">
-                            <img src="assets/img/imsda.PNG" class="teaser img-fluid z-depth-1" alt="Publication thumbnail">
-                        </div>
-                        <abbr class="badge">ICML</abbr>
-                    </div>
-                    <div class="col-sm-9">
-                        <div class="title"><a href="https://proceedings.mlr.press/v162/kong22a/kong22a.pdf">Partial Disentanglement for Domain Adaptation</a></div>
-                        <div class="author">Lingjing Kong, <strong>Shaoan Xie</strong>, Weiran Yao, and Yujia Zheng, Guangyi Chen, Petar Stojanov, Victor Akinwande, Kun Zhang</div>
-                        <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2022. <strong><i style="color:#e74d3c">Spotlight</i></strong></em></div>
-                        <div class="links">
-                            <a href="https://proceedings.mlr.press/v162/kong22a/kong22a.pdf" class="btn" role="button" target="_blank">PDF</a>    
-                        </div>
-                    </div> 
-                </div>
-            </li>
-
-        </ol>
-    </div>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            let currentFilter = 'selected';
-            filterPublications(currentFilter);
-
-            document.querySelectorAll('.filter-btn').forEach(btn => {
-                btn.addEventListener('click', function() {
-                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                    this.classList.add('active');
-                    filterPublications(this.dataset.filter);
-                });
-            });
-
-            function filterPublications(filter) {
-                const items = document.querySelectorAll('.publication-item');
-                items.forEach(item => {
-                    const itemFilters = (item.dataset.filter || '').split(' ').filter(Boolean);
-                    if (filter === 'all' || itemFilters.includes(filter)) {
-                        item.classList.remove('hidden-pub');
-                    } else {
-                        item.classList.add('hidden-pub');
-                    }
-                });
-            }
-        });
-    </script>
-</body>
-</html>/pdf?id=hUHRTaTfvZ" class="btn" role="button" target="_blank">PDF</a>    
+                            <a href="https://openreview.net/pdf?id=hUHRTaTfvZ" class="btn" role="button" target="_blank">PDF</a>    
                             <a href="https://mbzuai.ac.ae/news/create-and-edit-images-like-a-smart-artist/" class="btn" role="button" target="_blank">Media</a>
                         </div> 
                     </div> 
@@ -635,4 +550,101 @@
                         <div class="author"><strong>Shaoan Xie</strong>, Qirong Ho and Kun Zhang</div>
                         <div class="periodical"><em>Advances in Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2022.</em></div>
                         <div class="links">
-                            <a href="https://openreview.net
+                            <a href="https://openreview.net/pdf?id=RNZ8JOmNaV4" class="btn" role="button" target="_blank">PDF</a>   
+                            <a href="https://github.com/Mid-Push/Decent" class="btn" role="button" target="_blank">Code</a>
+                        </div>
+                    </div> 
+                </div>
+            </li>
+
+            <li class="publication-item" data-filter="selected controllable-generation">
+                <div class="pub-row">
+                    <div class="col-sm-3 abbr">
+                        <div class="teaser-wrapper">
+                            <img src="assets/img/irwgan.PNG" class="teaser img-fluid z-depth-1" alt="Publication thumbnail">
+                        </div>
+                        <abbr class="badge">ICCV</abbr>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="title"><a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Xie_Unaligned_Image-to-Image_Translation_by_Learning_to_Reweight_ICCV_2021_paper.pdf">Unaligned Image-to-Image Translation by Learning to Reweight</a></div>
+                        <div class="author"><strong>Shaoan Xie</strong>, Mingming Gong, Yanwu Xu and Kun Zhang</div>
+                        <div class="periodical"><em>IEEE/CVF International Conference on Computer Vision <strong>(ICCV)</strong>, 2021.</em></div>
+                        <div class="links">
+                            <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Xie_Unaligned_Image-to-Image_Translation_by_Learning_to_Reweight_ICCV_2021_paper.pdf" class="btn" role="button" target="_blank">PDF</a>    
+                            <a href="https://github.com/Mid-Push/IrwGAN" class="btn" role="button" target="_blank">Code</a>
+                        </div>
+                    </div> 
+                </div>
+            </li>
+
+            <li class="publication-item" data-filter="selected domain-adaptation">
+                <div class="pub-row">
+                    <div class="col-sm-3 abbr">
+                        <div class="teaser-wrapper">
+                            <img src="assets/img/mstn.PNG" class="teaser img-fluid z-depth-1" alt="Publication thumbnail">
+                        </div>
+                        <abbr class="badge">ICML</abbr>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="title"><a href="http://proceedings.mlr.press/v80/xie18c/xie18c.pdf">Learning Semantic Representations for Unsupervised Domain Adaptation</a></div>
+                        <div class="author"><strong>Shaoan Xie</strong>, Zibin Zheng, Liang Chen, and Chuan Chen</div>
+                        <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2018.</em></div>
+                        <div class="links">
+                            <a href="http://proceedings.mlr.press/v80/xie18c/xie18c.pdf" class="btn" role="button" target="_blank">PDF</a> 
+                            <a href="https://github.com/Mid-Push/Moving-Semantic-Transfer-Network" class="btn" role="button" target="_blank">Code</a>
+                        </div>
+                    </div> 
+                </div>
+            </li>
+
+            <li class="publication-item" data-filter="domain-adaptation">
+                <div class="pub-row">
+                    <div class="col-sm-3 abbr">
+                        <div class="teaser-wrapper">
+                            <img src="assets/img/imsda.PNG" class="teaser img-fluid z-depth-1" alt="Publication thumbnail">
+                        </div>
+                        <abbr class="badge">ICML</abbr>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="title"><a href="https://proceedings.mlr.press/v162/kong22a/kong22a.pdf">Partial Disentanglement for Domain Adaptation</a></div>
+                        <div class="author">Lingjing Kong, <strong>Shaoan Xie</strong>, Weiran Yao, and Yujia Zheng, Guangyi Chen, Petar Stojanov, Victor Akinwande, Kun Zhang</div>
+                        <div class="periodical"><em>International Conference on Machine Learning <strong>(ICML)</strong>, 2022. <strong><i style="color:#e74d3c">Spotlight</i></strong></em></div>
+                        <div class="links">
+                            <a href="https://proceedings.mlr.press/v162/kong22a/kong22a.pdf" class="btn" role="button" target="_blank">PDF</a>    
+                        </div>
+                    </div> 
+                </div>
+            </li>
+
+        </ol>
+    </div>
+
+    <!-- JavaScript for filtering -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let currentFilter = 'selected';
+            filterPublications(currentFilter);
+
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    filterPublications(this.dataset.filter);
+                });
+            });
+
+            function filterPublications(filter) {
+                const items = document.querySelectorAll('.publication-item');
+                items.forEach(item => {
+                    const itemFilters = (item.dataset.filter || '').split(' ').filter(Boolean);
+                    if (filter === 'all' || itemFilters.includes(filter)) {
+                        item.classList.remove('hidden-pub');
+                    } else {
+                        item.classList.add('hidden-pub');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
