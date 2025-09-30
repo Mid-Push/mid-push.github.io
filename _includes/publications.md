@@ -7,7 +7,7 @@
         <button class="filter-btn" data-filter="causal-learning">Causal Representation Learning</button>
         <button class="filter-btn" data-filter="counterfactual">Counterfactual Reasoning</button>
         <button class="filter-btn" data-filter="controllable-generation">Controllable Generation</button>
-        <button class="filter-btn" data-filter="vision-language">Vision-Language</button>
+        <button class="filter-btn" data-filter="vision-language">Vision-Language Alignment</button>
         <button class="filter-btn" data-filter="domain-adaptation">Domain Adaptation</button>
     </div>
 </div>
@@ -24,9 +24,8 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2502.02690" style="color:#71b07b;">Controllable Video Generation with Provable
-Disentanglement</a></div>
-    <div class="author">Yifan Shen*, Peiyuan Zhu*, Zijian Li,<strong>Shaoan Xie</strong>, Zeyu Tang, Namrata Deka,Zongfang Liu ,Guangyi Chen, Kun Zhang</div>
+    <div class="title"><a href="https://arxiv.org/pdf/2502.02690" style="color:#71b07b;">Learning Vision and Language Concepts for Controllable Image Generation </a></div>
+    <div class="author">Yifan Shen*, Peiyuan Zhu*, Zijian Li,<strong>Shaoan Xie*</strong>, Zeyu Tang, Namrata Deka,Zongfang Liu ,Guangyi Chen, Kun Zhang</div>
     <div class="periodical"><em><strong>(arXiv)</strong>, 2025. </em></div>
        <div class="links">
       <a href="https://arxiv.org/pdf/2502.02690" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
@@ -240,65 +239,66 @@ Diffusion Models</a></div>
 </li>
   <br>
 
+<!-- …everything above unchanged… -->
+
 </ol>
 </div>
 
-<!-- JAVASCRIPT FOR FILTERING -->
+<!-- JAVASCRIPT FOR FILTERING (moved below the list) -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    let currentFilter = 'selected';
-    
-    // Apply initial filter
-    filterPublications(currentFilter);
-    
-    // Add click handlers to filter buttons
-    document.querySelectorAll('.filter-btn').forEach(btn => {
-        btn.addEventListener('click', function() {
-            // Remove active class from all buttons
-            document.querySelectorAll('.filter-btn').forEach(b => {
-                b.classList.remove('active');
-            });
-            
-            // Add active class to clicked button
-            this.classList.add('active');
-            
-            // Get filter value and apply
-            currentFilter = this.dataset.filter;
-            filterPublications(currentFilter);
-        });
+  let currentFilter = 'selected';
+  filterPublications(currentFilter);
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      filterPublications(this.dataset.filter);
     });
-    
-    function filterPublications(filter) {
-        const items = document.querySelectorAll('.publication-item');
-        
-        items.forEach(item => {
-            const itemFilters = item.dataset.filter.split(' ');
-            
-            if (filter === 'all') {
-                item.classList.remove('hidden-pub');
-            } else if (itemFilters.includes(filter)) {
-                item.classList.remove('hidden-pub');
-            } else {
-                item.classList.add('hidden-pub');
-            }
-        });
-    }
+  });
+
+  function filterPublications(filter) {
+    const items = document.querySelectorAll('.publication-item');
+    items.forEach(item => {
+      const itemFilters = (item.dataset.filter || '').split(' ').filter(Boolean);
+      if (filter === 'all' || itemFilters.includes(filter)) {
+        item.classList.remove('hidden-pub');
+      } else {
+        item.classList.add('hidden-pub');
+      }
+    });
+  }
 });
 </script>
-    <img src="assets/img/siddm.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">NeurIPS</abbr>
-  </div>
 
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2306.12511.pdf" style="color:#71b07b;">Semi-Implicit Denoising Diffusion Models (SIDDMs)</a></div>
-    <div class="author">Yanwu Xu, Mingming Gong, <strong>Shaoan Xie</strong>, Wei Wei, Matthias Grundmann, Kayhan Batmanghelich, Tingbo Hou</div>
-    <div class="periodical"><em>Advances in Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2023.</em></div>
-    <div class="links">
-      <a href="https://arxiv.org/pdf/2306.12511.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>   
+<!-- SIDDM item (properly wrapped and placed AFTER the script move, back inside the <ol> in your real file) -->
+<ol class="bibliography">
+  <li class="publication-item" data-filter="controllable-generation">
+    <div class="pub-row">
+      <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+        <img src="assets/img/siddm.png" alt="SIDDM teaser" class="teaser img-fluid z-depth-1">
+        <abbr class="badge">NeurIPS</abbr>
+      </div>
+      <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+        <div class="title">
+          <a href="https://arxiv.org/pdf/2306.12511.pdf" style="color:#71b07b;">
+            Semi-Implicit Denoising Diffusion Models (SIDDMs)
+          </a>
+        </div>
+        <div class="author">
+          Yanwu Xu, Mingming Gong, <strong>Shaoan Xie</strong>, Wei Wei, Matthias Grundmann, Kayhan Batmanghelich, Tingbo Hou
+        </div>
+        <div class="periodical">
+          <em>Advances in Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2023.</em>
+        </div>
+        <div class="links">
+          <a href="https://arxiv.org/pdf/2306.12511.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+        </div>
+      </div>
     </div>
-  </div> 
-</div>
-</li>
+  </li>
+</ol>
 
 
 <li class="publication-item" data-filter="selected vision-language">
@@ -315,13 +315,13 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2023. <strong><i style="color:#e74d3c">Highlight</i></strong></em></div>
     <div class="links">
       <a href="https://arxiv.org/pdf/2212.05034.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
-       <a href="https://www.youtube.com/watch?v=kzrfcKi-XCI&t=9s" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>    
-         <strong><i> <a href="https://www.adobe.com/products/photoshop/generative-fill.html?sdid=G4FRYPQC&mv=search%2Csearch&mv2=paidsearch&ef_id=CjwKCAjw67ajBhAVEiwA2g_jEPPTmpltXFA3YzZdxylZYn1SMlNg2BEZIb6dCQfEVtWYjc3eBUdEQxoCtqUQAvD_BwE%3AG%3As&s_kwcid=AL%213085%213%21522507805122%21e%21%21g%21%21adobe+photoshop%218021501881%2179642044381&gbraid=0AAAAADraYsIWtl1hYdDJvAWgxzgO2pHJE&gclid=CjwKCAjw67ajBhAVEiwA2g_jEPPTmpltXFA3YzZdxylZYn1SMlNg2BEZIb6dCQfEVtWYjc3eBUdEQxoCtqUQAvD_BwE" style="color:#e74d3c"> Alive in Adobe Photoshop </a> </i></strong>
+      <a href="https://www.youtube.com/watch?v=kzrfcKi-XCI&t=9s" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>    
+      <strong><i><a href="https://www.adobe.com/products/photoshop/generative-fill.html" style="color:#e74d3c"> Alive in Adobe Photoshop </a></i></strong>
     </div>
   </div> 
 </div>
 </li>
-  <br>
+<br>
   
   <li class="publication-item" data-filter="selected controllable-generation">
 <div class="pub-row">
