@@ -31,7 +31,7 @@ My long-term research goal is to develop generative AI systems that go beyond pr
 
 ## Publications  
 
-{% include_relative _includes/publications.md %}  
+{% include_relative _includes/publications.html %}  
 
 ## Services  
 
