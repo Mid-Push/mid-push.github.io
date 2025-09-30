@@ -20,8 +20,7 @@ I have also been fortunate to intern at <a href="https://research.adobe.com/" st
 
 ## Research Highlights
 
-My long-term research goal is to develop generative AI systems that go beyond producing realistic multi-modal data to capturing the underlying structure of the world. By embedding causal principles into machine learning and computer vision, I aim to make generative models not only powerful, but also controllable, interpretable, trustworthy, and capable of systematic generalization.
-
+My long-term research goal is to develop generative AI systems that go beyond producing realistic multimodal data to capturing the underlying structure of the world. By grounding machine learning and computer vision in principled representations of structure and dependencies, I aim to make generative models not only powerful, but also controllable, interpretable, trustworthy, and capable of systematic generalization.”
 {% include research-diagram.html %}
 
 
