@@ -2,7 +2,7 @@
 layout: homepage
 ---
 
-Hi! I’m a PhD student at <a href="https://www.cmu.edu/" style="color:#71b07b;">Carnegie Mellon University</a>, advised by <a href="https://www.andrew.cmu.edu/user/kunz1/" style="color:#71b07b;">Prof. Kun Zhang</a>.  
+Hi! I’m a PhD student at <a href="https://www.cmu.edu/" style="color:#71b07b;">Carnegie Mellon University</a>, advised by <a href="https://www.andrew.cmu.edu/user/kunz1/" style="color:#71b07b;">Prof. Kun Zhang</a> and <a href="https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html" style="color:#71b07b;">Prof. Peter Spirtes</a> .  
 I have also been fortunate to intern at <a href="https://research.adobe.com/" style="color:#71b07b;">Adobe Research</a> with <a href="https://sites.google.com/site/zhelin625/" style="color:#71b07b;">Zhe Lin</a>, <a href="https://zzutk.github.io/" style="color:#71b07b;">Zhifei Zhang</a>, and <a href="https://www.tobiashinz.com/" style="color:#71b07b;">Tobias Hinz</a>, and at <a href="https://research.google/" style="color:#71b07b;">Google</a> with <a href="https://sites.google.com/view/zhao-yang/" style="color:#71b07b;">Yang Zhao</a>, <a href="https://xavierxiao.github.io/" style="color:#71b07b;">Zhisheng Xiao</a>, and <a href="https://ckkelvinchan.github.io/" style="color:#71b07b;">Kelvin C. K. Chan</a>.
 
 ---
