@@ -14,7 +14,8 @@ I have also been fortunate to intern at <a href="https://research.adobe.com/" st
 - **[May. 2025]** Two papers accepted into <a href="https://icml.cc/" style="color:#71b07b;">ICML 2025</a>!  
 - **[Apr. 2025]** One paper accepted as a <a href="https://cvpr.thecvf.com/" style="color:#71b07b;">CVPR 2025 Highlight</a>!  
 - **[May. 2023]** My work at Adobe, <a href="https://arxiv.org/pdf/2212.05034.pdf" style="color:#71b07b;">SmartBrush (CVPR 2023, Highlight)</a>, is now integrated into Adobe’s flagship products — <a href="https://www.adobe.com/products/photoshop/generative-fill.html" style="color:#71b07b;">Photoshop and Firefly</a>!  
-- **[Jan. 2023]** One paper, <a href="https://openreview.net/pdf?id=U2g8OGONA_V" style="color:#71b07b;">i-StyleGAN</a>, accepted as an <a href="https://iclr.cc/" style="color:#71b07b;">ICLR 2023 Spotlight</a>! One of the first works to connect identifiability with multidomain image generation.  
+- **[Jan. 2023]** One paper, <a href="https://openreview.net/pdf?id=U2g8OGONA_V" style="color:#71b07b;">i-StyleGAN</a>, accepted as an <a href="https://iclr.cc/" style="color:#71b07b;">ICLR 2023 Spotlight</a>! One of the first works to connect identifiability with multidomain image generation.
+  
 ---
 
 ## Research Highlights
