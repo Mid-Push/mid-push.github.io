@@ -1,14 +1,21 @@
-
-<!-- ADD THIS TOGGLE SECTION -->
-<div class="publication-toggle">
-    <button class="toggle-btn active" onclick="showSelected()">Selected</button>
-    <button class="toggle-btn" onclick="showAll()">Full List</button>
+<!-- FILTER SECTION -->
+<div class="filter-section">
+    <span class="filter-label">Filter Publications:</span>
+    <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="selected">Selected Papers</button>
+        <button class="filter-btn" data-filter="all">All Papers</button>
+        <button class="filter-btn" data-filter="causal-learning">Causal Representation Learning</button>
+        <button class="filter-btn" data-filter="counterfactual">Counterfactual Reasoning</button>
+        <button class="filter-btn" data-filter="controllable-generation">Controllable Generation</button>
+        <button class="filter-btn" data-filter="vision-language">Vision-Language</button>
+        <button class="filter-btn" data-filter="domain-adaptation">Domain Adaptation</button>
+    </div>
 </div>
 
 <div class="publications">
 <ol class="bibliography">
 
-  <li class="publication-item full-pub">
+  <li class="publication-item" data-filter="vision-language">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -17,8 +24,9 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2502.02690" style="color:#71b07b;">Learning Vision and Language Concepts for Controllable Image Generation </a></div>
-    <div class="author">Yifan Shen*, Peiyuan Zhu*, Zijian Li,<strong>Shaoan Xie*</strong>, Zeyu Tang, Namrata Deka,Zongfang Liu ,Guangyi Chen, Kun Zhang</div>
+    <div class="title"><a href="https://arxiv.org/pdf/2502.02690" style="color:#71b07b;">Controllable Video Generation with Provable
+Disentanglement</a></div>
+    <div class="author">Yifan Shen*, Peiyuan Zhu*, Zijian Li,<strong>Shaoan Xie</strong>, Zeyu Tang, Namrata Deka,Zongfang Liu ,Guangyi Chen, Kun Zhang</div>
     <div class="periodical"><em><strong>(arXiv)</strong>, 2025. </em></div>
        <div class="links">
       <a href="https://arxiv.org/pdf/2502.02690" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
@@ -28,7 +36,7 @@
 </li>
 
     
-   <li class="publication-item selected-pub">
+   <li class="publication-item" data-filter="selected vision-language">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -48,7 +56,7 @@
 </div>
 </li>
 
-  <li class="publication-item selected-pub">
+  <li class="publication-item" data-filter="selected causal-learning">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -69,7 +77,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </li>
 
    
-  <li class="publication-item selected-pub">
+  <li class="publication-item" data-filter="selected vision-language">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -89,7 +97,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </div>
 </li>
 
-  <li class="publication-item full-pub"> 
+  <li class="publication-item" data-filter="causal-learning"> 
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -108,7 +116,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </div>
 </li>
 
-  <li class="publication-item full-pub">
+  <li class="publication-item" data-filter="causal-learning">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -127,7 +135,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </div>
 </li>
 
-   <li class="publication-item selected-pub">
+   <li class="publication-item" data-filter="selected causal-learning">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -147,7 +155,7 @@ Nonparametric Identification of Latent Concepts </a></div>
 </li>
 
 
-   <li class="publication-item selected-pub">
+   <li class="publication-item" data-filter="selected vision-language">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -169,7 +177,7 @@ Diffusion Models</a></div>
 </li>
 
 
-   <li class="publication-item selected-pub">
+   <li class="publication-item" data-filter="selected counterfactual">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -191,10 +199,92 @@ Diffusion Models</a></div>
 
 
 
-  <li class="publication-item full-pub">
+  <li class="publication-item" data-filter="controllable-generation">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/mspc.PNG" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">CVPR</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Maximum_Spatial_Perturbation_Consistency_for_Unpaired_Image-to-Image_Translation_CVPR_2022_paper.pdf" style="color:#71b07b;">Maximum Spatial Perturbation Consistency for Unpaired Image-to-Image Translation</a></div>
+    <div class="author">Yanwu Xu ,  <strong>Shaoan Xie</strong> ,  Wenhao Wu , and Kun Zhang, Mingming Gong, Kayhan Batmanghelich</div>
+    <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2022.</em></div>
+    <div class="links">
+      <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Maximum_Spatial_Perturbation_Consistency_for_Unpaired_Image-to-Image_Translation_CVPR_2022_paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
+      <a href="https://github.com/batmanlab/MSPC" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+    </div>
+  </div> 
+</div>
+</li>
+  <br>
+  
+  <li class="publication-item" data-filter="domain-adaptation">
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/miccai.PNG" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">MICCAI</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/pdf/2206.13737.pdf" style="color:#71b07b;">Adversarial Consistency for Single Domain Generalization in Medical Image Segmentation</a></div>
+    <div class="author">Yanwu Xu ,  <strong>Shaoan Xie</strong> ,  Maxwell Reynolds , and Matthew Ragoza, Mingming Gong, Kayhan Batmanghelich</div>
+    <div class="periodical"><em>International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2022.</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/pdf/2206.13737.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
+    </div>
+  </div> 
+</div>
+</li>
+  <br>
+
+</ol>
+</div>
+
+<!-- JAVASCRIPT FOR FILTERING -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    let currentFilter = 'selected';
+    
+    // Apply initial filter
+    filterPublications(currentFilter);
+    
+    // Add click handlers to filter buttons
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            // Remove active class from all buttons
+            document.querySelectorAll('.filter-btn').forEach(b => {
+                b.classList.remove('active');
+            });
+            
+            // Add active class to clicked button
+            this.classList.add('active');
+            
+            // Get filter value and apply
+            currentFilter = this.dataset.filter;
+            filterPublications(currentFilter);
+        });
+    });
+    
+    function filterPublications(filter) {
+        const items = document.querySelectorAll('.publication-item');
+        
+        items.forEach(item => {
+            const itemFilters = item.dataset.filter.split(' ');
+            
+            if (filter === 'all') {
+                item.classList.remove('hidden-pub');
+            } else if (itemFilters.includes(filter)) {
+                item.classList.remove('hidden-pub');
+            } else {
+                item.classList.add('hidden-pub');
+            }
+        });
+    }
+});
+</script>
     <img src="assets/img/siddm.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">NeurIPS</abbr>
   </div>
@@ -211,7 +301,7 @@ Diffusion Models</a></div>
 </li>
 
 
-<li class="publication-item selected-pub">
+<li class="publication-item" data-filter="selected vision-language">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -233,7 +323,7 @@ Diffusion Models</a></div>
 </li>
   <br>
   
-  <li class="publication-item selected-pub">
+  <li class="publication-item" data-filter="selected controllable-generation">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -256,7 +346,7 @@ Diffusion Models</a></div>
   <br>
   
   
-  <li class="publication-item selected-pub">
+  <li class="publication-item" data-filter="selected controllable-generation">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -279,7 +369,7 @@ Diffusion Models</a></div>
   <br>
   
   
-  <li class="publication-item selected-pub">
+  <li class="publication-item" data-filter="selected controllable-generation">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -302,7 +392,7 @@ Diffusion Models</a></div>
   
 
 
-  <li class="publication-item selected-pub">
+  <li class="publication-item" data-filter="selected controllable-generation">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -323,7 +413,7 @@ Diffusion Models</a></div>
 </li>
   <br>
   
-  <li class="publication-item selected-pub">
+  <li class="publication-item" data-filter="selected domain-adaptation">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -344,7 +434,7 @@ Diffusion Models</a></div>
 </li>
   <br>
   
- <li class="publication-item full-pub">
+ <li class="publication-item" data-filter="domain-adaptation">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -365,46 +455,7 @@ Diffusion Models</a></div>
   <br>
 
   
-  <li class="publication-item full-pub">
+  <li class="publication-item" data-filter="controllable-generation">
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/mspc.PNG" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">CVPR</abbr>
-  </div>
-
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Maximum_Spatial_Perturbation_Consistency_for_Unpaired_Image-to-Image_Translation_CVPR_2022_paper.pdf" style="color:#71b07b;">Maximum Spatial Perturbation Consistency for Unpaired Image-to-Image Translation</a></div>
-    <div class="author">Yanwu Xu ,  <strong>Shaoan Xie</strong> ,  Wenhao Wu , and Kun Zhang, Mingming Gong, Kayhan Batmanghelich</div>
-    <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2022.</em></div>
-    <div class="links">
-      <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Maximum_Spatial_Perturbation_Consistency_for_Unpaired_Image-to-Image_Translation_CVPR_2022_paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
-      <a href="https://github.com/batmanlab/MSPC" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-    </div>
-  </div> 
-</div>
-</li>
-  <br>
-  
-  <li class="publication-item full-pub">
-<div class="pub-row">
-
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/miccai.PNG" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">MICCAI</abbr>
-  </div>
-
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2206.13737.pdf" style="color:#71b07b;">Adversarial Consistency for Single Domain Generalization in Medical Image Segmentation</a></div>
-    <div class="author">Yanwu Xu ,  <strong>Shaoan Xie</strong> ,  Maxwell Reynolds , and Matthew Ragoza, Mingming Gong, Kayhan Batmanghelich</div>
-    <div class="periodical"><em>International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2022.</em></div>
-    <div class="links">
-      <a href="https://arxiv.org/pdf/2206.13737.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>    
-    </div>
-  </div> 
-</div>
-</li>
-  <br>
-
-</ol>
-</div>
