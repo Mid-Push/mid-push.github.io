@@ -2,353 +2,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research Diagram</title>
+    <title>Research Overview</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            padding: 60px 40px;
             background: #f5f5f5;
+            margin: 0;
         }
 
-        /* Research Diagram Styles */
         .container {
-            max-width: 1800px;
+            max-width: 1200px;
             margin: 0 auto;
-            width: 100%;
         }
 
-        .top-concept {
-            background: #ffffff;
-            border: 4px solid #6b7c8e;
-            padding: 12px 25px 10px;
-            margin-bottom: 0;
-            border-radius: 4px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        .hero {
             text-align: center;
+            margin-bottom: 60px;
         }
 
-        .top-concept h2 {
-            font-size: 28px;
-            color: #2c3e50;
-            margin: 0 0 4px 0;
-            font-weight: 600;
-            line-height: 1.2;
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 24px;
+            color: #1a1a1a;
+            letter-spacing: -0.02em;
         }
 
-        .top-concept .subtitle {
-            font-size: 16px;
-            color: #444;
-            margin: 2px 0;
-            line-height: 1.3;
+        .tagline {
+            font-size: 1.35rem;
+            color: #4a5568;
+            max-width: 900px;
+            margin: 0 auto;
+            line-height: 1.6;
+            font-weight: 400;
         }
 
-        .top-concept .theory-question {
-            font-size: 15px;
-            color: #555;
-            font-style: italic;
-            margin: 2px 0;
-            line-height: 1.3;
+        .pillars {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 32px;
         }
 
-        .top-concept .research-flow {
-            font-size: 14px;
-            color: #5a7a5a;
-            margin: 3px 0 0 0;
-            font-weight: 500;
-            line-height: 1.3;
-        }
-
-        .toggle-btn {
-            display: inline-block;
-            margin-top: 6px;
-            padding: 6px 14px;
-            background: #6b7c8e;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 13px;
-            font-weight: 500;
-            transition: background 0.3s;
-        }
-
-        .toggle-btn:hover {
-            background: #5a6b7c;
-        }
-
-        .subcategory-details {
-            display: none;
-        }
-
-        .expanded .subcategory-details {
-            display: block;
-        }
-
-        .arrows-down {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin: 0 0 10px 0;
-            height: 25px;
-        }
-
-        .arrow-down {
-            width: 2px;
-            height: 20px;
-            background: #6b7c8e;
-            position: relative;
-        }
-
-        .arrow-down::after {
-            content: '';
-            position: absolute;
-            bottom: -6px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 0;
-            height: 0;
-            border-left: 6px solid transparent;
-            border-right: 6px solid transparent;
-            border-top: 8px solid #6b7c8e;
-        }
-
-        .categories-grid {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            gap: 12px;
-            margin-bottom: 40px;
-            max-width: 100%;
-            width: 100%;
-            position: relative;
-        }
-
-        .category-box {
+        .pillar {
             background: white;
-            border: 3px solid #6b7c8e;
-            border-radius: 4px;
-            padding: 12px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-            flex: 1;
-            min-width: 0;
-            max-width: 25%;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+            transition: all 0.3s ease;
+            border: 1px solid #e2e8f0;
         }
 
-        .category-header {
-            font-size: 18px;
-            font-weight: bold;
-            color: #2c3e50;
-            margin-bottom: 8px;
-            padding-bottom: 8px;
-            border-bottom: 2px solid #6b7c8e;
+        .pillar:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+            border-color: #cbd5e0;
         }
 
-        .category-tagline {
-            font-size: 12px;
-            color: #666;
-            font-style: italic;
-            margin-bottom: 12px;
+        .pillar h2 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: #2d3748;
+            line-height: 1.3;
         }
 
-        .subcategory {
-            margin-bottom: 12px;
-            padding-bottom: 12px;
-            border-bottom: 1px solid #000;
-        }
-
-        .subcategory:last-child {
+        .pillar p {
+            font-size: 1.1rem;
+            color: #64748b;
+            line-height: 1.6;
             margin-bottom: 0;
-            padding-bottom: 0;
-            border-bottom: none;
         }
 
-        .subcategory-title {
-            font-size: 14px;
-            font-style: italic;
-            color: #2c3e50;
-            margin-bottom: 6px;
-            font-weight: 500;
-        }
-
-        .paper-refs {
-            font-size: 12px;
-            color: #2c3e50;
-            line-height: 1.7;
-        }
-
-        .paper-ref {
-            color: #5a7a5a;
-            text-decoration: none;
-            font-weight: 500;
-            display: block;
-            margin: 3px 0;
-        }
-
-        .paper-ref:hover {
-            text-decoration: underline;
-            color: #3d5c3d;
-        }
-
-        .venue {
-            color: #71b07b;
-            font-weight: 600;
-            font-size: 11px;
-        }
-
-        .plus-sign {
-            color: #2c3e50;
-            margin-right: 3px;
-        }
+        /* Color accents */
+        .pillar:nth-child(1) h2 { border-left: 4px solid #3b82f6; padding-left: 16px; }
+        .pillar:nth-child(2) h2 { border-left: 4px solid #8b5cf6; padding-left: 16px; }
+        .pillar:nth-child(3) h2 { border-left: 4px solid #ec4899; padding-left: 16px; }
+        .pillar:nth-child(4) h2 { border-left: 4px solid #10b981; padding-left: 16px; }
 
         @media (max-width: 768px) {
-            .categories-grid {
-                flex-direction: column;
+            body {
+                padding: 40px 20px;
             }
 
-            .category-box {
-                min-width: auto;
-                width: 100%;
-                max-width: 100%;
+            h1 {
+                font-size: 2.5rem;
             }
 
-            .arrows-down {
-                display: none;
+            .tagline {
+                font-size: 1.1rem;
+            }
+
+            .pillars {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+
+            .pillar {
+                padding: 32px;
+            }
+
+            .pillar h2 {
+                font-size: 1.5rem;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="top-concept">
-          <h2>Multimodal Generative AI</h2>
-<p class="subtitle">How can we formulate guiding principles—particularly causality—to direct the learning of generative models?</p>
-<p class="theory-question">How can we implement these principles in scalable generative systems?</p>
-<p class="research-flow">Bridging theory and practice to build controllable generative AI</p>
-            <button class="toggle-btn" onclick="toggleDetails()">Show Details</button>
+        <div class="hero">
+            <h1>Multimodal Generative AI</h1>
+            <p class="tagline">Building controllable and interpretable generative AI through causal principles</p>
         </div>
 
-        <div class="arrows-down">
-            <div class="arrow-down"></div>
-            <div class="arrow-down"></div>
-            <div class="arrow-down"></div>
-            <div class="arrow-down"></div>
-        </div>
-
-        <div class="categories-grid">
-            <div class="category-box">
-              <h2 class="category-header">Theoretical Foundations</h2>
-<p class="category-tagline">When and how true generative factors are identifiable from data.</p>
-                
-                <div class="subcategory">
-                    <p class="subcategory-title">Causal Representation Learning:</p>
-                    <div class="paper-refs subcategory-details">
-                        <a href="https://openreview.net/pdf?id=cW9Ttnm1aC" class="paper-ref">Nonparametric Identification <span class="venue">(ICML 2025)</span></a>
-                        <a href="https://arxiv.org/pdf/2402.05052" class="paper-ref">Learning from Multiple Distributions <span class="venue">(ICML 2024)</span></a>
-                        <a href="https://openreview.net/attachment?id=S8lfepB2fz&name=pdf" class="paper-ref">Nonparametric Mixing <span class="venue">(AISTATS 2025)</span></a>
-                        <a href="https://arxiv.org/pdf/2503.00639" class="paper-ref">Sufficient Changes & Sparse Mixing <span class="venue">(ICLR 2025)</span></a>
-                    </div>
-                </div>
-
-                <div class="subcategory">
-                    <p class="subcategory-title">Counterfactual Reasoning:</p>
-                    <div class="paper-refs subcategory-details">
-                        <a href="https://arxiv.org/pdf/2306.05751" class="paper-ref">Nonlinear Quantile Regression <span class="venue">(arXiv 2024)</span></a>
-                    </div>
-                </div>
+        <div class="pillars">
+            <div class="pillar">
+                <h2>Theoretical Foundations</h2>
+                <p>Learning disentangled causal representations from observational data</p>
             </div>
 
-            <div class="category-box">
-             <h2 class="category-header">Controllable Visual Generation</h2>
-<p class="category-tagline">Achieving minimal distortion while faithfully following conditions.</p>
-                
-                <div class="subcategory">
-                    <p class="subcategory-title">Multi-Domain Image Generation:</p>
-                    <div class="paper-refs subcategory-details">
-                        <a href="https://openreview.net/pdf?id=U2g8OGONA_V" class="paper-ref">Identifiability Guarantees <span class="venue">(ICLR 2023 Spotlight)</span></a>
-                    </div>
-                </div>
-
-                <div class="subcategory">
-                    <p class="subcategory-title">Unpaired Image Translation:</p>
-                    <div class="paper-refs subcategory-details">
-                        <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_Unpaired_Image-to-Image_Translation_With_Shortest_Path_Regularization_CVPR_2023_paper.pdf" class="paper-ref">Shortest Path Regularization <span class="venue">(CVPR 2023)</span></a>
-                        <a href="https://openreview.net/pdf?id=RNZ8JOmNaV4" class="paper-ref">Density Changing Regularization <span class="venue">(NeurIPS 2022)</span></a>
-                        <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Maximum_Spatial_Perturbation_Consistency_for_Unpaired_Image-to-Image_Translation_CVPR_2022_paper.pdf" class="paper-ref">Maximum Spatial Perturbation <span class="venue">(CVPR 2022)</span></a>
-                        <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Xie_Unaligned_Image-to-Image_Translation_by_Learning_to_Reweight_ICCV_2021_paper.pdf" class="paper-ref">Learning to Reweight <span class="venue">(ICCV 2021)</span></a>
-                    </div>
-                </div>
-
-                <div class="subcategory">
-                    <p class="subcategory-title">Efficient Generation:</p>
-                    <div class="paper-refs subcategory-details">
-                        <a href="https://arxiv.org/pdf/2306.12511.pdf" class="paper-ref">Semi-Implicit Denoising (SIDDMs) <span class="venue">(NeurIPS 2023)</span></a>
-                    </div>
-                </div>
+            <div class="pillar">
+                <h2>Controllable Visual Generation</h2>
+                <p>Cross-domain image synthesis with faithful control and minimal distortion</p>
             </div>
 
-            <div class="category-box">
-               <h2 class="category-header">Vision-Language Alignment</h2>
-<p class="category-tagline">Uncovering modular concepts from multimodal data.</p>
-
-                
-                <div class="subcategory">
-                    <p class="subcategory-title">Modular Concept Alignment:</p>
-                    <div class="paper-refs subcategory-details">
-                        <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Xie_SmartCLIP_Modular_Vision-language_Alignment_with_Identification_Guarantees_CVPR_2025_paper.pdf" class="paper-ref">SmartCLIP <span class="venue">(CVPR 2025 Highlight)</span></a>
-                    </div>
-                </div>
-
-                <div class="subcategory">
-                    <p class="subcategory-title">Atomic Visual and Textual Concept for Control:</p>
-                    <div class="paper-refs subcategory-details">
-                        <a href="https://openreview.net/pdf?id=hUHRTaTfvZ" class="paper-ref">Vision & Language Concepts <span class="venue">(ICML 2025)</span></a>
-                    </div>
-                </div>
-
-                <div class="subcategory">
-                    <p class="subcategory-title">Text-Guided Image Manipulation:</p>
-                    <div class="paper-refs subcategory-details">
-                        <a href="https://arxiv.org/pdf/2212.05034.pdf" class="paper-ref">SmartBrush <span class="venue">(CVPR 2023 Highlight)</span></a>
-                        <a href="https://arxiv.org/pdf/2312.03771" class="paper-ref">DreamInpainter <span class="venue">(arXiv 2024)</span></a>
-                    </div>
-                </div>
+            <div class="pillar">
+                <h2>Vision-Language Alignment</h2>
+                <p>Grounding language and vision in shared compositional concept spaces</p>
             </div>
 
-            <div class="category-box">
-             <h2 class="category-header">Understanding and Post-Training</h2>
-<p class="category-tagline">Opening the black box to interpret and refine generative models.</p>
-                
-                <div class="subcategory">
-                    <p class="subcategory-title">Interpretability of Generative Models:</p>
-                    <div class="paper-refs subcategory-details">
-                        <a href="#" class="paper-ref">Understanding Diffusion Models and LLMs through Hierachical Modeling</a>
-                    </div>
-                </div>
-
-                <div class="subcategory">
-                    <p class="subcategory-title">Policy Optimization for Generative Models:</p>
-                    <div class="paper-refs subcategory-details">
-                        <a href="#" class="paper-ref">Diffusion Language Models with Improved Reasoning</a>
-                        <a href="#" class="paper-ref">Visual Generation Enhancement</a>
-                    </div>
-                </div>
+            <div class="pillar">
+                <h2>Interpretability & Steering</h2>
+                <p>Opening black-box models for mechanistic analysis and behavioral alignment</p>
             </div>
         </div>
     </div>
-
-    <script>
-        function toggleDetails() {
-            const grid = document.querySelector('.categories-grid');
-            const btn = document.querySelector('.toggle-btn');
-            
-            if (grid.classList.contains('expanded')) {
-                grid.classList.remove('expanded');
-                btn.textContent = 'Show Details';
-            } else {
-                grid.classList.add('expanded');
-                btn.textContent = 'Hide Details';
-            }
-        }
-    </script>
 </body>
 </html>
