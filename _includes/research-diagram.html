@@ -6,136 +6,279 @@
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            padding: 60px 40px;
+            padding: 40px 20px;
             background: #f5f5f5;
             margin: 0;
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
-        }
-
-        .hero {
-            text-align: center;
-            margin-bottom: 60px;
-        }
-
-        h1 {
-            font-size: 3.5rem;
-            font-weight: 800;
-            margin-bottom: 24px;
-            color: #1a1a1a;
-            letter-spacing: -0.02em;
-        }
-
-        .tagline {
-            font-size: 1.35rem;
-            color: #4a5568;
-            max-width: 900px;
-            margin: 0 auto;
-            line-height: 1.6;
-            font-weight: 400;
         }
 
         .pillars {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 32px;
+            gap: 24px;
         }
 
         .pillar {
             background: white;
-            border-radius: 16px;
-            padding: 40px;
+            border-radius: 12px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-            transition: all 0.3s ease;
             border: 1px solid #e2e8f0;
+            overflow: hidden;
+            transition: all 0.3s ease;
         }
 
         .pillar:hover {
-            transform: translateY(-4px);
             box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
             border-color: #cbd5e0;
         }
 
-        .pillar h2 {
+        .pillar-header {
+            padding: 32px;
+            cursor: pointer;
+            transition: background 0.2s;
+            user-select: none;
+        }
+
+        .pillar-header:hover {
+            background: #f8fafc;
+        }
+
+        .pillar-header h2 {
             font-size: 1.75rem;
             font-weight: 700;
-            margin-bottom: 16px;
+            margin-bottom: 12px;
             color: #2d3748;
             line-height: 1.3;
         }
 
-        .pillar p {
-            font-size: 1.1rem;
+        .pillar-description {
+            font-size: 1.05rem;
             color: #64748b;
             line-height: 1.6;
-            margin-bottom: 0;
+            margin: 0;
         }
 
         /* Color accents */
-        .pillar:nth-child(1) h2 { border-left: 4px solid #3b82f6; padding-left: 16px; }
-        .pillar:nth-child(2) h2 { border-left: 4px solid #8b5cf6; padding-left: 16px; }
-        .pillar:nth-child(3) h2 { border-left: 4px solid #ec4899; padding-left: 16px; }
-        .pillar:nth-child(4) h2 { border-left: 4px solid #10b981; padding-left: 16px; }
+        .pillar:nth-child(1) .pillar-header h2 { border-left: 4px solid #3b82f6; padding-left: 16px; }
+        .pillar:nth-child(2) .pillar-header h2 { border-left: 4px solid #8b5cf6; padding-left: 16px; }
+        .pillar:nth-child(3) .pillar-header h2 { border-left: 4px solid #ec4899; padding-left: 16px; }
+        .pillar:nth-child(4) .pillar-header h2 { border-left: 4px solid #10b981; padding-left: 16px; }
 
-        @media (max-width: 768px) {
+        .pillar-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+        }
+
+        .pillar.expanded .pillar-content {
+            max-height: 2000px;
+        }
+
+        .pillar-content-inner {
+            padding: 0 32px 32px 32px;
+        }
+
+        .subcategory {
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .subcategory:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .subcategory-title {
+            font-size: 15px;
+            font-style: italic;
+            color: #2d3748;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .paper-refs {
+            font-size: 13px;
+            color: #2c3e50;
+            line-height: 1.8;
+        }
+
+        .paper-ref {
+            color: #5a7a5a;
+            text-decoration: none;
+            font-weight: 500;
+            display: block;
+            margin: 4px 0;
+            transition: color 0.2s;
+        }
+
+        .paper-ref:hover {
+            text-decoration: underline;
+            color: #3d5c3d;
+        }
+
+        .venue {
+            color: #71b07b;
+            font-weight: 600;
+            font-size: 11px;
+        }
+
+        @media (max-width: 968px) {
             body {
-                padding: 40px 20px;
-            }
-
-            h1 {
-                font-size: 2.5rem;
-            }
-
-            .tagline {
-                font-size: 1.1rem;
+                padding: 20px 10px;
             }
 
             .pillars {
                 grid-template-columns: 1fr;
-                gap: 24px;
+                gap: 20px;
             }
 
-            .pillar {
-                padding: 32px;
+            .pillar-header {
+                padding: 24px;
             }
 
-            .pillar h2 {
+            .pillar-header h2 {
                 font-size: 1.5rem;
+            }
+
+            .pillar-content-inner {
+                padding: 0 24px 24px 24px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="hero">
-            <h1>Multimodal Generative AI</h1>
-            <p class="tagline">Building controllable and interpretable generative AI through causal principles</p>
-        </div>
-
         <div class="pillars">
-            <div class="pillar">
-                <h2>Theoretical Foundations</h2>
-                <p>Learning disentangled causal representations from observational data</p>
+            <div class="pillar" onclick="togglePillar(this)">
+                <div class="pillar-header">
+                    <h2>Theoretical Foundations</h2>
+                    <p class="pillar-description">When and how true generative factors are identifiable from data.</p>
+                </div>
+                <div class="pillar-content">
+                    <div class="pillar-content-inner">
+                        <div class="subcategory">
+                            <p class="subcategory-title">Causal Representation Learning:</p>
+                            <div class="paper-refs">
+                                <a href="https://openreview.net/pdf?id=cW9Ttnm1aC" class="paper-ref" onclick="event.stopPropagation()">Nonparametric Identification <span class="venue">(ICML 2025)</span></a>
+                                <a href="https://arxiv.org/pdf/2402.05052" class="paper-ref" onclick="event.stopPropagation()">Learning from Multiple Distributions <span class="venue">(ICML 2024)</span></a>
+                                <a href="https://openreview.net/attachment?id=S8lfepB2fz&name=pdf" class="paper-ref" onclick="event.stopPropagation()">Nonparametric Mixing <span class="venue">(AISTATS 2025)</span></a>
+                                <a href="https://arxiv.org/pdf/2503.00639" class="paper-ref" onclick="event.stopPropagation()">Sufficient Changes & Sparse Mixing <span class="venue">(ICLR 2025)</span></a>
+                            </div>
+                        </div>
+
+                        <div class="subcategory">
+                            <p class="subcategory-title">Counterfactual Reasoning:</p>
+                            <div class="paper-refs">
+                                <a href="https://arxiv.org/pdf/2306.05751" class="paper-ref" onclick="event.stopPropagation()">Nonlinear Quantile Regression <span class="venue">(arXiv 2024)</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="pillar">
-                <h2>Controllable Visual Generation</h2>
-                <p>Cross-domain image synthesis with faithful control and minimal distortion</p>
+            <div class="pillar" onclick="togglePillar(this)">
+                <div class="pillar-header">
+                    <h2>Controllable Visual Generation</h2>
+                    <p class="pillar-description">Achieving minimal distortion while faithfully following conditions.</p>
+                </div>
+                <div class="pillar-content">
+                    <div class="pillar-content-inner">
+                        <div class="subcategory">
+                            <p class="subcategory-title">Multi-Domain Image Generation:</p>
+                            <div class="paper-refs">
+                                <a href="https://openreview.net/pdf?id=U2g8OGONA_V" class="paper-ref" onclick="event.stopPropagation()">Identifiability Guarantees <span class="venue">(ICLR 2023 Spotlight)</span></a>
+                            </div>
+                        </div>
+
+                        <div class="subcategory">
+                            <p class="subcategory-title">Unpaired Image Translation:</p>
+                            <div class="paper-refs">
+                                <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_Unpaired_Image-to-Image_Translation_With_Shortest_Path_Regularization_CVPR_2023_paper.pdf" class="paper-ref" onclick="event.stopPropagation()">Shortest Path Regularization <span class="venue">(CVPR 2023)</span></a>
+                                <a href="https://openreview.net/pdf?id=RNZ8JOmNaV4" class="paper-ref" onclick="event.stopPropagation()">Density Changing Regularization <span class="venue">(NeurIPS 2022)</span></a>
+                                <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Maximum_Spatial_Perturbation_Consistency_for_Unpaired_Image-to-Image_Translation_CVPR_2022_paper.pdf" class="paper-ref" onclick="event.stopPropagation()">Maximum Spatial Perturbation <span class="venue">(CVPR 2022)</span></a>
+                                <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Xie_Unaligned_Image-to-Image_Translation_by_Learning_to_Reweight_ICCV_2021_paper.pdf" class="paper-ref" onclick="event.stopPropagation()">Learning to Reweight <span class="venue">(ICCV 2021)</span></a>
+                            </div>
+                        </div>
+
+                        <div class="subcategory">
+                            <p class="subcategory-title">Efficient Generation:</p>
+                            <div class="paper-refs">
+                                <a href="https://arxiv.org/pdf/2306.12511.pdf" class="paper-ref" onclick="event.stopPropagation()">Semi-Implicit Denoising (SIDDMs) <span class="venue">(NeurIPS 2023)</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="pillar">
-                <h2>Vision-Language Alignment</h2>
-                <p>Grounding language and vision in shared compositional concept spaces</p>
+            <div class="pillar" onclick="togglePillar(this)">
+                <div class="pillar-header">
+                    <h2>Vision-Language Alignment</h2>
+                    <p class="pillar-description">Uncovering modular concepts from multimodal data.</p>
+                </div>
+                <div class="pillar-content">
+                    <div class="pillar-content-inner">
+                        <div class="subcategory">
+                            <p class="subcategory-title">Modular Concept Alignment:</p>
+                            <div class="paper-refs">
+                                <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Xie_SmartCLIP_Modular_Vision-language_Alignment_with_Identification_Guarantees_CVPR_2025_paper.pdf" class="paper-ref" onclick="event.stopPropagation()">SmartCLIP <span class="venue">(CVPR 2025 Highlight)</span></a>
+                            </div>
+                        </div>
+
+                        <div class="subcategory">
+                            <p class="subcategory-title">Atomic Visual and Textual Concept for Control:</p>
+                            <div class="paper-refs">
+                                <a href="https://openreview.net/pdf?id=hUHRTaTfvZ" class="paper-ref" onclick="event.stopPropagation()">Vision & Language Concepts <span class="venue">(ICML 2025)</span></a>
+                            </div>
+                        </div>
+
+                        <div class="subcategory">
+                            <p class="subcategory-title">Text-Guided Image Manipulation:</p>
+                            <div class="paper-refs">
+                                <a href="https://arxiv.org/pdf/2212.05034.pdf" class="paper-ref" onclick="event.stopPropagation()">SmartBrush <span class="venue">(CVPR 2023 Highlight)</span></a>
+                                <a href="https://arxiv.org/pdf/2312.03771" class="paper-ref" onclick="event.stopPropagation()">DreamInpainter <span class="venue">(arXiv 2024)</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="pillar">
-                <h2>Interpretability & Steering</h2>
-                <p>Opening black-box models for mechanistic analysis and behavioral alignment</p>
+            <div class="pillar" onclick="togglePillar(this)">
+                <div class="pillar-header">
+                    <h2>Understanding and Post-Training</h2>
+                    <p class="pillar-description">Opening the black box to interpret and refine generative models.</p>
+                </div>
+                <div class="pillar-content">
+                    <div class="pillar-content-inner">
+                        <div class="subcategory">
+                            <p class="subcategory-title">Interpretability of Generative Models:</p>
+                            <div class="paper-refs">
+                                <a href="#" class="paper-ref" onclick="event.stopPropagation()">Understanding Diffusion Models and LLMs through Hierachical Modeling</a>
+                            </div>
+                        </div>
+
+                        <div class="subcategory">
+                            <p class="subcategory-title">Policy Optimization for Generative Models:</p>
+                            <div class="paper-refs">
+                                <a href="#" class="paper-ref" onclick="event.stopPropagation()">Diffusion Language Models with Improved Reasoning</a>
+                                <a href="#" class="paper-ref" onclick="event.stopPropagation()">Visual Generation Enhancement</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+    <script>
+        function togglePillar(element) {
+            element.classList.toggle('expanded');
+        }
+    </script>
 </body>
 </html>
