@@ -6,19 +6,19 @@
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            padding: 40px 20px;
+            padding: 20px 20px;
             background: #f5f5f5;
             margin: 0;
         }
 
         .container {
-            max-width: 1400px;
+            max-width: 1600px;
             margin: 0 auto;
         }
 
         .pillars {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: 24px;
         }
 
@@ -65,26 +65,36 @@
         /* Color accents */
         .pillar:nth-child(1) .pillar-header h2 { border-left: 4px solid #3b82f6; padding-left: 16px; }
         .pillar:nth-child(2) .pillar-header h2 { border-left: 4px solid #8b5cf6; padding-left: 16px; }
-        .pillar:nth-child(3) .pillar-header h2 { border-left: 4px solid #ec4899; padding-left: 16px; }
-        .pillar:nth-child(4) .pillar-header h2 { border-left: 4px solid #10b981; padding-left: 16px; }
+        .pillar:nth-child(3) .pillar-header h2 { border-left: 4px solid #10b981; padding-left: 16px; }
 
         .pillar-content {
             max-height: 0;
             overflow: hidden;
-            transition: max-height 0.4s ease;
+            transition: max-height 0.5s ease;
         }
 
         .pillar.expanded .pillar-content {
-            max-height: 2000px;
+            max-height: 3000px;
         }
 
         .pillar-content-inner {
             padding: 0 12px 12px 12px;
         }
 
+        .section-intro {
+            font-size: 0.9rem;
+            color: #475569;
+            font-style: italic;
+            margin-bottom: 16px;
+            line-height: 1.5;
+            padding: 8px;
+            background: #f8fafc;
+            border-radius: 4px;
+        }
+
         .subcategory {
-            margin-bottom: 12px;
-            padding-bottom: 8px;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
             border-bottom: 1px solid #e2e8f0;
         }
 
@@ -98,14 +108,21 @@
             font-size: 14px;
             font-style: italic;
             color: #2d3748;
-            margin-bottom: 6px;
+            margin-bottom: 4px;
             font-weight: 600;
         }
 
+        .subcategory-subtitle {
+            font-size: 12px;
+            color: #64748b;
+            margin-bottom: 6px;
+            font-style: italic;
+        }
+
         .paper-refs {
-            font-size: 13px;
+            font-size: 12px;
             color: #2c3e50;
-            line-height: 1.8;
+            line-height: 1.6;
         }
 
         .paper-ref {
@@ -113,7 +130,7 @@
             text-decoration: none;
             font-weight: 500;
             display: block;
-            margin: 4px 0;
+            margin: 3px 0;
             transition: color 0.2s;
         }
 
@@ -128,26 +145,10 @@
             font-size: 11px;
         }
 
-        @media (max-width: 968px) {
-            body {
-                padding: 20px 10px;
-            }
-
+        @media (max-width: 1200px) {
             .pillars {
                 grid-template-columns: 1fr;
                 gap: 20px;
-            }
-
-            .pillar-header {
-                padding: 24px;
-            }
-
-            .pillar-header h2 {
-                font-size: 1.5rem;
-            }
-
-            .pillar-content-inner {
-                padding: 0 24px 24px 24px;
             }
         }
     </style>
@@ -155,13 +156,16 @@
 <body>
     <div class="container">
         <div class="pillars">
+            <!-- Pillar 1: Foundations -->
             <div class="pillar" onclick="togglePillar(this)">
                 <div class="pillar-header">
                     <h2>Theoretical Foundations</h2>
-                    <p class="pillar-description">When and how true generative factors are identifiable from data.</p>
+                    <p class="pillar-description">Developing principled representations that reveal the underlying causal structure of data, enabling systematic generalization across domains.</p>
                 </div>
                 <div class="pillar-content">
                     <div class="pillar-content-inner">
+                        <p class="section-intro">These works establish when and how we can recover the true underlying causal structure from observational data—the foundation for building models that capture how the world actually works, not just surface correlations.</p>
+                        
                         <div class="subcategory">
                             <p class="subcategory-title">Causal Representation Learning:</p>
                             <div class="paper-refs">
@@ -182,33 +186,41 @@
                 </div>
             </div>
 
+            <!-- Pillar 2: Merged Control + Alignment -->
             <div class="pillar" onclick="togglePillar(this)">
                 <div class="pillar-header">
-                    <h2>Controllable Visual Generation</h2>
-                    <p class="pillar-description">Achieving minimal distortion while faithfully following conditions.</p>
+                    <h2>Controllable Multimodal Generation</h2>
+                    <p class="pillar-description">Grounding generation in structured, compositional representations to enable precise control and systematic generalization across modalities.</p>
                 </div>
                 <div class="pillar-content">
                     <div class="pillar-content-inner">
                         <div class="subcategory">
-                            <p class="subcategory-title">Multi-Domain Image Generation:</p>
+                            <p class="subcategory-title">(a) Modular Concept Discovery</p>
+                            <p class="subcategory-subtitle">From semantics to identifiable factors</p>
                             <div class="paper-refs">
+                                <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Xie_SmartCLIP_Modular_Vision-language_Alignment_with_Identification_Guarantees_CVPR_2025_paper.pdf" class="paper-ref" onclick="event.stopPropagation()">SmartCLIP <span class="venue">(CVPR 2025 Highlight)</span></a>
+                                <a href="https://openreview.net/pdf?id=hUHRTaTfvZ" class="paper-ref" onclick="event.stopPropagation()">Vision & Language Concepts <span class="venue">(ICML 2025)</span></a>
+                            </div>
+                        </div>
+
+                        <div class="subcategory">
+                            <p class="subcategory-title">(b) Generative Control</p>
+                            <p class="subcategory-subtitle">Using those factors for text-guided and cross-domain control</p>
+                            <div class="paper-refs">
+                                <a href="https://arxiv.org/pdf/2212.05034.pdf" class="paper-ref" onclick="event.stopPropagation()">SmartBrush <span class="venue">(CVPR 2023 Highlight)</span></a>
+                                <a href="https://arxiv.org/pdf/2312.03771" class="paper-ref" onclick="event.stopPropagation()">DreamInpainter <span class="venue">(arXiv 2024)</span></a>
                                 <a href="https://openreview.net/pdf?id=U2g8OGONA_V" class="paper-ref" onclick="event.stopPropagation()">Identifiability Guarantees <span class="venue">(ICLR 2023 Spotlight)</span></a>
                             </div>
                         </div>
 
                         <div class="subcategory">
-                            <p class="subcategory-title">Unpaired Image Translation:</p>
+                            <p class="subcategory-title">(c) Efficient & Reliable Generation</p>
+                            <p class="subcategory-subtitle">Scaling control while preserving quality and speed</p>
                             <div class="paper-refs">
-                                <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_Unpaired_Image-to-Image_Translation_With_Shortest_Path_Regularization_CVPR_2023_paper.pdf" class="paper-ref" onclick="event.stopPropagation()">Shortest Path Regularization <span class="venue">(CVPR 2023)</span></a>
-                                <a href="https://openreview.net/pdf?id=RNZ8JOmNaV4" class="paper-ref" onclick="event.stopPropagation()">Density Changing Regularization <span class="venue">(NeurIPS 2022)</span></a>
-                                <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Maximum_Spatial_Perturbation_Consistency_for_Unpaired_Image-to-Image_Translation_CVPR_2022_paper.pdf" class="paper-ref" onclick="event.stopPropagation()">Maximum Spatial Perturbation <span class="venue">(CVPR 2022)</span></a>
                                 <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Xie_Unaligned_Image-to-Image_Translation_by_Learning_to_Reweight_ICCV_2021_paper.pdf" class="paper-ref" onclick="event.stopPropagation()">Learning to Reweight <span class="venue">(ICCV 2021)</span></a>
-                            </div>
-                        </div>
-
-                        <div class="subcategory">
-                            <p class="subcategory-title">Efficient Generation:</p>
-                            <div class="paper-refs">
+                                <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Maximum_Spatial_Perturbation_Consistency_for_Unpaired_Image-to-Image_Translation_CVPR_2022_paper.pdf" class="paper-ref" onclick="event.stopPropagation()">Maximum Spatial Perturbation <span class="venue">(CVPR 2022)</span></a>
+                                <a href="https://openreview.net/pdf?id=RNZ8JOmNaV4" class="paper-ref" onclick="event.stopPropagation()">Density Changing Regularization <span class="venue">(NeurIPS 2022)</span></a>
+                                <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_Unpaired_Image-to-Image_Translation_With_Shortest_Path_Regularization_CVPR_2023_paper.pdf" class="paper-ref" onclick="event.stopPropagation()">Shortest Path Regularization <span class="venue">(CVPR 2023)</span></a>
                                 <a href="https://arxiv.org/pdf/2306.12511.pdf" class="paper-ref" onclick="event.stopPropagation()">Semi-Implicit Denoising (SIDDMs) <span class="venue">(NeurIPS 2023)</span></a>
                             </div>
                         </div>
@@ -216,58 +228,32 @@
                 </div>
             </div>
 
+            <!-- Pillar 3: Understanding -->
             <div class="pillar" onclick="togglePillar(this)">
                 <div class="pillar-header">
-                    <h2>Vision-Language Alignment</h2>
-                    <p class="pillar-description">Uncovering modular concepts from multimodal data.</p>
+                    <h2>Interpretability & Trustworthy AI</h2>
+                    <p class="pillar-description">Making generative models interpretable and trustworthy through mechanistic understanding and principled alignment methods.</p>
                 </div>
                 <div class="pillar-content">
                     <div class="pillar-content-inner">
                         <div class="subcategory">
-                            <p class="subcategory-title">Modular Concept Alignment:</p>
+                            <p class="subcategory-title">(a) Interpretability of Generative Models</p>
                             <div class="paper-refs">
-                                <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Xie_SmartCLIP_Modular_Vision-language_Alignment_with_Identification_Guarantees_CVPR_2025_paper.pdf" class="paper-ref" onclick="event.stopPropagation()">SmartCLIP <span class="venue">(CVPR 2025 Highlight)</span></a>
+                                <a href="#" class="paper-ref" onclick="event.stopPropagation()">Understanding Diffusion Models and LLMs through Hierarchical Modeling</a>
                             </div>
                         </div>
 
                         <div class="subcategory">
-                            <p class="subcategory-title">Atomic Visual and Textual Concept for Control:</p>
-                            <div class="paper-refs">
-                                <a href="https://openreview.net/pdf?id=hUHRTaTfvZ" class="paper-ref" onclick="event.stopPropagation()">Vision & Language Concepts <span class="venue">(ICML 2025)</span></a>
-                            </div>
-                        </div>
-
-                        <div class="subcategory">
-                            <p class="subcategory-title">Text-Guided Image Manipulation:</p>
-                            <div class="paper-refs">
-                                <a href="https://arxiv.org/pdf/2212.05034.pdf" class="paper-ref" onclick="event.stopPropagation()">SmartBrush <span class="venue">(CVPR 2023 Highlight)</span></a>
-                                <a href="https://arxiv.org/pdf/2312.03771" class="paper-ref" onclick="event.stopPropagation()">DreamInpainter <span class="venue">(arXiv 2024)</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pillar" onclick="togglePillar(this)">
-                <div class="pillar-header">
-                    <h2>Understanding and Post-Training</h2>
-                    <p class="pillar-description">Opening the black box to interpret and refine generative models.</p>
-                </div>
-                <div class="pillar-content">
-                    <div class="pillar-content-inner">
-                        <div class="subcategory">
-                            <p class="subcategory-title">Interpretability of Generative Models:</p>
-                            <div class="paper-refs">
-                                <a href="#" class="paper-ref" onclick="event.stopPropagation()">Understanding Diffusion Models and LLMs through Hierachical Modeling</a>
-                            </div>
-                        </div>
-
-                        <div class="subcategory">
-                            <p class="subcategory-title">Policy Optimization for Generative Models:</p>
+                            <p class="subcategory-title">(b) Post-Training Optimization</p>
                             <div class="paper-refs">
                                 <a href="#" class="paper-ref" onclick="event.stopPropagation()">Diffusion Language Models with Improved Reasoning</a>
                                 <a href="#" class="paper-ref" onclick="event.stopPropagation()">Visual Generation Enhancement</a>
                             </div>
+                        </div>
+
+                        <div class="subcategory">
+                            <p class="subcategory-title">(c) Evaluation & Alignment</p>
+                            <p class="subcategory-subtitle">Tools for evaluating modular controllability and human alignment in post-trained diffusion and language models.</p>
                         </div>
                     </div>
                 </div>
