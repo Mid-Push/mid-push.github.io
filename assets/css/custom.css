@@ -24,9 +24,9 @@ p, li, a, span, div {
 /* Style the intro "Hi! I'm a PhD student..." */
 p:first-of-type {
     font-size: 1.05rem;
-    line-height: 1.7;
+    line-height: 1.6;
     color: #475569;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 /* ===== LINKS - Keep your green color ===== */
@@ -45,7 +45,7 @@ a:hover {
 hr {
     border: none;
     border-top: 2px solid #e2e8f0;
-    margin: 30px 0 30px 0;
+    margin: 16px 0 16px 0;
 }
 
 /* ===== SECTION HEADINGS ===== */
@@ -53,8 +53,8 @@ h2 {
     font-size: 1.75rem;
     font-weight: 800;
     color: #1a1a1a;
-    margin-top: 32px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 12px;
 }
 
 /* ===== NEWS SECTION ===== */
@@ -63,7 +63,7 @@ h2:contains("News") + ul,
 h2 + ul {
     list-style: none;
     padding: 0;
-    margin-top: 16px;
+    margin-top: 12px;
 }
 
 h2 + ul li {
@@ -88,16 +88,16 @@ h2 + ul li strong {
 #research-highlights + p,
 h2 + p {
     font-size: 1.05rem;
-    line-height: 1.7;
+    line-height: 1.6;
     color: #475569;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 /* ===== RESEARCH CARDS ===== */
 .pillars {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 12px;
+    gap: 10px;
     margin: 16px 0 28px 0;
 }
 
@@ -106,7 +106,7 @@ h2 + p {
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
     border: 1px solid #e2e8f0;
-    padding: 12px 16px;
+    padding: 10px 16px;
     transition: all 0.3s ease;
     cursor: pointer;
 }
@@ -120,9 +120,9 @@ h2 + p {
 .pillar h3 {
     font-size: 1.25rem;
     font-weight: 700;
-    margin: 0 0 6px 0;
+    margin: 0 0 4px 0;
     color: #2d3748;
-    line-height: 1.2;
+    line-height: 1.15;
     padding-left: 14px;
 }
 
@@ -142,7 +142,7 @@ h2 + p {
 .pillar p {
     font-size: 0.9rem;
     color: #64748b;
-    line-height: 1.4;
+    line-height: 1.35;
     margin: 0;
 }
 
@@ -232,14 +232,15 @@ h2 + p {
 #publications + ol {
     list-style: none;
     padding: 0;
+    margin-top: 12px;
 }
 
 .publications-list li,
 #publications + ul li,
 #publications + ol li {
     background: white;
-    padding: 20px;
-    margin-bottom: 16px;
+    padding: 16px;
+    margin-bottom: 12px;
     border-radius: 8px;
     border: 1px solid #e2e8f0;
     transition: all 0.2s ease;
@@ -314,7 +315,7 @@ img {
 
 /* ===== CLEAN SPACING ===== */
 section {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 /* Make sure wrapper doesn't override */
