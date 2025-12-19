@@ -33,18 +33,19 @@ Before that, I was fortunate to be advised by <a href="https://scholar.google.co
 
 My long-term research goal is to develop generative AI systems that go beyond producing realistic multimodal data to capturing the underlying structure of the world. By grounding machine learning and computer vision in principled representations of structure and dependencies, I aim to make generative models not only powerful, but also controllable, interpretable, trustworthy, and capable of systematic generalization.
 
-<p  style="margin-top:1.5rem;">
-  <span style="
-    display:inline-block;
-    padding:0.75rem 1.25rem;
-    color:#333333;              /* uniform, readable text color */
-    font-weight:600;
-    font-size:1rem;
-  ">
-    I am currently on the job market for opportunities in academia or industry starting in Fall 2026 and would be happy to connect at
-    <a href="mailto:shaoan@cmu.edu" style="color:#1E90FF; text-decoration:none;">shaoan@cmu.edu</a>.
-  </span>
-</p>
+<span style="
+  display:inline-block;
+  padding:0.65rem 1rem;
+  border-radius:8px;
+  background-color:#FFF7CC;  /* soft highlight */
+  color:#333333;             /* consistent readable text color */
+  font-weight:600;
+  font-size:1rem;
+">
+  I am currently on the job market for opportunities in academia or industry starting in Fall 2026 and would be happy to connect at
+  <a href="mailto:shaoan@cmu.edu" style="color:#1E90FF; text-decoration:none;">shaoan@cmu.edu</a>.
+</span>
+
 
 
 
