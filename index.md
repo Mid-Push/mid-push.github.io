@@ -3,29 +3,30 @@ layout: homepage
 ---
 
 <style>
-a {
+/* Only style links in the News section */
+#news ~ ul a {
     color: #1E90FF !important;
     text-decoration: none;
 }
 
-a:hover {
+#news ~ ul a:hover {
     text-decoration: underline;
 }
 
 /* Compact News section */
-#news + ul {
+#news ~ ul {
     margin-top: 0.5em;
     margin-bottom: 1em;
 }
 
-#news + ul li {
+#news ~ ul li {
     margin-bottom: 0.3em;
     line-height: 1.4;
 }
 </style>
 
-Hi! I'm a PhD student at <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, advised by <a href="https://www.andrew.cmu.edu/user/kunz1/">Prof. Kun Zhang</a> and <a href="https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html">Prof. Peter Spirtes</a>.  
-I have also been fortunate to intern at <a href="https://research.adobe.com/">Adobe Research</a> with <a href="https://sites.google.com/site/zhelin625/">Zhe Lin</a>, <a href="https://zzutk.github.io/">Zhifei Zhang</a>, and <a href="https://www.tobiashinz.com/">Tobias Hinz</a>, and at <a href="https://research.google/">Google</a> with <a href="https://sites.google.com/view/zhao-yang/">Yang Zhao</a>, <a href="https://xavierxiao.github.io/">Zhisheng Xiao</a>, and <a href="https://ckkelvinchan.github.io/">Kelvin C. K. Chan</a>.
+Hi! I'm a PhD student at <a href="https://www.cmu.edu/" style="color:#1E90FF;">Carnegie Mellon University</a>, advised by <a href="https://www.andrew.cmu.edu/user/kunz1/" style="color:#1E90FF;">Prof. Kun Zhang</a> and <a href="https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html" style="color:#1E90FF;">Prof. Peter Spirtes</a>.  
+I have also been fortunate to intern at <a href="https://research.adobe.com/" style="color:#1E90FF;">Adobe Research</a> with <a href="https://sites.google.com/site/zhelin625/" style="color:#1E90FF;">Zhe Lin</a>, <a href="https://zzutk.github.io/" style="color:#1E90FF;">Zhifei Zhang</a>, and <a href="https://www.tobiashinz.com/" style="color:#1E90FF;">Tobias Hinz</a>, and at <a href="https://research.google/" style="color:#1E90FF;">Google</a> with <a href="https://sites.google.com/view/zhao-yang/" style="color:#1E90FF;">Yang Zhao</a>, <a href="https://xavierxiao.github.io/" style="color:#1E90FF;">Zhisheng Xiao</a>, and <a href="https://ckkelvinchan.github.io/" style="color:#1E90FF;">Kelvin C. K. Chan</a>.
 My long-term research goal is to develop generative AI systems that go beyond producing realistic multimodal data to capturing the underlying structure of the world. By grounding machine learning and computer vision in principled representations of structure and dependencies, I aim to make generative models not only powerful, but also controllable, interpretable, trustworthy, and capable of systematic generalization.
 
 ---
