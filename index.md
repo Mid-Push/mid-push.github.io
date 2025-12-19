@@ -37,7 +37,6 @@ My long-term research goal is to develop generative AI systems that go beyond pr
   <span style="
     display:inline-block;
     padding:0.75rem 1.25rem;
-    border-radius:12px;
     color:#333333;              /* uniform, readable text color */
     font-weight:600;
     font-size:1rem;
