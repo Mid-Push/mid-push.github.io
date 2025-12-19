@@ -26,12 +26,28 @@ layout: homepage
 </style>
 
 
-Hi! I'm a PhD student at <a href="https://www.cmu.edu/" style="color:#1E90FF;">Carnegie Mellon University</a>, advised by <a href="https://www.andrew.cmu.edu/user/kunz1/" style="color:#1E90FF;">Prof. Kun Zhang</a> and <a href="https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html" style="color:#1E90FF;">Prof. Peter Spirtes</a>.
+Hi! I'm a final-year PhD student at <a href="https://www.cmu.edu/" style="color:#1E90FF;">Carnegie Mellon University</a>, advised by <a href="https://www.andrew.cmu.edu/user/kunz1/" style="color:#1E90FF;">Prof. Kun Zhang</a> and <a href="https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html" style="color:#1E90FF;">Prof. Peter Spirtes</a>.
 
 I have had the privilege of interning at <a href="https://research.adobe.com/" style="color:#1E90FF;">Adobe Research</a> with <a href="https://sites.google.com/site/zhelin625/" style="color:#1E90FF;">Zhe Lin</a>, <a href="https://zzutk.github.io/" style="color:#1E90FF;">Zhifei Zhang</a>, and <a href="https://www.tobiashinz.com/" style="color:#1E90FF;">Tobias Hinz</a>, as well as at <a href="https://research.google/" style="color:#1E90FF;">Google</a> with <a href="https://sites.google.com/view/zhao-yang/" style="color:#1E90FF;">Yang Zhao</a>, <a href="https://xavierxiao.github.io/" style="color:#1E90FF;">Zhisheng Xiao</a>, and <a href="https://ckkelvinchan.github.io/" style="color:#1E90FF;">Kelvin C. K. Chan</a>.
 Before that, I was fortunate to be advised by <a href="https://scholar.google.com/citations?user=zWnsNrkAAAAJ&hl=en" style="color:#1E90FF;">Prof. Zibin Zheng</a> at Sun Yat-sen University and had the opportunity to visit <a href="https://www.cse.cuhk.edu.hk/lyu/home" style="color:#1E90FF;">Prof. Michael R. Lyu</a> at The Chinese University of Hong Kong.
 
 My long-term research goal is to develop generative AI systems that go beyond producing realistic multimodal data to capturing the underlying structure of the world. By grounding machine learning and computer vision in principled representations of structure and dependencies, I aim to make generative models not only powerful, but also controllable, interpretable, trustworthy, and capable of systematic generalization.
+
+<p  style="margin-top:1.5rem;">
+  <span style="
+    display:inline-block;
+    padding:0.75rem 1.25rem;
+    border-radius:12px;
+    color:#333333;              /* uniform, readable text color */
+    font-weight:600;
+    font-size:1rem;
+  ">
+    I am currently on the job market for opportunities in academia or industry starting in Fall 2026 and would be happy to connect at
+    <a href="mailto:shaoan@cmu.edu" style="color:#1E90FF; text-decoration:none;">shaoan@cmu.edu</a>.
+  </span>
+</p>
+
+
 
 ---
 
