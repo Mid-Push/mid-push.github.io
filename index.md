@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: homepage
 ---
 
 Hi! I'm a PhD student at <a href="https://www.cmu.edu/" style="color:#1E90FF;">Carnegie Mellon University</a>, advised by <a href="https://www.andrew.cmu.edu/user/kunz1/" style="color:#1E90FF;">Prof. Kun Zhang</a> and <a href="https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html" style="color:#1E90FF;">Prof. Peter Spirtes</a>.  
