@@ -44,7 +44,7 @@ My long-term research goal is to develop generative AI systems that go beyond pr
 ---
 
 ## News
-- **[July.2026]** One paper on counterfactual prediction has been accepted to *Transactions on Machine Learning Research (TMLR)*, and two papers have been accepted to *ECCV 2026*: one on explaining text-to-image generation and another on video-text alignment.
+- **[July.2026]** One paper on counterfactual prediction has been accepted to *TMLR*, and two papers have been accepted to *ECCV 2026*: one on explaining text-to-image generation and another on video-text alignment.
 - **[April.2026]** One paper accepted into ICLR2026, one paper accepted into CVPR2026 and our <a href="assets/files/shaoan_dllm.pdf">post-training paper </a> is accepted into ACL2026 main conference.
 - **[Sep. 2025]** My work has been featured by <a href="https://www.cmu.edu/news/stories/archives/2025/september/peacocks-eating-ice-cream-cmu-philosophers-teaching-ai-to-ask-why">CMU News</a> and <a href="https://mbzuai.ac.ae/news/create-and-edit-images-like-a-smart-artist/">MBZUAI News</a>! 
 - **[Aug. 2025]** I will be serving as an Area Chair for <a href="https://iclr.cc/">ICLR 2026</a> — thanks for the invitation!  
