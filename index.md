@@ -25,7 +25,15 @@ layout: homepage
     </div>
   </div>
 
-  <div class="multimodal-visual">
+  <div class="hero-featured" id="featured-research">
+    <div class="section-heading-row">
+      <h2>Featured Research</h2>
+      <a href="#publications">View all publications <span aria-hidden="true">→</span></a>
+    </div>
+    {% include selected-research.html %}
+  </div>
+
+  <div class="multimodal-visual" hidden aria-hidden="true">
     <svg class="multimodal-map" viewBox="0 0 720 400" role="img" aria-labelledby="multimodal-map-title multimodal-map-desc">
       <title id="multimodal-map-title">Multimodal learning research map</title>
       <desc id="multimodal-map-desc">We learn from image, video, text, and action collected from the world to study alignment, understanding, reasoning, and generation.</desc>
@@ -34,7 +42,7 @@ layout: homepage
           <stop offset="0" stop-color="#7774e8" stop-opacity=".14" />
           <stop offset=".7" stop-color="#7774e8" stop-opacity=".06" />
           <stop offset="1" stop-color="#7774e8" stop-opacity="0" />
-        </linearGradient>
+        </radialGradient>
         <linearGradient id="model-core" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0" stop-color="#5654e8" />
           <stop offset="1" stop-color="#8582ef" />
@@ -167,14 +175,6 @@ layout: homepage
       </g>
     </svg>
   </div>
-</section>
-
-<section class="featured-section" id="featured-research">
-  <div class="section-heading-row">
-    <h2>Featured Research</h2>
-    <a href="#publications">View all publications <span aria-hidden="true">→</span></a>
-  </div>
-  {% include selected-research.html %}
 </section>
 
 <section class="credibility-strip" id="research-impact" aria-label="Research highlights">
