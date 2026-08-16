@@ -8,13 +8,13 @@ layout: homepage
     <p class="hero-role">Generative AI Researcher</p>
 
     <div class="hero-topics" aria-label="Research areas">
-      <span>Multimodal Generation</span>
-      <span>Image &amp; Video</span>
-      <span>Diffusion Models</span>
-      <span>Post-training &amp; RL</span>
+      <span>Multimodal Learning</span>
+      <span>Alignment &amp; Understanding</span>
+      <span>Reasoning</span>
+      <span>Generation</span>
     </div>
 
-    <p class="hero-summary">My research focuses on building multimodal generative models that can generate, reason, and learn from feedback while remaining controllable and generalizable.</p>
+    <p class="hero-summary">My research focuses on building multimodal models that align, understand, reason, and generate while remaining controllable and generalizable.</p>
 
     <div class="hero-socials">
       <a href="https://scholar.google.com/citations?user=mChB-hQAAAAJ&amp;hl=en&amp;oi=ao"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a>
@@ -24,40 +24,120 @@ layout: homepage
     </div>
   </div>
 
-  <div class="generation-visual" aria-label="Illustration of diffusion-based image generation and editing">
-    <div class="generation-pipeline">
-      <figure class="noise-stage">
-        <div class="noise-field"></div>
-        <figcaption>Gaussian Noise</figcaption>
-      </figure>
+  <div class="multimodal-visual">
+    <svg class="multimodal-map" viewBox="0 0 700 330" role="img" aria-labelledby="multimodal-map-title multimodal-map-desc">
+      <title id="multimodal-map-title">Multimodal learning research map</title>
+      <desc id="multimodal-map-desc">Image, video, and language converge in a shared multimodal model that supports alignment, understanding, reasoning, and generation.</desc>
+      <defs>
+        <linearGradient id="model-surface" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#6967df" stop-opacity=".17" />
+          <stop offset="1" stop-color="#38a187" stop-opacity=".12" />
+        </linearGradient>
+        <linearGradient id="model-core" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#665dd2" />
+          <stop offset="1" stop-color="#319875" />
+        </linearGradient>
+        <marker id="map-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M 0 0 L 10 5 L 0 10 z" class="map-arrowhead" />
+        </marker>
+        <filter id="map-shadow" x="-20%" y="-20%" width="140%" height="150%">
+          <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#182542" flood-opacity=".09" />
+        </filter>
+      </defs>
 
-      <svg class="pipeline-arrow" viewBox="0 0 38 24" aria-hidden="true"><path d="M2 12h29M23 4l8 8-8 8"></path></svg>
+      <g class="map-ambient" aria-hidden="true">
+        <circle cx="325" cy="42" r="3" /><circle cx="425" cy="286" r="3" />
+        <circle cx="196" cy="252" r="2.5" /><circle cx="620" cy="165" r="2.5" />
+        <path d="M195 252 253 225M425 286l-34-44M620 165l-48-2M325 42l8 43" />
+      </g>
 
-      <figure class="diffusion-stage">
-        <div class="diffusion-stack" aria-hidden="true">
-          <span style="--step:0"></span>
-          <span style="--step:1"></span>
-          <span style="--step:2"></span>
-          <span style="--step:3"></span>
-          <span style="--step:4"></span>
-        </div>
-        <figcaption>Diffusion Process</figcaption>
-      </figure>
+      <g class="map-connectors" aria-hidden="true">
+        <path d="M120 69 C178 69 190 112 244 132" />
+        <path d="M120 165 H235" />
+        <path d="M120 261 C178 261 190 218 244 198" />
+        <path d="M446 132 C488 112 493 72 525 69" marker-end="url(#map-arrow)" />
+        <path d="M454 151 C487 145 495 137 525 137" marker-end="url(#map-arrow)" />
+        <path d="M454 179 C487 185 495 193 525 193" marker-end="url(#map-arrow)" />
+        <path d="M446 198 C488 218 493 258 525 261" marker-end="url(#map-arrow)" />
+      </g>
 
-      <svg class="pipeline-arrow" viewBox="0 0 38 24" aria-hidden="true"><path d="M2 12h29M23 4l8 8-8 8"></path></svg>
+      <g class="input-card" transform="translate(18 35)" filter="url(#map-shadow)">
+        <rect width="102" height="68" rx="14" />
+        <g class="input-icon image-icon" aria-hidden="true">
+          <rect x="15" y="14" width="36" height="31" rx="5" />
+          <circle cx="42" cy="22" r="3.5" />
+          <path d="m19 40 10-10 7 7 5-5 7 8" />
+        </g>
+        <text x="61" y="32">Image</text><text class="input-detail" x="61" y="47">pixels</text>
+      </g>
 
-      <div class="generation-outputs">
-        <figure class="output-card">
-          <img src="assets/img/arxiv_dream.png" alt="Text-guided image generation examples">
-          <figcaption>Image Generation</figcaption>
-        </figure>
-        <figure class="output-card output-motion">
-          <img src="assets/img/smartbrush_demo.gif" alt="SmartBrush generative editing demonstration">
-          <span class="play-icon" aria-hidden="true"><i class="fas fa-play"></i></span>
-          <figcaption>Generative Editing</figcaption>
-        </figure>
-      </div>
-    </div>
+      <g class="input-card" transform="translate(18 131)" filter="url(#map-shadow)">
+        <rect width="102" height="68" rx="14" />
+        <g class="input-icon video-icon" aria-hidden="true">
+          <rect x="14" y="16" width="31" height="25" rx="4" />
+          <rect x="20" y="22" width="31" height="25" rx="4" />
+          <path d="m34 28 8 6-8 6z" />
+        </g>
+        <text x="61" y="32">Video</text><text class="input-detail" x="61" y="47">frames</text>
+      </g>
+
+      <g class="input-card" transform="translate(18 227)" filter="url(#map-shadow)">
+        <rect width="102" height="68" rx="14" />
+        <g class="input-icon text-icon" aria-hidden="true">
+          <rect x="15" y="15" width="38" height="35" rx="6" />
+          <path d="M22 25h24M22 32h18M22 39h22" />
+        </g>
+        <text x="61" y="32">Text</text><text class="input-detail" x="61" y="47">tokens</text>
+      </g>
+
+      <g class="model-card" transform="translate(235 84)" filter="url(#map-shadow)">
+        <rect width="220" height="162" rx="24" />
+        <g class="model-network" aria-hidden="true">
+          <path d="M53 53 84 37l31 20 32-17 25 24M53 53l27 39 35-35 31 34 26-27M80 92l32 22 34-23" />
+          <circle cx="53" cy="53" r="8" /><circle cx="84" cy="37" r="7" />
+          <circle cx="115" cy="57" r="10" /><circle cx="147" cy="40" r="6" />
+          <circle cx="172" cy="64" r="8" /><circle cx="80" cy="92" r="7" />
+          <circle cx="112" cy="114" r="6" /><circle cx="146" cy="91" r="9" />
+        </g>
+        <text class="model-title" x="110" y="139" text-anchor="middle">Shared Multimodal Model</text>
+      </g>
+
+      <g class="capability-card align-card" transform="translate(525 36)" filter="url(#map-shadow)">
+        <rect width="157" height="66" rx="15" />
+        <g class="capability-icon" aria-hidden="true">
+          <circle cx="27" cy="27" r="8" /><circle cx="41" cy="39" r="8" />
+          <path d="m33 32 4 3" />
+        </g>
+        <text x="63" y="36">Align</text>
+      </g>
+
+      <g class="capability-card understand-card" transform="translate(525 108)" filter="url(#map-shadow)">
+        <rect width="157" height="58" rx="15" />
+        <g class="capability-icon" aria-hidden="true">
+          <circle cx="34" cy="18" r="5" /><circle cx="23" cy="39" r="5" /><circle cx="45" cy="39" r="5" />
+          <path d="m31 23-6 11m12-11 6 11" />
+        </g>
+        <text x="63" y="35">Understand</text>
+      </g>
+
+      <g class="capability-card reason-card" transform="translate(525 172)" filter="url(#map-shadow)">
+        <rect width="157" height="58" rx="15" />
+        <g class="capability-icon" aria-hidden="true">
+          <circle cx="21" cy="35" r="4" /><circle cx="34" cy="22" r="4" /><circle cx="47" cy="35" r="4" />
+          <path d="m24 32 7-7m6 0 7 7m-3 3h6" />
+        </g>
+        <text x="63" y="35">Reason</text>
+      </g>
+
+      <g class="capability-card generate-card" transform="translate(525 236)" filter="url(#map-shadow)">
+        <rect width="157" height="66" rx="15" />
+        <g class="capability-icon" aria-hidden="true">
+          <rect x="17" y="20" width="28" height="24" rx="4" />
+          <path d="m20 40 7-8 5 5 4-4 6 7M48 17v9M44 21h8" />
+        </g>
+        <text x="63" y="36">Generate</text>
+      </g>
+    </svg>
   </div>
 </section>
 

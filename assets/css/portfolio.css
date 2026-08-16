@@ -281,6 +281,11 @@ body.portfolio-page {
   color: var(--portfolio-primary) !important;
 }
 
+.hero-socials a span,
+.section-heading-row > a span {
+  color: currentColor !important;
+}
+
 .hero-socials i {
   width: 23px;
   color: currentColor;
@@ -288,131 +293,121 @@ body.portfolio-page {
   text-align: center;
 }
 
-.generation-visual {
+.multimodal-visual {
   min-width: 0;
+  padding: 8px 0;
 }
 
-.generation-pipeline {
-  display: grid;
-  grid-template-columns: 138px 34px minmax(210px, 1fr) 34px minmax(235px, 1.12fr);
-  gap: 8px;
-  align-items: center;
+.multimodal-map {
+  display: block;
   width: 100%;
-}
-
-.generation-pipeline figure {
-  margin: 0;
-}
-
-.generation-pipeline figcaption {
-  margin-top: 6px;
-  color: var(--portfolio-text) !important;
-  font-size: 0.76rem !important;
-  line-height: 1.2;
-  text-align: center;
-}
-
-.noise-field {
-  position: relative;
-  width: 138px;
-  height: 180px;
-  overflow: hidden;
-  background:
-    radial-gradient(circle at 20% 30%, rgba(91, 64, 197, 0.85) 0 1px, transparent 2px),
-    radial-gradient(circle at 70% 22%, rgba(49, 152, 117, 0.82) 0 1px, transparent 2px),
-    radial-gradient(circle at 44% 75%, rgba(221, 155, 45, 0.75) 0 1px, transparent 2px),
-    repeating-conic-gradient(from 30deg, #5b4ec4 0 4deg, #2c8b78 4deg 8deg, #d8a536 8deg 12deg, #443b77 12deg 16deg);
-  background-size: 9px 9px, 11px 11px, 13px 13px, 7px 7px;
-  border: 1px solid var(--portfolio-line);
-  border-radius: 13px;
-  box-shadow: var(--portfolio-shadow);
-  filter: saturate(0.8);
-}
-
-.noise-field::after {
-  position: absolute;
-  inset: 0;
-  background: rgba(255, 255, 255, 0.08);
-  content: "";
-  backdrop-filter: contrast(1.4) blur(0.2px);
-}
-
-.pipeline-arrow {
-  width: 32px;
-  height: 24px;
+  height: auto;
   overflow: visible;
 }
 
-.pipeline-arrow path {
+.multimodal-map .map-ambient circle {
+  fill: color-mix(in srgb, var(--portfolio-primary) 48%, transparent);
+}
+
+.multimodal-map .map-ambient path {
   fill: none;
-  stroke: var(--portfolio-muted);
+  stroke: color-mix(in srgb, var(--portfolio-primary) 16%, transparent);
+  stroke-dasharray: 4 7;
+  stroke-width: 1.5;
+}
+
+.multimodal-map .map-connectors path {
+  fill: none;
+  stroke: color-mix(in srgb, var(--portfolio-primary) 56%, var(--portfolio-line));
+  stroke-linecap: round;
+  stroke-width: 2.3;
+}
+
+.multimodal-map .map-arrowhead {
+  fill: var(--portfolio-primary);
+}
+
+.multimodal-map .input-card > rect,
+.multimodal-map .capability-card > rect {
+  fill: var(--portfolio-surface);
+  stroke: var(--portfolio-line);
+  stroke-width: 1.2;
+}
+
+.multimodal-map text {
+  fill: var(--portfolio-text);
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 13px;
+  font-weight: 680;
+}
+
+.multimodal-map .input-detail {
+  fill: var(--portfolio-faint);
+  font-size: 9.5px;
+  font-weight: 520;
+}
+
+.multimodal-map .input-icon,
+.multimodal-map .capability-icon {
+  fill: none;
+  stroke: var(--portfolio-primary);
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-width: 1.8;
+  stroke-width: 2;
 }
 
-.diffusion-stack {
-  position: relative;
-  width: 100%;
-  min-width: 220px;
-  height: 180px;
+.multimodal-map .input-icon circle {
+  fill: color-mix(in srgb, var(--portfolio-primary) 28%, var(--portfolio-surface));
 }
 
-.diffusion-stack span {
-  position: absolute;
-  top: calc(36px - (var(--step) * 7px));
-  left: calc(var(--step) * 20%);
-  width: 25%;
-  height: calc(116px + (var(--step) * 9px));
-  overflow: hidden;
-  background-color: var(--portfolio-surface);
-  background-image: linear-gradient(rgba(255, 255, 255, calc(0.78 - var(--step) * 0.16)), rgba(255, 255, 255, calc(0.78 - var(--step) * 0.16))), url("../img/arxiv_dream.png");
-  background-position: calc(var(--step) * -54px) center;
-  background-size: 400px auto;
-  border: 1px solid rgba(66, 91, 134, 0.16);
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(38, 51, 79, 0.09);
-  filter: blur(calc((4 - var(--step)) * 0.45px)) saturate(calc(0.55 + var(--step) * 0.13));
+.multimodal-map .model-card > rect {
+  fill: url(#model-surface);
+  stroke: color-mix(in srgb, var(--portfolio-primary) 45%, var(--portfolio-line));
+  stroke-width: 1.5;
 }
 
-.generation-outputs {
-  display: grid;
-  gap: 13px;
+.multimodal-map .model-network path {
+  fill: none;
+  stroke: color-mix(in srgb, var(--portfolio-primary) 58%, var(--portfolio-line));
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.2;
 }
 
-.output-card {
-  position: relative;
+.multimodal-map .model-network circle {
+  fill: url(#model-core);
+  stroke: var(--portfolio-surface);
+  stroke-width: 2.5;
 }
 
-.output-card img {
-  display: block;
-  width: 100%;
-  height: 126px;
-  object-fit: cover;
-  object-position: center;
-  border: 1px solid var(--portfolio-line);
-  border-radius: 11px;
-  box-shadow: var(--portfolio-shadow);
+.multimodal-map .model-title {
+  fill: var(--portfolio-text);
+  font-size: 14px;
+  font-weight: 730;
 }
 
-.output-motion img {
-  height: 102px;
-  object-position: top center;
+.multimodal-map .capability-card > rect {
+  stroke-width: 1.3;
 }
 
-.play-icon {
-  position: absolute;
-  right: 12px;
-  bottom: 27px;
-  display: grid;
-  width: 36px;
-  height: 36px;
-  color: #ffffff !important;
-  background: rgba(8, 16, 33, 0.76);
-  border: 2px solid #ffffff;
-  border-radius: 50%;
-  font-size: 0.8rem !important;
-  place-items: center;
+.multimodal-map .align-card > rect {
+  fill: color-mix(in srgb, #6157ca 7%, var(--portfolio-surface));
+  stroke: color-mix(in srgb, #6157ca 25%, var(--portfolio-line));
+}
+
+.multimodal-map .understand-card > rect {
+  fill: color-mix(in srgb, #2d9782 7%, var(--portfolio-surface));
+  stroke: color-mix(in srgb, #2d9782 25%, var(--portfolio-line));
+}
+
+.multimodal-map .reason-card > rect {
+  fill: color-mix(in srgb, #d18f2c 7%, var(--portfolio-surface));
+  stroke: color-mix(in srgb, #d18f2c 25%, var(--portfolio-line));
+}
+
+.multimodal-map .generate-card > rect {
+  fill: color-mix(in srgb, #3979bc 7%, var(--portfolio-surface));
+  stroke: color-mix(in srgb, #3979bc 25%, var(--portfolio-line));
 }
 
 .featured-section,
@@ -828,20 +823,6 @@ body.portfolio-page {
     gap: 36px;
   }
 
-  .generation-pipeline {
-    grid-template-columns: 110px 26px minmax(170px, 1fr) 26px minmax(190px, 1.05fr);
-    gap: 5px;
-  }
-
-  .noise-field {
-    width: 110px;
-    height: 158px;
-  }
-
-  .diffusion-stack {
-    min-width: 170px;
-  }
-
   .featured-grid {
     gap: 14px;
   }
@@ -929,17 +910,8 @@ body.portfolio-page {
     max-width: 720px;
   }
 
-  .generation-visual {
+  .multimodal-visual {
     padding: 10px 0 20px;
-  }
-
-  .generation-pipeline {
-    grid-template-columns: 130px 32px minmax(220px, 1fr) 32px minmax(230px, 1fr);
-  }
-
-  .noise-field {
-    width: 130px;
-    height: 170px;
   }
 
   .featured-grid {
@@ -1021,66 +993,13 @@ body.portfolio-page {
     font-size: 1.45rem;
   }
 
-  .generation-visual {
-    overflow: visible;
+  .multimodal-visual {
     padding: 6px 0 14px;
   }
 
-  .generation-pipeline {
-    grid-template-columns: 78px 16px minmax(108px, 1fr) 16px 84px;
-    gap: 4px;
-    width: 100%;
-  }
-
-  .noise-field {
-    width: 78px;
-    height: 108px;
-    border-radius: 9px;
-  }
-
-  .pipeline-arrow {
-    width: 16px;
-    height: 18px;
-  }
-
-  .diffusion-stack {
-    min-width: 0;
-    height: 108px;
-  }
-
-  .diffusion-stack span {
-    top: calc(20px - (var(--step) * 4px));
-    height: calc(72px + (var(--step) * 5px));
-    background-size: 260px auto;
-    background-position: calc(var(--step) * -34px) center;
-    border-radius: 5px;
-  }
-
-  .generation-outputs {
-    gap: 7px;
-  }
-
-  .output-card img {
-    height: 62px;
-    border-radius: 7px;
-  }
-
-  .output-motion img {
-    height: 49px;
-  }
-
-  .generation-pipeline figcaption {
-    margin-top: 4px;
-    font-size: 0.56rem !important;
-  }
-
-  .play-icon {
-    right: 5px;
-    bottom: 17px;
-    width: 22px;
-    height: 22px;
-    border-width: 1px;
-    font-size: 0.5rem !important;
+  .multimodal-map {
+    margin: 0 -5%;
+    width: 110%;
   }
 
   .featured-section,
