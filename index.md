@@ -53,9 +53,9 @@ layout: homepage
       </g>
 
       <g class="map-connectors" aria-hidden="true">
-        <path d="M120 69 C178 69 190 112 244 132" marker-end="url(#map-arrow)" />
-        <path d="M120 165 H235" marker-end="url(#map-arrow)" />
-        <path d="M120 261 C178 261 190 218 244 198" marker-end="url(#map-arrow)" />
+        <path d="M136 69 C184 69 195 112 244 132" marker-end="url(#map-arrow)" />
+        <path d="M136 165 H235" marker-end="url(#map-arrow)" />
+        <path d="M136 261 C184 261 195 218 244 198" marker-end="url(#map-arrow)" />
         <path d="M446 132 C488 112 493 72 525 69" marker-end="url(#map-arrow)" />
         <path d="M454 151 C487 145 495 137 525 137" marker-end="url(#map-arrow)" />
         <path d="M454 179 C487 185 495 193 525 193" marker-end="url(#map-arrow)" />
@@ -63,32 +63,32 @@ layout: homepage
       </g>
 
       <g class="input-card" transform="translate(18 35)" filter="url(#map-shadow)">
-        <rect width="102" height="68" rx="14" />
+        <rect width="118" height="68" rx="14" />
         <g class="input-icon image-icon" aria-hidden="true">
           <rect x="15" y="14" width="36" height="31" rx="5" />
           <circle cx="42" cy="22" r="3.5" />
           <path d="m19 40 10-10 7 7 5-5 7 8" />
         </g>
-        <text x="61" y="32">Image</text><text class="input-detail" x="61" y="47">pixels</text>
+        <text x="65" y="32">Image</text><text class="input-detail" x="65" y="47">pixels</text>
       </g>
 
       <g class="input-card" transform="translate(18 131)" filter="url(#map-shadow)">
-        <rect width="102" height="68" rx="14" />
+        <rect width="118" height="68" rx="14" />
         <g class="input-icon video-icon" aria-hidden="true">
           <rect x="14" y="16" width="31" height="25" rx="4" />
           <rect x="20" y="22" width="31" height="25" rx="4" />
           <path d="m34 28 8 6-8 6z" />
         </g>
-        <text x="61" y="32">Video</text><text class="input-detail" x="61" y="47">frames</text>
+        <text x="65" y="32">Video</text><text class="input-detail" x="65" y="47">frames</text>
       </g>
 
       <g class="input-card" transform="translate(18 227)" filter="url(#map-shadow)">
-        <rect width="102" height="68" rx="14" />
+        <rect width="118" height="68" rx="14" />
         <g class="input-icon text-icon" aria-hidden="true">
           <rect x="15" y="15" width="38" height="35" rx="6" />
           <path d="M22 25h24M22 32h18M22 39h22" />
         </g>
-        <text x="61" y="32">Text</text><text class="input-detail" x="61" y="47">tokens</text>
+        <text x="65" y="32">Text</text><text class="input-detail" x="65" y="47">tokens</text>
       </g>
 
       <g class="model-card" transform="translate(235 84)" filter="url(#map-shadow)">
