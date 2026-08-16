@@ -333,87 +333,40 @@ body.portfolio-page {
 }
 
 .hero-experience {
-  margin-top: 22px;
-}
-
-.experience-label {
-  display: block;
-  margin-bottom: 8px;
-  color: var(--portfolio-faint) !important;
-  font-size: 0.66rem !important;
-  font-weight: 720;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-}
-
-.experience-list {
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.experience-item {
-  display: inline-flex;
-  min-width: 0;
-  gap: 8px;
+  gap: 10px;
   align-items: center;
-  padding: 7px 10px 7px 7px;
-  color: var(--portfolio-text) !important;
-  background: var(--portfolio-surface);
-  border: 1px solid var(--portfolio-line);
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(24, 37, 68, 0.045);
-  transition: border-color 0.2s ease, transform 0.2s ease;
-}
-
-.experience-item:hover {
-  border-color: color-mix(in srgb, var(--portfolio-primary) 32%, var(--portfolio-line));
-  transform: translateY(-2px);
+  margin-top: 22px;
 }
 
 .experience-logo {
   display: grid;
-  overflow: hidden;
-  width: 29px;
-  height: 29px;
-  flex: 0 0 29px;
-  color: var(--portfolio-text);
-  background: var(--portfolio-surface-soft);
-  border: 1px solid var(--portfolio-line);
-  border-radius: 7px;
+  width: 44px;
+  height: 44px;
+  color: var(--portfolio-text) !important;
+  border-radius: 9px;
+  transition: color 0.2s ease, background 0.2s ease, transform 0.2s ease;
   place-items: center;
+}
+
+.experience-logo:hover {
+  color: var(--portfolio-primary) !important;
+  background: var(--portfolio-primary-soft);
+  transform: translateY(-2px);
 }
 
 .experience-logo i {
   color: currentColor;
-  font-size: 1.05rem;
+  font-size: 1.62rem;
 }
 
 .experience-logo img {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
   object-fit: cover;
   filter: grayscale(1) contrast(1.12);
-}
-
-.experience-copy {
-  display: grid;
-  line-height: 1.15;
-}
-
-.experience-copy strong {
-  color: var(--portfolio-text);
-  font-size: 0.69rem;
-  font-weight: 690;
-  white-space: nowrap;
-}
-
-.experience-copy small {
-  margin-top: 3px;
-  color: var(--portfolio-faint);
-  font-size: 0.59rem;
-  white-space: nowrap;
 }
 
 .hero-featured {
@@ -1295,19 +1248,6 @@ body.portfolio-page {
 
   .hero-experience {
     margin-top: 19px;
-  }
-
-  .experience-list {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .experience-item:first-child {
-    grid-column: 1 / -1;
-  }
-
-  .experience-copy strong {
-    white-space: normal;
   }
 
   .multimodal-visual {

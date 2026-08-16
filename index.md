@@ -25,21 +25,9 @@ layout: homepage
     </div>
 
     <div class="hero-experience" aria-label="Education and research experience">
-      <span class="experience-label">Experience</span>
-      <div class="experience-list">
-        <a class="experience-item" href="https://www.cmu.edu/">
-          <span class="experience-logo cmu-logo"><img src="assets/img/cmu_logo.jpeg" alt=""></span>
-          <span class="experience-copy"><strong>Carnegie Mellon</strong><small>Ph.D.</small></span>
-        </a>
-        <a class="experience-item" href="https://research.adobe.com/">
-          <span class="experience-logo"><i class="fab fa-adobe" aria-hidden="true"></i></span>
-          <span class="experience-copy"><strong>Adobe Research</strong><small>Research Intern</small></span>
-        </a>
-        <a class="experience-item" href="https://research.google/">
-          <span class="experience-logo"><i class="fab fa-google" aria-hidden="true"></i></span>
-          <span class="experience-copy"><strong>Google</strong><small>Research Intern</small></span>
-        </a>
-      </div>
+      <a class="experience-logo" href="https://www.cmu.edu/" aria-label="Carnegie Mellon University" title="Carnegie Mellon University"><img src="assets/img/cmu_logo.jpeg" alt=""></a>
+      <a class="experience-logo" href="https://research.adobe.com/" aria-label="Adobe Research" title="Adobe Research"><i class="fab fa-adobe" aria-hidden="true"></i></a>
+      <a class="experience-logo" href="https://research.google/" aria-label="Google Research" title="Google Research"><i class="fab fa-google" aria-hidden="true"></i></a>
     </div>
   </div>
 
