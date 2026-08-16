@@ -1,19 +1,19 @@
 # Basic Information 
 title: Shaoan Xie
-position: Ph.D. Student
-affiliation: Carnegie Mellon University
+position: Generative AI Researcher
+research_focus: Multimodal Generation · Image & Video · Diffusion Models · Post-training
 email: shaoan (at) cmu.edu
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: shaoan, smartbrush, image-to-image translation
-description: Shaoan Xie is PhD student at Carnegie Mellon University. He mainly works on representation learning and generative models.
-canonical: https:/shaoan.net
+keywords: Shaoan Xie, generative AI, multimodal generation, diffusion models, post-training, image generation, video generation, vision-language alignment
+description: Shaoan Xie is a generative AI researcher working on multimodal generation, diffusion models, post-training, controllability, and generalization.
+canonical: https://shaoan.net
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.com/citations?user=mChB-hQAAAAJ&hl=en&oi=ao
-github_link: github.com/Mid-Push
+github_link: https://github.com/Mid-Push
 linkedin: https://www.linkedin.com/in/shaoan-xie-9b24201a7/
 
 # Images (e.g., your profile picture and your website's favicon) 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <title>{{ site.title }} | {{site.affiliation}}</title>
+    <title>{{ site.title }} | {{ site.position }}</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -44,8 +44,11 @@
         <h1>{{ site.title }}</h1>
 
         {% if site.position %}
-        <position style="font-size:1.10rem;">{{ site.position }}</position>
+        <position class="profile-role">{{ site.position }}</position>
         <br>
+        {% endif %}
+        {% if site.research_focus %}
+        <div class="profile-focus">{{ site.research_focus }}</div>
         {% endif %}
         {% if site.affiliation %}
         <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
@@ -129,40 +132,5 @@
   </script>
      {% endif %}
 
-  <script>
-function showSelected() {
-    const fullPubs = document.querySelectorAll('.publication-item.full-pub');
-    fullPubs.forEach(pub => pub.classList.add('hidden-pub'));
-    
-    const selectedPubs = document.querySelectorAll('.publication-item.selected-pub');
-    selectedPubs.forEach(pub => pub.classList.remove('hidden-pub'));
-    
-    document.querySelectorAll('.toggle-btn')[0].classList.add('active');
-    document.querySelectorAll('.toggle-btn')[1].classList.remove('active');
-    
-    updateHeading('Selected Publications');
-}
-
-function showAll() {
-    const allPubs = document.querySelectorAll('.publication-item');
-    allPubs.forEach(pub => pub.classList.remove('hidden-pub'));
-    
-    document.querySelectorAll('.toggle-btn')[0].classList.remove('active');
-    document.querySelectorAll('.toggle-btn')[1].classList.add('active');
-    
-    updateHeading('Publications');
-}
-
-function updateHeading(text) {
-    const heading = document.getElementById('publications');
-    if (heading) {
-        heading.innerHTML = text + ' <temp style="font-size:15px;">[</temp><a href="https://scholar.google.com/citations?user=mChB-hQAAAAJ&hl=en&oi=ao" target="_blank" style="font-size:15px;color:#71b07b;">Google Scholar</a><temp style="font-size:15px;">]</temp>';
-    }
-}
-
-document.addEventListener('DOMContentLoaded', function() {
-    showSelected();
-});
-</script>
   </body>
 </html>
