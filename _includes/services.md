@@ -1,7 +1,7 @@
 <div class="service-grid">
   <article class="service-card">
     <h3>Area Chair</h3>
-    <p>ICLR ’26, NeurIPS ’26</p>
+    <p>ICLR ’26 &amp; ’27, NeurIPS ’26</p>
   </article>
   <article class="service-card">
     <h3>Session Chair</h3>

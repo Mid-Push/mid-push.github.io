@@ -557,7 +557,7 @@ body.portfolio-page {
 
 .credibility-strip {
   display: grid;
-  grid-template-columns: 1.02fr 1.12fr 0.94fr 0.94fr 1.08fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   padding: 10px 10px 33px;
 }
 
@@ -846,17 +846,8 @@ body.portfolio-page {
     gap: 14px;
   }
 
-  .credibility-strip {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 18px 0;
-  }
-
   .credibility-item:nth-child(3) {
     border-right: 0;
-  }
-
-  .credibility-item:nth-child(4) {
-    padding-left: 8px;
   }
 
   .publications-section .publications ol.bibliography li .abbr {
@@ -1116,8 +1107,7 @@ body.portfolio-page {
   }
 
   .credibility-item,
-  .credibility-item:first-child,
-  .credibility-item:nth-child(4) {
+  .credibility-item:first-child {
     padding: 13px 0;
     border-right: 0;
     border-bottom: 1px solid var(--portfolio-line);

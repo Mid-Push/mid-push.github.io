@@ -71,24 +71,16 @@ layout: homepage
 
 <section class="credibility-strip" id="research-impact" aria-label="Research highlights">
   <article class="credibility-item">
-    <div class="credibility-icon purple"><i class="fas fa-trophy" aria-hidden="true"></i></div>
-    <div><strong>25+ Publications</strong><span>ICLR, NeurIPS, ICML, CVPR, ACL, ECCV, AAAI, IJCAI</span></div>
-  </article>
-  <article class="credibility-item">
     <div class="credibility-icon green"><i class="fas fa-chart-line" aria-hidden="true"></i></div>
     <div><strong>Product Impact</strong><span>SmartBrush integrated into Adobe Photoshop and Firefly</span></div>
   </article>
   <article class="credibility-item">
+    <div class="credibility-icon purple"><i class="fas fa-trophy" aria-hidden="true"></i></div>
+    <div><strong>Research Recognition</strong><span>CVPR 2023/2025 Highlights &nbsp;•&nbsp; ICLR 2023 Spotlight</span></div>
+  </article>
+  <article class="credibility-item">
     <div class="credibility-icon blue"><i class="fas fa-users" aria-hidden="true"></i></div>
-    <div><strong>Area Chair</strong><span>ICLR ’26 &nbsp;•&nbsp; NeurIPS ’26</span></div>
-  </article>
-  <article class="credibility-item">
-    <div class="credibility-icon orange"><i class="far fa-lightbulb" aria-hidden="true"></i></div>
-    <div><strong>Research Focus</strong><span>Multimodal generation, diffusion models, post-training &amp; RL</span></div>
-  </article>
-  <article class="credibility-item">
-    <div class="credibility-icon violet"><i class="fas fa-globe" aria-hidden="true"></i></div>
-    <div><strong>Global Collaboration</strong><span>Google Research, CMU, Adobe Research, UT Austin, MBZUAI</span></div>
+    <div><strong>Research Leadership</strong><span>ICLR ’26 &amp; ’27 Area Chair &nbsp;•&nbsp; NeurIPS ’26 Area Chair</span></div>
   </article>
 </section>
 
