@@ -15,13 +15,31 @@ layout: homepage
     </div>
 
     <p class="hero-summary">My research focuses on building multimodal models that align, understand, reason, and generate while remaining controllable and generalizable.</p>
-    <p class="hero-background">I received my Ph.D. from <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, advised by <a href="https://www.andrew.cmu.edu/user/kunz1/">Kun Zhang</a> and <a href="https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html">Peter Spirtes</a>. Previously, I interned at Adobe Research and Google.</p>
+    <p class="hero-background">My Ph.D. research was advised by <a href="https://www.andrew.cmu.edu/user/kunz1/">Kun Zhang</a> and <a href="https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html">Peter Spirtes</a>.</p>
 
     <div class="hero-socials">
       <a href="https://scholar.google.com/citations?user=mChB-hQAAAAJ&amp;hl=en&amp;oi=ao"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a>
       <a href="https://github.com/Mid-Push"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
       <a href="https://www.linkedin.com/in/shaoan-xie-9b24201a7/"><i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
       <a href="mailto:shaoan@cmu.edu"><i class="far fa-envelope" aria-hidden="true"></i><span>Email</span></a>
+    </div>
+
+    <div class="hero-experience" aria-label="Education and research experience">
+      <span class="experience-label">Experience</span>
+      <div class="experience-list">
+        <a class="experience-item" href="https://www.cmu.edu/">
+          <span class="experience-logo cmu-logo"><img src="assets/img/cmu_logo.jpeg" alt=""></span>
+          <span class="experience-copy"><strong>Carnegie Mellon</strong><small>Ph.D.</small></span>
+        </a>
+        <a class="experience-item" href="https://research.adobe.com/">
+          <span class="experience-logo"><i class="fab fa-adobe" aria-hidden="true"></i></span>
+          <span class="experience-copy"><strong>Adobe Research</strong><small>Research Intern</small></span>
+        </a>
+        <a class="experience-item" href="https://research.google/">
+          <span class="experience-logo"><i class="fab fa-google" aria-hidden="true"></i></span>
+          <span class="experience-copy"><strong>Google</strong><small>Research Intern</small></span>
+        </a>
+      </div>
     </div>
   </div>
 
