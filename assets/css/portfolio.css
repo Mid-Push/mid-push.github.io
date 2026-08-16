@@ -340,26 +340,78 @@ body.portfolio-page {
   overflow: visible;
 }
 
-.multimodal-map .map-ambient circle {
-  fill: color-mix(in srgb, var(--portfolio-primary) 48%, transparent);
+.multimodal-map .world-glow {
+  fill: url(#world-surface);
 }
 
-.multimodal-map .map-ambient path {
+.multimodal-map .world-orbit {
   fill: none;
-  stroke: color-mix(in srgb, var(--portfolio-primary) 16%, transparent);
+  stroke: color-mix(in srgb, #7774e8 16%, transparent);
+  stroke-width: 1.2;
+}
+
+.multimodal-map .orbit-dashed {
   stroke-dasharray: 4 7;
   stroke-width: 1.5;
 }
 
-.multimodal-map .map-connectors path {
-  fill: none;
-  stroke: color-mix(in srgb, var(--portfolio-primary) 56%, var(--portfolio-line));
-  stroke-linecap: round;
-  stroke-width: 2.3;
+.multimodal-map .orbit-inner {
+  stroke: color-mix(in srgb, #7774e8 10%, transparent);
 }
 
-.multimodal-map .map-arrowhead {
-  fill: var(--portfolio-primary);
+.multimodal-map .orbit-dot {
+  fill: color-mix(in srgb, #7774e8 52%, var(--portfolio-surface));
+}
+
+.multimodal-map .map-connectors path {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.5;
+}
+
+.multimodal-map .input-connector {
+  stroke: #5a5ce6;
+}
+
+.multimodal-map .align-line {
+  stroke: #5552e8;
+}
+
+.multimodal-map .understand-line {
+  stroke: #59bda0;
+}
+
+.multimodal-map .reason-line {
+  stroke: #f19a38;
+}
+
+.multimodal-map .generate-line {
+  stroke: #5790df;
+}
+
+.multimodal-map .map-connectors .arrow-tip {
+  stroke: none;
+}
+
+.multimodal-map .align-tip {
+  fill: #5552e8;
+}
+
+.multimodal-map .understand-tip {
+  fill: #59bda0;
+}
+
+.multimodal-map .reason-tip {
+  fill: #f19a38;
+}
+
+.multimodal-map .generate-tip {
+  fill: #5790df;
+}
+
+.multimodal-map .input-dots circle {
+  fill: #5a5ce6;
 }
 
 .multimodal-map .input-card > rect,
@@ -385,41 +437,37 @@ body.portfolio-page {
 .multimodal-map .input-icon,
 .multimodal-map .capability-icon {
   fill: none;
-  stroke: var(--portfolio-primary);
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 2;
+}
+
+.multimodal-map .input-icon {
+  stroke: #5455e8;
 }
 
 .multimodal-map .input-icon circle {
   fill: color-mix(in srgb, var(--portfolio-primary) 28%, var(--portfolio-surface));
 }
 
-.multimodal-map .model-card > rect {
-  fill: url(#model-surface);
-  stroke: color-mix(in srgb, var(--portfolio-primary) 45%, var(--portfolio-line));
-  stroke-width: 1.5;
-}
-
-.multimodal-map .world-network path,
-.multimodal-map .world-sphere {
+.multimodal-map .world-network path {
   fill: none;
-  stroke: color-mix(in srgb, var(--portfolio-primary) 58%, var(--portfolio-line));
+  stroke: color-mix(in srgb, #5d5ce8 70%, var(--portfolio-line));
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-width: 1.8;
+  stroke-width: 2.1;
 }
 
-.multimodal-map .world-network circle:not(.world-sphere) {
+.multimodal-map .world-network circle {
   fill: url(#model-core);
   stroke: var(--portfolio-surface);
-  stroke-width: 2.5;
+  stroke-width: 1.8;
 }
 
 .multimodal-map .model-title {
   fill: var(--portfolio-text);
-  font-size: 14px;
-  font-weight: 730;
+  font-size: 17px;
+  font-weight: 750;
 }
 
 .multimodal-map .model-detail {
@@ -437,9 +485,17 @@ body.portfolio-page {
   stroke: color-mix(in srgb, #6157ca 25%, var(--portfolio-line));
 }
 
+.multimodal-map .align-card .capability-icon {
+  stroke: #5552e8;
+}
+
 .multimodal-map .understand-card > rect {
   fill: color-mix(in srgb, #2d9782 7%, var(--portfolio-surface));
   stroke: color-mix(in srgb, #2d9782 25%, var(--portfolio-line));
+}
+
+.multimodal-map .understand-card .capability-icon {
+  stroke: #59bda0;
 }
 
 .multimodal-map .reason-card > rect {
@@ -447,9 +503,17 @@ body.portfolio-page {
   stroke: color-mix(in srgb, #d18f2c 25%, var(--portfolio-line));
 }
 
+.multimodal-map .reason-card .capability-icon {
+  stroke: #f19a38;
+}
+
 .multimodal-map .generate-card > rect {
   fill: color-mix(in srgb, #3979bc 7%, var(--portfolio-surface));
   stroke: color-mix(in srgb, #3979bc 25%, var(--portfolio-line));
+}
+
+.multimodal-map .generate-card .capability-icon {
+  stroke: #5790df;
 }
 
 .featured-section,

@@ -26,117 +26,144 @@ layout: homepage
   </div>
 
   <div class="multimodal-visual">
-    <svg class="multimodal-map" viewBox="0 0 700 330" role="img" aria-labelledby="multimodal-map-title multimodal-map-desc">
+    <svg class="multimodal-map" viewBox="0 0 720 400" role="img" aria-labelledby="multimodal-map-title multimodal-map-desc">
       <title id="multimodal-map-title">Multimodal learning research map</title>
-      <desc id="multimodal-map-desc">We learn from image, video, and text collected from the world to study alignment, understanding, reasoning, and generation.</desc>
+      <desc id="multimodal-map-desc">We learn from image, video, text, and action collected from the world to study alignment, understanding, reasoning, and generation.</desc>
       <defs>
-        <linearGradient id="model-surface" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stop-color="#6967df" stop-opacity=".17" />
-          <stop offset="1" stop-color="#38a187" stop-opacity=".12" />
+        <radialGradient id="world-surface" cx="50%" cy="44%" r="62%">
+          <stop offset="0" stop-color="#7774e8" stop-opacity=".14" />
+          <stop offset=".7" stop-color="#7774e8" stop-opacity=".06" />
+          <stop offset="1" stop-color="#7774e8" stop-opacity="0" />
         </linearGradient>
         <linearGradient id="model-core" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stop-color="#665dd2" />
-          <stop offset="1" stop-color="#319875" />
+          <stop offset="0" stop-color="#5654e8" />
+          <stop offset="1" stop-color="#8582ef" />
         </linearGradient>
-        <marker id="map-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-          <path d="M 0 0 L 10 5 L 0 10 z" class="map-arrowhead" />
-        </marker>
         <filter id="map-shadow" x="-20%" y="-20%" width="140%" height="150%">
           <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#182542" flood-opacity=".09" />
         </filter>
       </defs>
 
-      <g class="map-ambient" aria-hidden="true">
-        <circle cx="325" cy="42" r="3" /><circle cx="425" cy="286" r="3" />
-        <circle cx="196" cy="252" r="2.5" /><circle cx="620" cy="165" r="2.5" />
-        <path d="M195 252 253 225M425 286l-34-44M620 165l-48-2M325 42l8 43" />
+      <g class="world-rings" aria-hidden="true">
+        <circle class="world-glow" cx="340" cy="200" r="128" />
+        <circle class="world-orbit orbit-outer" cx="340" cy="200" r="148" />
+        <circle class="world-orbit orbit-dashed" cx="340" cy="200" r="126" />
+        <circle class="world-orbit orbit-inner" cx="340" cy="200" r="110" />
+        <circle class="orbit-dot" cx="250" cy="78" r="4" />
+        <circle class="orbit-dot" cx="412" cy="63" r="3.5" />
+        <circle class="orbit-dot" cx="478" cy="147" r="4" />
+        <circle class="orbit-dot" cx="440" cy="319" r="3.5" />
+        <circle class="orbit-dot" cx="274" cy="335" r="4" />
+        <circle class="orbit-dot" cx="199" cy="253" r="3.5" />
       </g>
 
       <g class="map-connectors" aria-hidden="true">
-        <path d="M136 69 C184 69 195 112 244 132" marker-end="url(#map-arrow)" />
-        <path d="M136 165 H235" marker-end="url(#map-arrow)" />
-        <path d="M136 261 C184 261 195 218 244 198" marker-end="url(#map-arrow)" />
-        <path d="M446 132 C488 112 493 72 525 69" marker-end="url(#map-arrow)" />
-        <path d="M454 151 C487 145 495 137 525 137" marker-end="url(#map-arrow)" />
-        <path d="M454 179 C487 185 495 193 525 193" marker-end="url(#map-arrow)" />
-        <path d="M446 198 C488 218 493 258 525 261" marker-end="url(#map-arrow)" />
+        <path class="input-connector" d="M136 57 C181 57 174 111 216 122" />
+        <path class="input-connector" d="M136 148 C174 148 180 159 205 159" />
+        <path class="input-connector" d="M136 239 C174 239 180 241 205 241" />
+        <path class="input-connector" d="M136 330 C181 330 174 289 216 278" />
+        <path class="output-connector align-line" d="M468 122 C510 111 500 57 538 57" />
+        <path class="output-connector understand-line" d="M475 159 C511 159 509 148 538 148" />
+        <path class="output-connector reason-line" d="M475 241 C511 241 509 239 538 239" />
+        <path class="output-connector generate-line" d="M468 278 C510 289 500 330 538 330" />
+        <path class="arrow-tip align-tip" d="M532 49 548 57 532 65Z" />
+        <path class="arrow-tip understand-tip" d="M532 140 548 148 532 156Z" />
+        <path class="arrow-tip reason-tip" d="M532 231 548 239 532 247Z" />
+        <path class="arrow-tip generate-tip" d="M532 322 548 330 532 338Z" />
+        <g class="input-dots">
+          <circle cx="136" cy="57" r="4" /><circle cx="216" cy="122" r="4" />
+          <circle cx="136" cy="148" r="4" /><circle cx="205" cy="159" r="4" />
+          <circle cx="136" cy="239" r="4" /><circle cx="205" cy="241" r="4" />
+          <circle cx="136" cy="330" r="4" /><circle cx="216" cy="278" r="4" />
+        </g>
       </g>
 
-      <g class="input-card" transform="translate(18 35)" filter="url(#map-shadow)">
-        <rect width="118" height="68" rx="14" />
+      <g class="input-card" transform="translate(8 21)" filter="url(#map-shadow)">
+        <rect width="128" height="72" rx="15" />
         <g class="input-icon image-icon" aria-hidden="true">
-          <rect x="15" y="14" width="36" height="31" rx="5" />
-          <circle cx="42" cy="22" r="3.5" />
-          <path d="m19 40 10-10 7 7 5-5 7 8" />
+          <rect x="15" y="15" width="38" height="34" rx="5" />
+          <circle cx="43" cy="23" r="3.5" />
+          <path d="m19 44 11-11 7 7 5-5 8 9" />
         </g>
-        <text x="65" y="32">Image</text><text class="input-detail" x="65" y="47">pixels</text>
+        <text x="70" y="33">Image</text><text class="input-detail" x="70" y="49">pixels</text>
       </g>
 
-      <g class="input-card" transform="translate(18 131)" filter="url(#map-shadow)">
-        <rect width="118" height="68" rx="14" />
+      <g class="input-card" transform="translate(8 112)" filter="url(#map-shadow)">
+        <rect width="128" height="72" rx="15" />
         <g class="input-icon video-icon" aria-hidden="true">
-          <rect x="14" y="16" width="31" height="25" rx="4" />
-          <rect x="20" y="22" width="31" height="25" rx="4" />
-          <path d="m34 28 8 6-8 6z" />
+          <rect x="15" y="18" width="38" height="32" rx="5" />
+          <path d="M15 26h38M20 18v8m9-8v8m10-8v8m9-8v8M20 42h28" />
+          <path d="m31 30 9 6-9 6z" />
         </g>
-        <text x="65" y="32">Video</text><text class="input-detail" x="65" y="47">frames</text>
+        <text x="70" y="33">Video</text><text class="input-detail" x="70" y="49">frames</text>
       </g>
 
-      <g class="input-card" transform="translate(18 227)" filter="url(#map-shadow)">
-        <rect width="118" height="68" rx="14" />
+      <g class="input-card" transform="translate(8 203)" filter="url(#map-shadow)">
+        <rect width="128" height="72" rx="15" />
         <g class="input-icon text-icon" aria-hidden="true">
-          <rect x="15" y="15" width="38" height="35" rx="6" />
-          <path d="M22 25h24M22 32h18M22 39h22" />
+          <rect x="18" y="14" width="34" height="42" rx="4" />
+          <path d="M24 27h22M24 35h22M24 43h16" />
         </g>
-        <text x="65" y="32">Text</text><text class="input-detail" x="65" y="47">tokens</text>
+        <text x="70" y="33">Text</text><text class="input-detail" x="70" y="49">tokens</text>
       </g>
 
-      <g class="model-card" transform="translate(235 84)" filter="url(#map-shadow)">
-        <rect width="220" height="162" rx="24" />
-        <g class="world-network" aria-hidden="true">
-          <circle class="world-sphere" cx="110" cy="64" r="42" />
-          <path d="M68 64h84M110 22c-14 12-22 26-22 42s8 30 22 42M110 22c14 12 22 26 22 42s-8 30-22 42M76 40c10 7 21 10 34 10s24-3 34-10M76 88c10-7 21-10 34-10s24 3 34 10" />
-          <circle cx="79" cy="47" r="5" /><circle cx="133" cy="37" r="5" />
-          <circle cx="119" cy="83" r="6" /><circle cx="145" cy="72" r="4.5" />
+      <g class="input-card" transform="translate(8 294)" filter="url(#map-shadow)">
+        <rect width="128" height="72" rx="15" />
+        <g class="input-icon action-icon" aria-hidden="true">
+          <circle cx="34" cy="36" r="5" />
+          <path d="M34 31V17m0 0-5 5m5-5 5 5M39 36h14m0 0-5-5m5 5-5 5M34 41v14m0 0-5-5m5 5 5-5M29 36H15m0 0 5-5m-5 5 5 5" />
         </g>
-        <text class="model-title" x="110" y="135" text-anchor="middle">Learning from the World</text>
-        <text class="model-detail" x="110" y="150" text-anchor="middle">multimodal observations</text>
+        <text x="70" y="33">Action</text><text class="input-detail" x="70" y="49">controls</text>
       </g>
 
-      <g class="capability-card align-card" transform="translate(525 36)" filter="url(#map-shadow)">
-        <rect width="157" height="66" rx="15" />
+      <g class="world-network" transform="translate(340 145)" aria-hidden="true">
+        <path d="M-44-12-25-33 2-40 27-29 45-8 43 18 24 35-3 39-29 28-45 7ZM-25-33-13-9 2-40 12-13 27-29M-44-12-13-9-45 7-24 10-29 28M-13-9 12-13 28 4 43 18 24 35 5 18-3 39M-24 10 5 18 28 4M-13-9 5 18M12-13 28 4" />
+        <circle cx="-44" cy="-12" r="5" /><circle cx="-25" cy="-33" r="5" />
+        <circle cx="2" cy="-40" r="5" /><circle cx="27" cy="-29" r="5" />
+        <circle cx="45" cy="-8" r="5" /><circle cx="43" cy="18" r="5" />
+        <circle cx="24" cy="35" r="5" /><circle cx="-3" cy="39" r="5" />
+        <circle cx="-29" cy="28" r="5" /><circle cx="-45" cy="7" r="5" />
+        <circle cx="-13" cy="-9" r="6" /><circle cx="12" cy="-13" r="5" />
+        <circle cx="28" cy="4" r="5" /><circle cx="5" cy="18" r="6" /><circle cx="-24" cy="10" r="5" />
+      </g>
+      <text class="model-title" x="340" y="234" text-anchor="middle">Learning from</text>
+      <text class="model-title" x="340" y="255" text-anchor="middle">the World</text>
+      <text class="model-detail" x="340" y="276" text-anchor="middle">multimodal observations</text>
+
+      <g class="capability-card align-card" transform="translate(550 21)" filter="url(#map-shadow)">
+        <rect width="162" height="72" rx="16" />
         <g class="capability-icon" aria-hidden="true">
-          <circle cx="27" cy="27" r="8" /><circle cx="41" cy="39" r="8" />
-          <path d="m33 32 4 3" />
+          <circle cx="28" cy="28" r="9" /><circle cx="43" cy="42" r="9" />
+          <path d="m35 34 3 3" />
         </g>
-        <text x="63" y="36">Align</text>
+        <text x="72" y="42">Align</text>
       </g>
 
-      <g class="capability-card understand-card" transform="translate(525 108)" filter="url(#map-shadow)">
-        <rect width="157" height="58" rx="15" />
+      <g class="capability-card understand-card" transform="translate(550 112)" filter="url(#map-shadow)">
+        <rect width="162" height="72" rx="16" />
         <g class="capability-icon" aria-hidden="true">
-          <circle cx="34" cy="18" r="5" /><circle cx="23" cy="39" r="5" /><circle cx="45" cy="39" r="5" />
-          <path d="m31 23-6 11m12-11 6 11" />
+          <circle cx="36" cy="23" r="6" /><circle cx="24" cy="48" r="6" /><circle cx="48" cy="48" r="6" />
+          <path d="m33 29-7 13m13-13 7 13" />
         </g>
-        <text x="63" y="35">Understand</text>
+        <text x="72" y="42">Understand</text>
       </g>
 
-      <g class="capability-card reason-card" transform="translate(525 172)" filter="url(#map-shadow)">
-        <rect width="157" height="58" rx="15" />
+      <g class="capability-card reason-card" transform="translate(550 203)" filter="url(#map-shadow)">
+        <rect width="162" height="72" rx="16" />
         <g class="capability-icon" aria-hidden="true">
-          <circle cx="21" cy="35" r="4" /><circle cx="34" cy="22" r="4" /><circle cx="47" cy="35" r="4" />
-          <path d="m24 32 7-7m6 0 7 7m-3 3h6" />
+          <circle cx="36" cy="23" r="6" /><circle cx="24" cy="48" r="6" /><circle cx="48" cy="48" r="6" />
+          <path d="m33 29-7 13m13-13 7 13" />
         </g>
-        <text x="63" y="35">Reason</text>
+        <text x="72" y="42">Reason</text>
       </g>
 
-      <g class="capability-card generate-card" transform="translate(525 236)" filter="url(#map-shadow)">
-        <rect width="157" height="66" rx="15" />
+      <g class="capability-card generate-card" transform="translate(550 294)" filter="url(#map-shadow)">
+        <rect width="162" height="72" rx="16" />
         <g class="capability-icon" aria-hidden="true">
-          <rect x="17" y="20" width="28" height="24" rx="4" />
-          <path d="m20 40 7-8 5 5 4-4 6 7M48 17v9M44 21h8" />
+          <rect x="17" y="22" width="34" height="29" rx="4" />
+          <path d="m21 47 8-9 6 6 5-5 8 8M53 18v12M47 24h12" />
         </g>
-        <text x="63" y="36">Generate</text>
+        <text x="72" y="42">Generate</text>
       </g>
     </svg>
   </div>
