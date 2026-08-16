@@ -15,7 +15,7 @@ layout: homepage
     </div>
 
     <p class="hero-summary">My research focuses on building multimodal models that align, understand, reason, and generate while remaining controllable and generalizable.</p>
-    <p class="hero-background">I received my Ph.D. from <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, advised by <a href="https://www.andrew.cmu.edu/user/kunz1/">Kun Zhang</a> and <a href="https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html">Peter Spirtes</a>. Previously, I interned at Adobe Research and Google.</p>
+    <p class="hero-background">I received my Ph.D. from <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, advised by Prof. <a href="https://www.andrew.cmu.edu/user/kunz1/">Kun Zhang</a> and Prof. <a href="https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html">Peter Spirtes</a>. Previously, I interned at Adobe Research and Google.</p>
 
     <div class="hero-socials">
       <a href="https://scholar.google.com/citations?user=mChB-hQAAAAJ&amp;hl=en&amp;oi=ao"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a>
