@@ -15,7 +15,7 @@ layout: homepage
     </div>
 
     <p class="hero-summary">My research focuses on building multimodal models that align, understand, reason, and generate while remaining controllable and generalizable.</p>
-    <p class="hero-background">My Ph.D. research was advised by <a href="https://www.andrew.cmu.edu/user/kunz1/">Kun Zhang</a> and <a href="https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html">Peter Spirtes</a>.</p>
+    <p class="hero-background">I received my Ph.D. from <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, advised by <a href="https://www.andrew.cmu.edu/user/kunz1/">Kun Zhang</a> and <a href="https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html">Peter Spirtes</a>. Previously, I interned at Adobe Research and Google.</p>
 
     <div class="hero-socials">
       <a href="https://scholar.google.com/citations?user=mChB-hQAAAAJ&amp;hl=en&amp;oi=ao"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a>
@@ -24,11 +24,6 @@ layout: homepage
       <a href="mailto:shaoan@cmu.edu"><i class="far fa-envelope" aria-hidden="true"></i><span>Email</span></a>
     </div>
 
-    <div class="hero-experience" aria-label="Education and research experience">
-      <a class="experience-logo" href="https://www.cmu.edu/" aria-label="Carnegie Mellon University" title="Carnegie Mellon University"><img src="assets/img/cmu_logo.jpeg" alt=""></a>
-      <a class="experience-logo" href="https://research.adobe.com/" aria-label="Adobe Research" title="Adobe Research"><i class="fab fa-adobe" aria-hidden="true"></i></a>
-      <a class="experience-logo" href="https://research.google/" aria-label="Google Research" title="Google Research"><i class="fab fa-google" aria-hidden="true"></i></a>
-    </div>
   </div>
 
   <div class="hero-featured" id="featured-research">
