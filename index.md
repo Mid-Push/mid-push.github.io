@@ -197,11 +197,11 @@ layout: homepage
     <h2>News</h2>
   </div>
   <ul class="news-list">
-    <li><time>Jul. 2026</time><span>A paper on <a href="https://openreview.net/pdf?id=0T1Pd65fyD">counterfactual prediction</a> was accepted to <em>TMLR</em>. Two papers were accepted to <em>ECCV 2026</em>: <a href="https://arxiv.org/pdf/2512.10720">interpreting and controlling text-to-image models</a> and <a href="https://arxiv.org/pdf/2607.00858">long video-text alignment</a>.</span></li>
-    <li><time>Apr. 2026</time><span>Papers were accepted to <em>ICLR 2026</em> and <em>CVPR 2026</em>, and our work on <a href="assets/files/shaoan_dllm.pdf">post-training diffusion language models with denoising-process rewards</a> was accepted to <em>ACL 2026 Main</em>.</span></li>
-    <li><time>Aug. 2025</time><span>I will serve as an Area Chair for <a href="https://iclr.cc/">ICLR 2026</a>.</span></li>
-    <li><time>May 2025</time><span>Two papers were accepted to <a href="https://icml.cc/">ICML 2025</a>.</span></li>
-    <li><time>Apr. 2025</time><span>SmartCLIP was selected as a <a href="https://cvpr.thecvf.com/">CVPR 2025 Highlight</a>.</span></li>
+    <li><time>Jul. 2026</time><span>New work on <a href="https://openreview.net/pdf?id=0T1Pd65fyD">counterfactual prediction</a> was accepted by <em>TMLR</em>. Two papers on <a href="https://arxiv.org/pdf/2512.10720">identifiable interpretation and control in generative models</a> and <a href="https://arxiv.org/pdf/2607.00858">long video–text alignment</a> were accepted to <em>ECCV 2026</em>.</span></li>
+    <li><time>Apr. 2026</time><span>New work on <a href="https://arxiv.org/pdf/2502.02690">controllable video generation</a> and <a href="https://arxiv.org/pdf/2512.10669">compositional generalization</a> was accepted to <em>ICLR 2026</em> and <em>CVPR 2026</em>, respectively. Our <a href="assets/files/shaoan_dllm.pdf">denoising-process rewards for diffusion language models</a> paper was accepted to <em>ACL 2026 Main</em>.</span></li>
+    <li><time>Aug. 2025</time><span>Selected to serve as an Area Chair for <a href="https://iclr.cc/">ICLR 2026</a>.</span></li>
+    <li><time>May 2025</time><span>Two papers on <a href="assets/files/shaoan_concept.pdf">controllable image generation through vision–language concepts</a> and <a href="https://openreview.net/pdf?id=cW9Ttnm1aC">nonparametric identification of latent concepts</a> were accepted to <a href="https://icml.cc/">ICML 2025</a>.</span></li>
+    <li><time>Apr. 2025</time><span><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Xie_SmartCLIP_Modular_Vision-language_Alignment_with_Identification_Guarantees_CVPR_2025_paper.pdf">SmartCLIP</a> received a <em>CVPR 2025 Highlight</em> distinction.</span></li>
   </ul>
 </section>
 
