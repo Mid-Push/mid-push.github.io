@@ -15,6 +15,7 @@ layout: homepage
     </div>
 
     <p class="hero-summary">My research focuses on building multimodal models that align, understand, reason, and generate while remaining controllable and generalizable.</p>
+    <p class="hero-background">I received my Ph.D. from <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, advised by <a href="https://www.andrew.cmu.edu/user/kunz1/">Kun Zhang</a> and <a href="https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html">Peter Spirtes</a>. Previously, I interned at Adobe Research and Google.</p>
 
     <div class="hero-socials">
       <a href="https://scholar.google.com/citations?user=mChB-hQAAAAJ&amp;hl=en&amp;oi=ao"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a>
@@ -27,7 +28,7 @@ layout: homepage
   <div class="multimodal-visual">
     <svg class="multimodal-map" viewBox="0 0 700 330" role="img" aria-labelledby="multimodal-map-title multimodal-map-desc">
       <title id="multimodal-map-title">Multimodal learning research map</title>
-      <desc id="multimodal-map-desc">Image, video, and language converge in a shared multimodal model that supports alignment, understanding, reasoning, and generation.</desc>
+      <desc id="multimodal-map-desc">We learn from image, video, and text collected from the world to study alignment, understanding, reasoning, and generation.</desc>
       <defs>
         <linearGradient id="model-surface" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0" stop-color="#6967df" stop-opacity=".17" />
@@ -52,9 +53,9 @@ layout: homepage
       </g>
 
       <g class="map-connectors" aria-hidden="true">
-        <path d="M120 69 C178 69 190 112 244 132" />
-        <path d="M120 165 H235" />
-        <path d="M120 261 C178 261 190 218 244 198" />
+        <path d="M120 69 C178 69 190 112 244 132" marker-end="url(#map-arrow)" />
+        <path d="M120 165 H235" marker-end="url(#map-arrow)" />
+        <path d="M120 261 C178 261 190 218 244 198" marker-end="url(#map-arrow)" />
         <path d="M446 132 C488 112 493 72 525 69" marker-end="url(#map-arrow)" />
         <path d="M454 151 C487 145 495 137 525 137" marker-end="url(#map-arrow)" />
         <path d="M454 179 C487 185 495 193 525 193" marker-end="url(#map-arrow)" />
@@ -92,14 +93,14 @@ layout: homepage
 
       <g class="model-card" transform="translate(235 84)" filter="url(#map-shadow)">
         <rect width="220" height="162" rx="24" />
-        <g class="model-network" aria-hidden="true">
-          <path d="M53 53 84 37l31 20 32-17 25 24M53 53l27 39 35-35 31 34 26-27M80 92l32 22 34-23" />
-          <circle cx="53" cy="53" r="8" /><circle cx="84" cy="37" r="7" />
-          <circle cx="115" cy="57" r="10" /><circle cx="147" cy="40" r="6" />
-          <circle cx="172" cy="64" r="8" /><circle cx="80" cy="92" r="7" />
-          <circle cx="112" cy="114" r="6" /><circle cx="146" cy="91" r="9" />
+        <g class="world-network" aria-hidden="true">
+          <circle class="world-sphere" cx="110" cy="64" r="42" />
+          <path d="M68 64h84M110 22c-14 12-22 26-22 42s8 30 22 42M110 22c14 12 22 26 22 42s-8 30-22 42M76 40c10 7 21 10 34 10s24-3 34-10M76 88c10-7 21-10 34-10s24 3 34 10" />
+          <circle cx="79" cy="47" r="5" /><circle cx="133" cy="37" r="5" />
+          <circle cx="119" cy="83" r="6" /><circle cx="145" cy="72" r="4.5" />
         </g>
-        <text class="model-title" x="110" y="139" text-anchor="middle">Shared Multimodal Model</text>
+        <text class="model-title" x="110" y="135" text-anchor="middle">Learning from the World</text>
+        <text class="model-detail" x="110" y="150" text-anchor="middle">multimodal observations</text>
       </g>
 
       <g class="capability-card align-card" transform="translate(525 36)" filter="url(#map-shadow)">
@@ -171,7 +172,6 @@ layout: homepage
   <ul class="news-list">
     <li><time>Jul. 2026</time><span>A paper on <a href="https://openreview.net/pdf?id=0T1Pd65fyD">counterfactual prediction</a> was accepted to <em>TMLR</em>. Two papers were accepted to <em>ECCV 2026</em>: <a href="https://arxiv.org/pdf/2512.10720">interpreting and controlling text-to-image models</a> and <a href="https://arxiv.org/pdf/2607.00858">long video-text alignment</a>.</span></li>
     <li><time>Apr. 2026</time><span>Papers were accepted to <em>ICLR 2026</em> and <em>CVPR 2026</em>, and our work on <a href="assets/files/shaoan_dllm.pdf">post-training diffusion language models with denoising-process rewards</a> was accepted to <em>ACL 2026 Main</em>.</span></li>
-    <li><time>Sep. 2025</time><span>My work was featured by <a href="https://www.cmu.edu/news/stories/archives/2025/september/peacocks-eating-ice-cream-cmu-philosophers-teaching-ai-to-ask-why">CMU News</a> and <a href="https://mbzuai.ac.ae/news/create-and-edit-images-like-a-smart-artist/">MBZUAI News</a>.</span></li>
     <li><time>Aug. 2025</time><span>I will serve as an Area Chair for <a href="https://iclr.cc/">ICLR 2026</a>.</span></li>
     <li><time>May 2025</time><span>Two papers were accepted to <a href="https://icml.cc/">ICML 2025</a>.</span></li>
     <li><time>Apr. 2025</time><span>SmartCLIP was selected as a <a href="https://cvpr.thecvf.com/">CVPR 2025 Highlight</a>.</span></li>

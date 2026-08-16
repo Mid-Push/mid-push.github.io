@@ -166,18 +166,23 @@ body.portfolio-page {
   font-size: 1rem;
 }
 
-.theme-toggle .fa-sun {
+.theme-toggle .theme-icon {
   display: grid;
   width: 32px;
   height: 32px;
+  color: var(--portfolio-text) !important;
   border-radius: 50%;
   background: var(--portfolio-surface-soft);
+  font-family: Arial, sans-serif;
+  font-size: 1.18rem;
+  font-weight: 400;
+  line-height: 1;
   place-items: center;
 }
 
-:root[data-theme="dark"] .theme-toggle .fa-moon,
-:root:not([data-theme="dark"]) .theme-toggle .fa-sun {
-  opacity: 0.5;
+:root[data-theme="dark"] .theme-toggle .theme-moon,
+:root:not([data-theme="dark"]) .theme-toggle .theme-sun {
+  display: none;
 }
 
 .nav-toggle {
@@ -256,10 +261,28 @@ body.portfolio-page {
 
 .hero-summary {
   max-width: 590px;
-  margin: 0 0 27px;
+  margin: 0 0 12px;
   color: var(--portfolio-muted) !important;
   font-size: 1.03rem !important;
   line-height: 1.58;
+}
+
+.hero-background {
+  max-width: 610px;
+  margin: 0 0 24px;
+  color: var(--portfolio-muted) !important;
+  font-size: 0.88rem !important;
+  line-height: 1.55;
+}
+
+.hero-background a {
+  color: var(--portfolio-text) !important;
+  font-size: inherit !important;
+  font-weight: 620;
+}
+
+.hero-background a:hover {
+  color: var(--portfolio-primary) !important;
 }
 
 .hero-socials {
@@ -366,15 +389,16 @@ body.portfolio-page {
   stroke-width: 1.5;
 }
 
-.multimodal-map .model-network path {
+.multimodal-map .world-network path,
+.multimodal-map .world-sphere {
   fill: none;
   stroke: color-mix(in srgb, var(--portfolio-primary) 58%, var(--portfolio-line));
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-width: 2.2;
+  stroke-width: 1.8;
 }
 
-.multimodal-map .model-network circle {
+.multimodal-map .world-network circle:not(.world-sphere) {
   fill: url(#model-core);
   stroke: var(--portfolio-surface);
   stroke-width: 2.5;
@@ -384,6 +408,12 @@ body.portfolio-page {
   fill: var(--portfolio-text);
   font-size: 14px;
   font-weight: 730;
+}
+
+.multimodal-map .model-detail {
+  fill: var(--portfolio-faint);
+  font-size: 9.5px;
+  font-weight: 520;
 }
 
 .multimodal-map .capability-card > rect {
@@ -951,7 +981,7 @@ body.portfolio-page {
     gap: 2px;
   }
 
-  .theme-toggle .fa-sun {
+  .theme-toggle .theme-icon {
     width: 28px;
     height: 28px;
   }
@@ -979,6 +1009,10 @@ body.portfolio-page {
 
   .hero-summary {
     font-size: 0.94rem !important;
+  }
+
+  .hero-background {
+    font-size: 0.81rem !important;
   }
 
   .hero-socials {

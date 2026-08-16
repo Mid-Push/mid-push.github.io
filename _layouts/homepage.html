@@ -44,9 +44,9 @@
           <a href="#about">About</a>
         </nav>
 
-        <button class="theme-toggle" type="button" aria-label="Toggle color theme">
-          <i class="far fa-moon" aria-hidden="true"></i>
-          <i class="far fa-sun" aria-hidden="true"></i>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark theme">
+          <span class="theme-icon theme-moon" aria-hidden="true">☾</span>
+          <span class="theme-icon theme-sun" aria-hidden="true">☀</span>
         </button>
       </div>
     </header>
@@ -65,10 +65,18 @@
       const navToggle = document.querySelector('.nav-toggle');
       const navigation = document.querySelector('.site-navigation');
 
+      function updateThemeLabel() {
+        const targetTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+        themeToggle.setAttribute('aria-label', `Switch to ${targetTheme} theme`);
+      }
+
+      updateThemeLabel();
+
       themeToggle.addEventListener('click', function () {
         const nextTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
         document.documentElement.dataset.theme = nextTheme;
         localStorage.setItem('theme', nextTheme);
+        updateThemeLabel();
       });
 
       navToggle.addEventListener('click', function () {
