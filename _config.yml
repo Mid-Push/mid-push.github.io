@@ -1,13 +1,13 @@
 # Basic Information 
 title: Shaoan Xie
 position: Generative AI Researcher
-research_focus: Multimodal Generation · Image & Video · Diffusion Models · Post-training
+research_focus: Post-training · Reward Modeling · Multimodal Generation · Diffusion Models
 email: shaoan (at) cmu.edu
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: Shaoan Xie, generative AI, multimodal generation, diffusion models, post-training, image generation, video generation, vision-language alignment
-description: Shaoan Xie is a generative AI researcher working on multimodal generation, diffusion models, post-training, controllability, and generalization.
+keywords: Shaoan Xie, generative AI, RLHF, reward modeling, process reward models, post-training alignment, diffusion language models, multimodal generation, diffusion models, image generation, video generation, vision-language alignment
+description: Shaoan Xie is a generative AI researcher working on post-training, reward modeling, process supervision, multimodal generation, diffusion models, and controllable generation.
 canonical: https://shaoan.net
 
 # Links 

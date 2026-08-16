@@ -3,9 +3,11 @@ layout: homepage
 ---
 
 <div class="intro-copy" markdown="1">
-My research focuses on **multimodal generative AI**, spanning image and video generation, multimodal understanding, and post-training. I’m particularly interested in developing models that can generate, reason, and learn from feedback while remaining controllable and generalizable.
+My research focuses on **post-training and multimodal generative AI** — spanning reward modeling, process supervision, image and video generation, and multimodal understanding. I’m particularly interested in building models that reason, generate, and learn from feedback while remaining controllable and generalizable.
 
-My work brings a principled perspective—causal structure, identifiability, and compositional representations—to generative models. I received my Ph.D. from [Carnegie Mellon University](https://www.cmu.edu/), advised by [Kun Zhang](https://www.andrew.cmu.edu/user/kunz1/) and [Peter Spirtes](https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html), and interned at Adobe Research and Google.
+My work brings a principled perspective — causal structure, identifiability, and compositional representations — to generative models. I received my Ph.D. from [Carnegie Mellon University](https://www.cmu.edu/), advised by [Kun Zhang](https://www.andrew.cmu.edu/user/kunz1/) and [Peter Spirtes](https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html), and interned at Adobe Research and Google.
+
+I am currently **open to research scientist roles at AI labs** — feel free to reach out.
 </div>
 
 ## Selected Research
